@@ -6,9 +6,217 @@
     <description>Recent content in Categories on bihai.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 28 Sep 2016 10:00:47 +0800</lastBuildDate>
     
 	<atom:link href="http://bihai.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>心得笔记-blog</title>
+      <link>http://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</link>
+      <pubDate>Wed, 28 Sep 2016 10:00:47 +0800</pubDate>
+      
+      <guid>http://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>技术文章-article</title>
+      <link>http://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</link>
+      <pubDate>Wed, 28 Sep 2016 10:00:47 +0800</pubDate>
+      
+      <guid>http://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>灌水乐乐-post</title>
+      <link>http://bihai.org/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</link>
+      <pubDate>Wed, 28 Sep 2016 10:00:47 +0800</pubDate>
+      
+      <guid>http://bihai.org/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>http://bihai.org/categories/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>http://bihai.org/categories/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BASIC万花筒</title>
+      <link>http://bihai.org/categories/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>http://bihai.org/categories/c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://bihai.org/categories/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emscripten</title>
+      <link>http://bihai.org/categories/emscripten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/emscripten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exception</title>
+      <link>http://bihai.org/categories/exception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/exception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flash</title>
+      <link>http://bihai.org/categories/flash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/flash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeBASIC</title>
+      <link>http://bihai.org/categories/freebasic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/freebasic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://bihai.org/categories/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>http://bihai.org/categories/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>j2me</title>
+      <link>http://bihai.org/categories/j2me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/j2me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>http://bihai.org/categories/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://bihai.org/categories/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nokia</title>
+      <link>http://bihai.org/categories/nokia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/nokia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>http://bihai.org/categories/php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>string</title>
+      <link>http://bihai.org/categories/string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/string/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>http://bihai.org/categories/templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-10</title>
+      <link>http://bihai.org/categories/windows-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/windows-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>病毒木马</title>
+      <link>http://bihai.org/categories/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/categories/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

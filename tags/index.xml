@@ -10,5 +10,185 @@
 	<atom:link href="http://bihai.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>android</title>
+      <link>http://bihai.org/tags/android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>http://bihai.org/tags/bash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BASIC万花筒</title>
+      <link>http://bihai.org/tags/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>http://bihai.org/tags/c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://bihai.org/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emscripten</title>
+      <link>http://bihai.org/tags/emscripten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/emscripten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exception</title>
+      <link>http://bihai.org/tags/exception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/exception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flash</title>
+      <link>http://bihai.org/tags/flash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/flash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeBASIC</title>
+      <link>http://bihai.org/tags/freebasic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/freebasic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://bihai.org/tags/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>http://bihai.org/tags/html/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>j2me</title>
+      <link>http://bihai.org/tags/j2me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/j2me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>http://bihai.org/tags/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://bihai.org/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nokia</title>
+      <link>http://bihai.org/tags/nokia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/nokia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>http://bihai.org/tags/php/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>string</title>
+      <link>http://bihai.org/tags/string/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/string/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>http://bihai.org/tags/templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows-10</title>
+      <link>http://bihai.org/tags/windows-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/windows-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>病毒木马</title>
+      <link>http://bihai.org/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://bihai.org/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
