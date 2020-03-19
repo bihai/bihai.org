@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FreeBASIC on Parsa Hugo | Personal Blog Template</title>
-    <link>https://examplesite.org/categories/freebasic/</link>
+    <link>https://bihai.org/categories/freebasic/</link>
     <description>Recent content in FreeBASIC on Parsa Hugo | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://examplesite.org/categories/freebasic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bihai.org/categories/freebasic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>bash for windows 运行Geany</title>
-      <link>https://examplesite.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
+      <link>https://bihai.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
+      <guid>https://bihai.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
       <description>Win 10运行Geany for linux
 1、打开bash
 2、安装geany
@@ -24,20 +24,20 @@ apt-get install geany*  3、安装Xming</description>
     
     <item>
       <title>ubuntu 安装freebasic</title>
-      <link>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</link>
+      <link>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</guid>
+      <guid>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</guid>
       <description>apt-get install libx11-dev libXext-dev libxpm-dev libxrandr-dev libxrender-dev libncurses5-dev
  点赞  收藏  分享   * 文章举报</description>
     </item>
     
     <item>
       <title>关注微软的“bash on windows”</title>
-      <link>https://examplesite.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</link>
+      <link>https://bihai.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</guid>
+      <guid>https://bihai.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</guid>
       <description>﻿﻿
 感谢管理员！博客终于重新开通
 最近在关注微软的“bash on windows”，已经装好14316和ubuntu trusty，有很多发现，慢慢道来。

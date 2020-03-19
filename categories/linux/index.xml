@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Parsa Hugo | Personal Blog Template</title>
-    <link>https://examplesite.org/categories/linux/</link>
+    <link>https://bihai.org/categories/linux/</link>
     <description>Recent content in linux on Parsa Hugo | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://examplesite.org/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bihai.org/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ubuntu 安装黑客背单词Reciteword</title>
-      <link>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</link>
+      <link>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</guid>
+      <guid>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</guid>
       <description>Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。
 本文介绍的是从源码编译安装的过程。
 Table of Contents
@@ -26,10 +26,10 @@ Table of Contents
     
     <item>
       <title>ubuntu14.04 安装配置JDK</title>
-      <link>https://examplesite.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</link>
+      <link>https://bihai.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</guid>
+      <guid>https://bihai.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</guid>
       <description>1,下载jdk-7u45-linux-x64.tar.gz
 网址：
 http://www.oracle.com/technetwork/java/javase/downloads/index.html 
@@ -40,10 +40,10 @@ sudo tar zxvf jdk-8u91-linux-x64.</description>
     
     <item>
       <title>ubuntu之apache正向代理及反向代理(ProxyPass ProxyPassReverse)</title>
-      <link>https://examplesite.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</link>
+      <link>https://bihai.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</guid>
+      <guid>https://bihai.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</guid>
       <description>ubuntu之apache正向代理及反向代理(ProxyPass/ProxyPassReverse)
 环境是UBUNTU 最新版apache2安装的目录结构有变化网上很多文章都不适用了。
 配置 (1)安装proxy组件
@@ -52,10 +52,10 @@ a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)�
     
     <item>
       <title>利用“bash on windows”安装配置emscripten</title>
-      <link>https://examplesite.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</link>
+      <link>https://bihai.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
+      <guid>https://bihai.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
       <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：
 1） 所有设置、更新和安全、针对开发人员、开发人员模式；</description>
     </item>

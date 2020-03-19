@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Parsa Hugo | Personal Blog Template</title>
-    <link>https://examplesite.org/posts/</link>
+    <link>https://bihai.org/posts/</link>
     <description>Recent content in Posts on Parsa Hugo | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Sep 2016 10:00:47 +0800</lastBuildDate>
     
-	<atom:link href="https://examplesite.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bihai.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About tyche.cc</title>
-      <link>https://examplesite.org/posts/about/</link>
+      <link>https://bihai.org/posts/about/</link>
       <pubDate>Wed, 28 Sep 2016 10:00:47 +0800</pubDate>
       
-      <guid>https://examplesite.org/posts/about/</guid>
+      <guid>https://bihai.org/posts/about/</guid>
       <description>tyche.cc = Torch your confidence, hope &amp;amp; emotion. 点燃你的信心、希望和激情。 上次注册的tyche.cn因为忙忘了续费，被人抢注了，虽然烦了几天，但是因为.cn要求实名制，价格贵，地域限制，丢了也罢。 偶尔逛xinnet，发现tyche.</description>
     </item>
     
     <item>
       <title>android   J2ME 联网获得html</title>
-      <link>https://examplesite.org/posts/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</link>
+      <link>https://bihai.org/posts/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</guid>
+      <guid>https://bihai.org/posts/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</guid>
       <description>JAVA CODE :android 代码： 1 2 3 4 5 6 7 8 9101112131415161718192021222324252627 28293031323334353637383940414243444546474849505152535455565758</description>
     </item>
     
     <item>
       <title>bash for windows 运行Geany</title>
-      <link>https://examplesite.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
+      <link>https://bihai.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
+      <guid>https://bihai.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
       <description>Win 10运行Geany for linux
 1、打开bash
 2、安装geany
@@ -43,37 +43,37 @@ apt-get install geany*  3、安装Xming</description>
     
     <item>
       <title>BASIC万花筒</title>
-      <link>https://examplesite.org/posts/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</link>
+      <link>https://bihai.org/posts/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</guid>
+      <guid>https://bihai.org/posts/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</guid>
       <description>A{TEXT-DECORATION: none;} A:hover{COLOR: #CC0000;} A:link {color: #0000cc;} A:visited {color: #0000aa;} BODY { FONT-SIZE: 9pt; FONT-FAMILY:tahoma; } td { FONT-SIZE: 9pt; FONT-FAMILY:tahoma; }</description>
     </item>
     
     <item>
       <title>iOS toolchain for bash on windows</title>
-      <link>https://examplesite.org/posts/ios-toolchain-for-bash-on-windows/</link>
+      <link>https://bihai.org/posts/ios-toolchain-for-bash-on-windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ios-toolchain-for-bash-on-windows/</guid>
+      <guid>https://bihai.org/posts/ios-toolchain-for-bash-on-windows/</guid>
       <description>** Bash on windows 可以生成iOS或者Mac应用，WOW! ** git clone --recursive https://github.com/waneck/linux-ios-toolchain.git cd linux-ios-toolchain sudo apt-get install gcc g++ clang libclang-dev uuid-dev libssl-dev libpng12-dev libicu-dev bison flex libsqlite3-dev libtool llvm-dev libxml2-dev automake pkg-config make sudo make install #下载toolchain4: git clone https://github.</description>
     </item>
     
     <item>
       <title>J2ME中用LWUIT画简单的指针时钟</title>
-      <link>https://examplesite.org/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</link>
+      <link>https://bihai.org/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</guid>
+      <guid>https://bihai.org/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</guid>
       <description>J2ME中用LWUIT画简单的指针时钟by thriller at http://tyche.cnLWUIT(The Lightweight UI Toolkit)是一个轻量级JavaME 用户界面工具包。LWUIT类似Swing 的MVC架构, 支持多种布局（Layouts）, 皮肤更换, 字体, 触摸屏, 动画效果, Rich控件, 3D集成, Painter, 模式对画框, I18N</description>
     </item>
     
     <item>
       <title>J2ME版太奇论语</title>
-      <link>https://examplesite.org/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</link>
+      <link>https://bihai.org/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</guid>
+      <guid>https://bihai.org/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</guid>
       <description>J2ME版太奇论语终于初步完成啦
 这是英语版，可以学英语简单对话。
 [flash=340,340]http://player.youku.com/player.php/sid/XMTIzMjg0OTA0/v.swf[/fla sh]
@@ -85,20 +85,20 @@ apt-get install geany*  3、安装Xming</description>
     
     <item>
       <title>Logo1_.exe 木马 病毒的清除和免疫</title>
-      <link>https://examplesite.org/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</link>
+      <link>https://bihai.org/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</guid>
+      <guid>https://bihai.org/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</guid>
       <description>关于 Logo1_.exe（W32/HLLP.Philis.g trojan.pwsteal.gen ） 病毒解决方案及免疫补丁的制作！W32/HLLP.Philis.g 病毒，最近发作比较平繁。造成好多朋友网吧遭此病毒破坏造成大面积的卡机，瘫痪。我查遍了好多病 毒，和自己收集的病毒样本做了比较，发现此病毒极度变态。危害程度可以和世界排名前十的爱情后门变种相比。该病毒可以通过网络传播，传播周期为3
  点赞  收藏  分享   * 文章举报</description>
     </item>
     
     <item>
       <title>shell 脚本中经常要用到ssh。怎么能不交互的输密码呢？</title>
-      <link>https://examplesite.org/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</link>
+      <link>https://bihai.org/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</guid>
+      <guid>https://bihai.org/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</guid>
       <description>1、登录A机器
 2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.pub
 3、将 .</description>
@@ -106,19 +106,19 @@ apt-get install geany*  3、安装Xming</description>
     
     <item>
       <title>Tyche.cc 上线！</title>
-      <link>https://examplesite.org/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/</link>
+      <link>https://bihai.org/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/</guid>
+      <guid>https://bihai.org/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/</guid>
       <description>tyche.cc = Torch your confidence, hope &amp;amp; emotion. 点燃你的信心、希望和激情。 上次注册的tyche.cn因为忙忘了续费，被人抢注了，虽然烦了几天，但是因为.cn要求实名制，价格贵，地域限制，丢了也罢。</description>
     </item>
     
     <item>
       <title>ubuntu on windows 编译安装 stardict 3.06</title>
-      <link>https://examplesite.org/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</link>
+      <link>https://bihai.org/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</guid>
+      <guid>https://bihai.org/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</guid>
       <description>胡正写的stardict： 星际译王——拉轰吧——目前还号称是linux下最好的词典。
 胡正是四大魔幻程序员之一，虽然身体略有不适，不妨碍他的努力和优秀。
 http://huzheng.org 
@@ -131,20 +131,20 @@ http://huzheng.org
     
     <item>
       <title>ubuntu 安装freebasic</title>
-      <link>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</link>
+      <link>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</guid>
+      <guid>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</guid>
       <description>apt-get install libx11-dev libXext-dev libxpm-dev libxrandr-dev libxrender-dev libncurses5-dev
  点赞  收藏  分享   * 文章举报</description>
     </item>
     
     <item>
       <title>Ubuntu 安装黑客背单词Reciteword</title>
-      <link>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</link>
+      <link>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</guid>
+      <guid>https://bihai.org/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</guid>
       <description>Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。
 本文介绍的是从源码编译安装的过程。
 Table of Contents
@@ -155,10 +155,10 @@ Table of Contents
     
     <item>
       <title>ubuntu14.04 安装配置JDK</title>
-      <link>https://examplesite.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</link>
+      <link>https://bihai.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</guid>
+      <guid>https://bihai.org/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</guid>
       <description>1,下载jdk-7u45-linux-x64.tar.gz
 网址：
 http://www.oracle.com/technetwork/java/javase/downloads/index.html 
@@ -169,10 +169,10 @@ sudo tar zxvf jdk-8u91-linux-x64.</description>
     
     <item>
       <title>ubuntu之apache正向代理及反向代理(ProxyPass ProxyPassReverse)</title>
-      <link>https://examplesite.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</link>
+      <link>https://bihai.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</guid>
+      <guid>https://bihai.org/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</guid>
       <description>ubuntu之apache正向代理及反向代理(ProxyPass/ProxyPassReverse)
 环境是UBUNTU 最新版apache2安装的目录结构有变化网上很多文章都不适用了。
 配置 (1)安装proxy组件
@@ -181,10 +181,10 @@ a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)�
     
     <item>
       <title>WEIPHP 4 欢迎语BUG：如果是多图文，则所有文章都显示第一篇</title>
-      <link>https://examplesite.org/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/</link>
+      <link>https://bihai.org/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/</guid>
+      <guid>https://bihai.org/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/</guid>
       <description>WEIPHP 4 欢迎语BUG：如果是多图文，则所有文章都显示第一篇 找了半天，原来是个低级错误：
 打开\Application\Home\Model\WeixinModel.class.php
 goto 298行，
@@ -194,10 +194,10 @@ $art=[];  问题原因，卧槽，循环语句没有初始化变量，后面的�
     
     <item>
       <title>xamarin ios 示例</title>
-      <link>https://examplesite.org/posts/xamarin-ios-%E7%A4%BA%E4%BE%8B/</link>
+      <link>https://bihai.org/posts/xamarin-ios-%E7%A4%BA%E4%BE%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/xamarin-ios-%E7%A4%BA%E4%BE%8B/</guid>
+      <guid>https://bihai.org/posts/xamarin-ios-%E7%A4%BA%E4%BE%8B/</guid>
       <description>)xamarin ios 示例
 写了个批处理把书上附送的示例转成Visual studio工程，窃书不算偷吧。
 https://github.com/bihai/xamarin_iOS_sample 
@@ -206,20 +206,20 @@ https://github.com/bihai/xamarin_iOS_sample
     
     <item>
       <title>使用 Git Hook 实现网站的自动部署</title>
-      <link>https://examplesite.org/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</link>
+      <link>https://bihai.org/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</guid>
+      <guid>https://bihai.org/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</guid>
       <description>自动化能解放人类的双手，而且更重要的是，因为按照规定的流程来走，也减少了很多误操作的产生。不知道大家平时都是怎么样更新自己生产环境的代码的，FTP 覆盖旧文件、服务器定时任务去 build 最新的源码，还是有更高级的做法？
 目前我在使用 Git Hook 来部署自己的项目。Git Hook 是 Git 提供的一个钩子，能被特定的事件触发后调用。其实，更通俗的讲，当你设置了 Git Hook 后，只要你的远程仓库收到一次 push 之后，Git Hook 就能帮你执行一次 bash 脚本。</description>
     </item>
     
     <item>
       <title>关注微软的“bash on windows”</title>
-      <link>https://examplesite.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</link>
+      <link>https://bihai.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</guid>
+      <guid>https://bihai.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</guid>
       <description>﻿﻿
 感谢管理员！博客终于重新开通
 最近在关注微软的“bash on windows”，已经装好14316和ubuntu trusty，有很多发现，慢慢道来。
@@ -229,20 +229,20 @@ https://github.com/bihai/xamarin_iOS_sample
     
     <item>
       <title>利用“bash on windows”安装配置emscripten</title>
-      <link>https://examplesite.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</link>
+      <link>https://bihai.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
+      <guid>https://bihai.org/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
       <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：
 1） 所有设置、更新和安全、针对开发人员、开发人员模式；</description>
     </item>
     
     <item>
       <title>国内镜像大全（部分）</title>
-      <link>https://examplesite.org/posts/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E5%A4%A7%E5%85%A8%E9%83%A8%E5%88%86/</link>
+      <link>https://bihai.org/posts/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E5%A4%A7%E5%85%A8%E9%83%A8%E5%88%86/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E5%A4%A7%E5%85%A8%E9%83%A8%E5%88%86/</guid>
+      <guid>https://bihai.org/posts/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E5%A4%A7%E5%85%A8%E9%83%A8%E5%88%86/</guid>
       <description>国内镜像大全
 http://mirrors.neusoft.edu.cn/ 
 源名称 文件总数量 文件总大小 上次同步成功时间 当前状态 配置说明
@@ -251,20 +251,20 @@ centos</description>
     
     <item>
       <title>如果，不小心猜到了开心词场和百词斩的加密方法，该怎么办？</title>
-      <link>https://examplesite.org/posts/%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%B0%8F%E5%BF%83%E7%8C%9C%E5%88%B0%E4%BA%86%E5%BC%80%E5%BF%83%E8%AF%8D%E5%9C%BA%E5%92%8C%E7%99%BE%E8%AF%8D%E6%96%A9%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E6%B3%95%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+      <link>https://bihai.org/posts/%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%B0%8F%E5%BF%83%E7%8C%9C%E5%88%B0%E4%BA%86%E5%BC%80%E5%BF%83%E8%AF%8D%E5%9C%BA%E5%92%8C%E7%99%BE%E8%AF%8D%E6%96%A9%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E6%B3%95%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%B0%8F%E5%BF%83%E7%8C%9C%E5%88%B0%E4%BA%86%E5%BC%80%E5%BF%83%E8%AF%8D%E5%9C%BA%E5%92%8C%E7%99%BE%E8%AF%8D%E6%96%A9%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E6%B3%95%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+      <guid>https://bihai.org/posts/%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%B0%8F%E5%BF%83%E7%8C%9C%E5%88%B0%E4%BA%86%E5%BC%80%E5%BF%83%E8%AF%8D%E5%9C%BA%E5%92%8C%E7%99%BE%E8%AF%8D%E6%96%A9%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E6%B3%95%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
       <description>@[TOC]不小心猜到了开心词场和百词斩的加密方法，该怎么办？
 猜到了开心词场和百词斩的加密算法，该怎么办？ 希望背单词  希望帮助想背单词的朋友 沪江太大，太复杂，百词斩名字太难听。 不受干扰，小巧玲珑，跨所有平台 大山里没手机的孩子也有权利拥有好的教育平台 xamarin, flutter, egret, vue.</description>
     </item>
     
     <item>
       <title>疫情期间自我修炼, 搞一搞老游戏资源解包</title>
-      <link>https://examplesite.org/posts/%E7%96%AB%E6%83%85%E6%9C%9F%E9%97%B4%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC-%E6%90%9E%E4%B8%80%E6%90%9E%E8%80%81%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90%E8%A7%A3%E5%8C%85/</link>
+      <link>https://bihai.org/posts/%E7%96%AB%E6%83%85%E6%9C%9F%E9%97%B4%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC-%E6%90%9E%E4%B8%80%E6%90%9E%E8%80%81%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90%E8%A7%A3%E5%8C%85/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E7%96%AB%E6%83%85%E6%9C%9F%E9%97%B4%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC-%E6%90%9E%E4%B8%80%E6%90%9E%E8%80%81%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90%E8%A7%A3%E5%8C%85/</guid>
+      <guid>https://bihai.org/posts/%E7%96%AB%E6%83%85%E6%9C%9F%E9%97%B4%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC-%E6%90%9E%E4%B8%80%E6%90%9E%E8%80%81%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90%E8%A7%A3%E5%8C%85/</guid>
       <description>疫情期间自我修炼, 准备搞一搞老游戏资源解包, 修旧利废，聊以自慰。首先对不住的是大雨资讯的《大富翁》系列，挑了几个感兴趣的解包完毕：
 1-3是DOS版，没什么好看。
 4太难看，决定从5开始。
@@ -275,10 +275,10 @@ yjl文件比较复杂，大体搞了一下：
     
     <item>
       <title>破解了XXTEA加密的《大富翁9》资源文件</title>
-      <link>https://examplesite.org/posts/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/</link>
+      <link>https://bihai.org/posts/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://bihai.org/posts/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/</guid>
       <description>破解了XXTEA加密的《大富翁9》资源文件 没啥可以高兴的，只是比较好奇而已。
 这种加密还是不错，快速简单，可以规避一般的恶意破解。
 挺满意呵呵。
@@ -288,10 +288,10 @@ yjl文件比较复杂，大体搞了一下：
     
     <item>
       <title>越狱之后如何远程连接（SSH）iOS设备？</title>
-      <link>https://examplesite.org/posts/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/</link>
+      <link>https://bihai.org/posts/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/</guid>
+      <guid>https://bihai.org/posts/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/</guid>
       <description>使用linux-ios-toolchain 在bash on windows中安装iOS软件，需要越狱的IPHONE或者IPAD，怎么安装呢？大家都知道，i OS系统是基于Unix的，算是Unix衍生出来的新系统，而要玩转Unix系统，无疑最根本的使用远程连接即SSH来用命令行直接控制你的iPhone,如果有人要 问，远程连接（SSH）究竟有什么用呢？举个简单例子，前段时间号称一键清除、修复Cydia的越狱应用iLex RAT就是需要用远程连接的命令行才能使用的。
 在越狱之前，苹果对root权限控制得非常之严，根本没有可能允许用户直接访问iOS的文件系统，更别提远程连接了，幸运的是，越狱之后，用户真正当家作主了，今天我 们就来看一下如何远程连接（SSH）iOS设备。
 1.在Cydia中搜索、安装OpenSSH软件。</description>
@@ -299,10 +299,10 @@ yjl文件比较复杂，大体搞了一下：
     
     <item>
       <title>首次使用HOOKAPI暴力破解SQLITE3加密的数据库</title>
-      <link>https://examplesite.org/posts/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+      <link>https://bihai.org/posts/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/posts/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+      <guid>https://bihai.org/posts/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
       <description>怕原作者生气，在这就不放源代码了。
 最近研究“给力大CI典”的时候，反汇编了一下，是用DELPHI写的，使用SQLITE3定制版本加密了一部分数据库，于是通过HOOKAPI到sqlite3_k ey，找到了密码，然后用VB6写了个解密SQLITE3的工具，把数据库都解密了。
 这里就给出两个密钥：
