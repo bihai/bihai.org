@@ -1,1 +1,119 @@
-"use strict";function initGrid(){var t=$(".dream-grid").masonry({itemSelector:".dream-column"});t.imagesLoaded().progress(function(){t.masonry("layout")})}function savePostAsImg(){var t=$("#dream-save-post-as-img"),e=t.prop("scrollWidth"),a=t.prop("scrollHeight"),n=document.createElement("canvas"),o=e,i=a;return n.width=2*o,n.height=2*i,n.getContext("2d").scale(2,2),html2canvas(document.querySelector("#dream-save-post-as-img"),{canvas:n,width:o,height:i,scale:2}).then(function(t){var e=t.getContext("2d");e.mozImageSmoothingEnabled=!1,e.webkitImageSmoothingEnabled=!1,e.msImageSmoothingEnabled=!1,e.imageSmoothingEnabled=!1;var a=t.toDataURL("image/png"),n=document.createElement("a");n.href=URL.createObjectURL(dataURLtoBlob(a)),n.download="screenshot.png",n.click()}),!1}function dataURLtoBlob(t){for(var e=t.split(","),a=e[0].match(/:(.*?);/)[1],n=atob(e[1]),o=n.length,i=new Uint8Array(o);o--;)i[o]=n.charCodeAt(o);return new Blob([i],{type:a})}$(document).ready(function(){initFilp(),initGrid(),initTags(),initAccordion()});
+/*
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+(function($) {
+
+	skel.breakpoints({
+		wide: '(min-width: 961px) and (max-width: 1880px)',
+		normal: '(min-width: 961px) and (max-width: 1620px)',
+		narrow: '(min-width: 961px) and (max-width: 1320px)',
+		narrower: '(max-width: 960px)',
+		mobile: '(max-width: 736px)'
+	});
+
+	$(function() {
+
+		var	$window = $(window),
+			$body = $('body');
+
+		// Disable animations/transitions until the page has loaded.
+			$body.addClass('is-loading');
+
+			$window.on('load', function() {
+				$body.removeClass('is-loading');
+			});
+
+		// CSS polyfills (IE<9).
+			if (skel.vars.IEVersion < 9)
+				$(':last-child').addClass('last-child');
+
+		// Fix: Placeholder polyfill.
+			$('form').placeholder();
+
+		// Prioritize "important" elements on mobile.
+			skel.on('+mobile -mobile', function() {
+				$.prioritize(
+					'.important\\28 mobile\\29',
+					skel.breakpoint('mobile').active
+				);
+			});
+
+		// Scrolly links.
+			$('.scrolly').scrolly();
+
+		// Nav.
+			var $nav_a = $('#nav a');
+
+			// Scrolly-fy links.
+				$nav_a
+					.scrolly()
+					.on('click', function(e) {
+
+						var t = $(this),
+							href = t.attr('href');
+
+						if (href[0] != '#')
+							return;
+
+						e.preventDefault();
+
+						// Clear active and lock scrollzer until scrolling has stopped
+							$nav_a
+								.removeClass('active')
+								.addClass('scrollzer-locked');
+
+						// Set this link to active
+							t.addClass('active');
+
+					});
+
+			// Initialize scrollzer.
+				var ids = [];
+
+				$nav_a.each(function() {
+
+					var href = $(this).attr('href');
+
+					if (href[0] != '#')
+						return;
+
+					ids.push(href.substring(1));
+
+				});
+
+				$.scrollzer(ids, { pad: 200, lastHack: true });
+
+		// Header (narrower + mobile).
+
+			// Toggle.
+				$(
+					'<div id="headerToggle">' +
+						'<a href="#header" class="toggle"></a>' +
+					'</div>'
+				)
+					.appendTo($body);
+
+			// Header.
+				$('#header')
+					.panel({
+						delay: 500,
+						hideOnClick: true,
+						hideOnSwipe: true,
+						resetScroll: true,
+						resetForms: true,
+						side: 'left',
+						target: $body,
+						visibleClass: 'header-visible'
+					});
+
+			// Fix: Remove transitions on WP<10 (poor/buggy performance).
+				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
+					$('#headerToggle, #header, #main')
+						.css('transition', 'none');
+
+	});
+
+})(jQuery);
