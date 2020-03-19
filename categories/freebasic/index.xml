@@ -1,41 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FreeBASIC on bihai.org</title>
-    <link>https://bihai.org/categories/freebasic/</link>
-    <description>Recent content in FreeBASIC on bihai.org</description>
+    <title>FreeBASIC on Parsa Hugo | Personal Blog Template</title>
+    <link>https://examplesite.org/categories/freebasic/</link>
+    <description>Recent content in FreeBASIC on Parsa Hugo | Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <language>en-us</language>
     
-	<atom:link href="https://bihai.org/categories/freebasic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://examplesite.org/categories/freebasic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>bash for windows 运行Geany</title>
-      <link>https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
+      <link>https://examplesite.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
-      <description>Win 10运行Geany for linux 1、打开bash 2、安装geany apt-get install geany* 3、安装Xming https://sourceforge.net/projects/xming/ 4、安装x11 apt-get install libX11-dev libXext-dev libXtst-dev libXrender-dev libxmu-dev libxmuu-dev msttcorefonts gtk2-engines-pixbuf``` 5、运行geany $ geany</description>
+      <guid>https://examplesite.org/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
+      <description>Win 10运行Geany for linux
+1、打开bash
+2、安装geany
+apt-get install geany*  3、安装Xming</description>
     </item>
     
     <item>
       <title>ubuntu 安装freebasic</title>
-      <link>https://bihai.org/ubuntu-%E5%AE%89%E8%A3%85freebasic/</link>
+      <link>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bihai.org/ubuntu-%E5%AE%89%E8%A3%85freebasic/</guid>
-      <description>apt-get install libx11-dev libXext-dev libxpm-dev libxrandr-dev libxrender-dev libncurses5-dev 点赞 收藏 分享 * 文章举报 thriller 发布了19 篇原创文章 · 获赞 18 · 访问量 5万+ 私信 关注</description>
+      <guid>https://examplesite.org/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</guid>
+      <description>apt-get install libx11-dev libXext-dev libxpm-dev libxrandr-dev libxrender-dev libncurses5-dev
+ 点赞  收藏  分享   * 文章举报</description>
     </item>
     
     <item>
       <title>关注微软的“bash on windows”</title>
-      <link>https://bihai.org/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</link>
+      <link>https://examplesite.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bihai.org/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</guid>
-      <description>﻿﻿ 感谢管理员！博客终于重新开通 最近在关注微软的“bash on windows”，已经装好14316和ubuntu trusty，有很多发现，慢慢</description>
+      <guid>https://examplesite.org/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</guid>
+      <description>﻿﻿
+感谢管理员！博客终于重新开通
+最近在关注微软的“bash on windows”，已经装好14316和ubuntu trusty，有很多发现，慢慢道来。
+![](https://img-blog.csdn.net/20160415093205939?watermark/2/text/aHR0cDovL2Jsb 2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravi ty/SouthEast)
+ 点赞  收藏  分享   * 文章举报</description>
     </item>
     
   </channel>

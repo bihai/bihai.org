@@ -1,216 +1,377 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-	<meta name="generator" content="Hugo 0.67.1" />
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>bihai.org</title>
-        <meta name="Description" content="About bihai.org"><meta property="og:title" content="bihai.org" />
-<meta property="og:description" content="About bihai.org" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://bihai.org/" />
-<meta property="og:updated_time" content="2019-08-02T11:04:49+08:00" /><meta property="og:site_name" content="bihai.org" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="bihai.org"/>
-<meta name="twitter:description" content="About bihai.org"/>
-<meta name="theme-color" content="#ffffff">
-<meta name="msapplication-TileColor" content="#da532c">
-<link rel="canonical" href="https://bihai.org/" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="alternate" href="/index.xml" type="application/rss+xml" title="bihai.org">
-    <link rel="feed" href="/index.xml" type="application/rss+xml" title="bihai.org"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "url": "https:\/\/bihai.org\/","inLanguage": "zh-CN","author": {
-                "@type": "Person",
-                "name": "bihai"
-            },"description": "About bihai.org","image": "https:\/\/bihai.org\/cover.png","thumbnailUrl": "https:\/\/bihai.org\/logo.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "bihai.org"
-    }
-    </script></head>
-    <body><script>
-            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = 'parsa-hugo' === 'dark';} else {
-                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
-            }
-            window.isDark && document.body.classList.add('dark-theme');
-        </script><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/">bihai.org</a>
-        </div>
-        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/categories/documentation/" rel="noopener noreffer">文档</a><a class="menu-item" href="/about/" rel="noopener noreffer">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><span class="menu-item">|</span>
-            <a href="javascript:void(0);" class="menu-item theme-switch" title="">
-                <i class="fas fa-adjust fa-fw"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="">简体中文<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/en/">English</option><option value="/" selected>简体中文</option></select>
-                </a></div>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Parsa Hugo | Personal Blog Template</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.67.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://examplesite.org/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://examplesite.org/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://examplesite.org/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://examplesite.org/css/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://examplesite.org/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://examplesite.org/images/favicon.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  <div class="loader">
+    <span class="dot"></span>
+    <div class="dots">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-wrapper">
-        <div class="header-container">
-            <div class="header-title">
-                <a href="/">bihai.org</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">分类</a><a class="menu-item" href="/categories/documentation/" title="" rel="noopener noreffer">文档</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="">
-                <i class="fas fa-adjust fa-fw"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="">简体中文<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/en/">English</option><option value="/" selected>简体中文</option></select>
-                </a></div>
+  </div>
+</div>
+<!-- preloader end -->
+<header class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="https://examplesite.org"><img class="img-fluid" src="https://examplesite.org/images/logo.png" alt="Parsa Hugo | Personal Blog Template"></a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
+      aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navogation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="https://examplesite.org"> Home </a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="https://examplesite.org/about">About</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="https://examplesite.org/contact">Contact</a>
+        </li>
+        
+        
+      </ul>
+      
+      <!-- search -->
+      <form class="form-inline position-relative ml-lg-4" action="https://examplesite.org/search">
+        <input class="form-control px-0 w-100" type="search" placeholder="Search" id="search-query" name="s">
+        <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
+      </form>
+      
     </div>
+  </nav>
 </header>
 
-<script>
-    window.desktopHeaderMode = "fixed";
-    window.mobileHeaderMode = "auto";
-</script>
-<main class="main">
-                <div class="container"><div class="page home"><div class="home-profile"><div class="home-avatar">
-            <a href="/posts"><img
-        class="lazyload"
-        src="/svg/loading.small.min.svg"
-        data-sizes="auto"
-        data-srcset="/images/avatar.png,  1.5x,  2x"
-        data-src=""
-        alt="avatar"
-        title="" /></a>
-        </div><h2 class="home-description"><div id="id-a4fec4" class="typeit"></div></h2><div class="home-social-links"><a href="https://github.com/bihai" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a>
-<a href="https://www.zhihu.com/people/bihaiorg" title="知乎" target="_blank" rel="noopener noreffer me"><i class="loveit it-zhihu-line"></i></a>
-<a href="mailto:bihaiorg@139.com" title="Email" rel="noopener noreffer me"><i class="far fa-envelope fa-fw"></i></a>
-</div>
-</div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/">J2ME版太奇论语</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a>
-</span>&nbsp;<span class="post-publish">
-            &nbsp;<time datetime=0001-01-01>0001-01-01</time>
-        </span>&nbsp;
-            <span class="post-category"><a href="/categories/flash">
-                        <i class="far fa-folder fa-fw"></i>Flash
-                    </a>&nbsp;<a href="/categories/nokia">
-                        <i class="far fa-folder fa-fw"></i>Nokia
-                    </a>&nbsp;<a href="/categories/php">
-                        <i class="far fa-folder fa-fw"></i>P h p
-                    </a>&nbsp;<a href="/categories/c">
-                        <i class="far fa-folder fa-fw"></i>C
-                    </a>&nbsp;<a href="/categories/c&#43;&#43;">
-                        <i class="far fa-folder fa-fw"></i>C&#43;&#43;
-                    </a></span></div><div class="content">J2ME版太奇论语终于初步完成啦 这是英语版，可以学英语简单对话。 [flash=340,340]http://player.youku.com/player.php/sid/XMTIzMjg0OTA0/v.swf[/fla sh] 20天做完，大多业余时间，效率不错，而且顺便自学了下J2ME和JAVA，</div><div class="post-footer">
-        <a href="/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/flash">Flash</a>,&nbsp;<a href="/tags/nokia">Nokia</a>,&nbsp;<a href="/tags/php">PHP</a>,&nbsp;<a href="/tags/c">C</a>,&nbsp;<a href="/tags/c&#43;&#43;">C&#43;&#43;</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/">Logo1_.exe 木马 病毒的清除和免疫</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a>
-</span>&nbsp;<span class="post-publish">
-            &nbsp;<time datetime=0001-01-01>0001-01-01</time>
-        </span>&nbsp;
-            <span class="post-category"><a href="/categories/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC">
-                        <i class="far fa-folder fa-fw"></i>病毒木马
-                    </a></span></div><div class="content">关于 Logo1_.exe（W32/HLLP.Philis.g trojan.pwsteal.gen ） 病毒解决方案及免疫补丁的制作！W32/HLLP.Philis.g 病毒，最近发</div><div class="post-footer">
-        <a href="/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC">病毒木马</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/">shell 脚本中经常要用到ssh。怎么能不交互的输密码呢？</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a>
-</span>&nbsp;<span class="post-publish">
-            &nbsp;<time datetime=0001-01-01>0001-01-01</time>
-        </span>&nbsp;
-            <span class="post-category"><a href="/categories/bash">
-                        <i class="far fa-folder fa-fw"></i>Bash
-                    </a>&nbsp;<a href="/categories/git">
-                        <i class="far fa-folder fa-fw"></i>Git
-                    </a></span></div><div class="content">1、登录A机器 2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.pub 3、将 .pub 文件复制到B机器的 .ssh 目录， 并 cat id_dsa.pub &gt;&gt; ~/.ssh/authorized_keys 4、大功告成，从A机器</div><div class="post-footer">
-        <a href="/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/bash">bash</a>,&nbsp;<a href="/tags/git">git</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/tyche.cc-%E4%B8%8A%E7%BA%BF/">Tyche.cc 上线！</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a>
-</span>&nbsp;<span class="post-publish">
-            &nbsp;<time datetime=0001-01-01>0001-01-01</time>
-        </span></div><div class="content">tyche.cc = Torch your confidence, hope &amp; emotion. 点燃你的信心、希望和激情。 上次注册的tyche.cn因为忙忘了续费，被人抢注了，虽然烦了几天，但是因为.cn要求实名制，价格</div><div class="post-footer">
-        <a href="/tyche.cc-%E4%B8%8A%E7%BA%BF/"></a></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/">ubuntu on windows 编译安装 stardict 3.06</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a>
-</span>&nbsp;<span class="post-publish">
-            &nbsp;<time datetime=0001-01-01>0001-01-01</time>
-        </span>&nbsp;
-            <span class="post-category"><a href="/categories/bash">
-                        <i class="far fa-folder fa-fw"></i>Bash
-                    </a></span></div><div class="content">胡正写的stardict： 星际译王——拉轰吧——目前还号称是linux下最好的词典。 胡正是四大魔幻程序员之一，虽然身体略有不适，不妨碍他的努</div><div class="post-footer">
-        <a href="/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/bash">bash</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/ubuntu-%E5%AE%89%E8%A3%85freebasic/">ubuntu 安装freebasic</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a>
-</span>&nbsp;<span class="post-publish">
-            &nbsp;<time datetime=0001-01-01>0001-01-01</time>
-        </span>&nbsp;
-            <span class="post-category"><a href="/categories/freebasic">
-                        <i class="far fa-folder fa-fw"></i>Free b a s i c
-                    </a></span></div><div class="content">apt-get install libx11-dev libXext-dev libxpm-dev libxrandr-dev libxrender-dev libncurses5-dev 点赞 收藏 分享 * 文章举报 thriller 发布了19 篇原创文章 · 获赞 18 · 访问量 5万+ 私信 关注</div><div class="post-footer">
-        <a href="/ubuntu-%E5%AE%89%E8%A3%85freebasic/"></a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/freebasic">FreeBASIC</a></div></div>
-</article>
-<ul class="pagination"><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/">1</a>
-                    </span>
-                </li><li class="page-item active">
-                    <span class="page-link">
-                        <a href="/page/2/">2</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/3/">3</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/4/">4</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/5/">5</a>
-                    </span>
-                </li></ul></div></div>
-            </main><footer class="footer">
-    <div class="copyright"><div class="copyright-line">%!(EXTRA string=<a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a>) |  - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
-        </div>
 
-        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bihai.org" target="_blank">bihai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+
+<section>
+  <div class="container-fluid p-sm-0">
+    <div class="row featured-post-slider">
+      
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="https://examplesite.org/images/featured-post/post-2.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">[Philosophy]</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="https://examplesite.org/organize-your-life.1/">Organize Your Life With 10 Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="https://examplesite.org/organize-your-life.1/">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="https://examplesite.org/images/featured-post/post-3.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">[Fashion]</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="https://examplesite.org/organize-your-life.2/">Organize Your Life With 10 Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="https://examplesite.org/organize-your-life.2/">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="https://examplesite.org/images/featured-post/post-4.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">[Article]</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="https://examplesite.org/organize-your-life.3/">Organize Your Life With 10 Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="https://examplesite.org/organize-your-life.3/">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="https://examplesite.org/images/featured-post/post-5.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">[Nature]</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="https://examplesite.org/organize-your-life.4/">Organize Your Life With 10 Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="https://examplesite.org/organize-your-life.4/">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="https://examplesite.org/images/featured-post/post-1.jpg" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              <p class="text-uppercase">[Valuable Idea]</p>
+              <h4 class="card-title mb-4"><a class="text-white" href="https://examplesite.org/organize-your-life/">Organize Your Life With 10 Simple rule</a></h4>
+              <a class="btn btn-outline-light" href="https://examplesite.org/organize-your-life/">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      
     </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section">
+  <div class="container">
+    
+    
+    <div class="row masonry-container">
+      
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="https://examplesite.org/images/masonary-post/post-6.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">[Food]</p>
+          <h4 class="title-border"><a class="text-dark" href="https://examplesite.org/charming-evening-field.5/">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="https://examplesite.org/charming-evening-field.5/" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="https://examplesite.org/images/masonary-post/post-7.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">[Food]</p>
+          <h4 class="title-border"><a class="text-dark" href="https://examplesite.org/charming-evening-field.6/">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="https://examplesite.org/charming-evening-field.6/" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="https://examplesite.org/images/masonary-post/post-8.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">[Food]</p>
+          <h4 class="title-border"><a class="text-dark" href="https://examplesite.org/charming-evening-field.7/">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="https://examplesite.org/charming-evening-field.7/" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="https://examplesite.org/images/masonary-post/post-9.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">[Food]</p>
+          <h4 class="title-border"><a class="text-dark" href="https://examplesite.org/charming-evening-field.8/">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="https://examplesite.org/charming-evening-field.8/" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="https://examplesite.org/images/masonary-post/post-10.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">[Food]</p>
+          <h4 class="title-border"><a class="text-dark" href="https://examplesite.org/charming-evening-field.9/">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="https://examplesite.org/charming-evening-field.9/" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="https://examplesite.org/images/masonary-post/post-1.jpg" alt="post-thumb">
+          <p class="text-uppercase mb-2">[Food]</p>
+          <h4 class="title-border"><a class="text-dark" href="https://examplesite.org/charming-evening-field/">Charming Evening Field</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="https://examplesite.org/charming-evening-field/" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      
+    </div>
+
+    
+
+    
+    <div class="row">
+      <div class="col-12">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center align-items-center">
+            
+            
+            <li class="page-item">
+              <a href="/" class="page-link">
+                &laquo; Previous
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="page-item">
+              <a href="/" class="page-link">
+                1
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="page-item page-item active ">
+              <a href="/page/2/" class="page-link">
+                2
+              </a>
+            </li>
+            
+            
+            
+            
+          </ul>
+        </nav>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+<section>
+  <div class="container-fluid px-0">
+    <div class="row no-gutters instagram-slider" id="instafeed" data-userId="4044026246"
+      data-accessToken="4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"></div>
+  </div>
+</section>
+
+
+
+<footer class="bg-secondary">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <a href="https://examplesite.org"><img src="https://examplesite.org/images/logo.png" alt="Parsa Hugo | Personal Blog Template" class="img-fluid"></a>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Contact Info</h6>
+          <ul class="list-unstyled">
+            <li class="font-secondary text-dark">Tel : +90 000 333 22</li>
+            <li class="font-secondary text-dark">Email : <a href="mailto:exmaple@ymail.com">exmaple@ymail.com</a></li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="text-center pb-3">
+    <p class="mb-0">Copyright © 2020 a theme by <a href="themefisher.com">themefisher.com</a></p>
+  </div>
 </footer>
-</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
-            <i class="fas fa-chevron-up fa-fw"></i>
-        </a><script>
-        document.addEventListener('DOMContentLoaded', function () {
-            lightGallery(document.getElementById('content'), {
-                selector: '.lightgallery',
-                speed: 400,
-                hideBarsDelay: 2000,
-                thumbnail: true,
-                exThumbImage: 'data-thumbnail',
-                thumbWidth: 80,
-                thumbContHeight: 80,
-            });
-        });
-    </script><script>
-        window.typeitArr = [["id-a4fec4"]];
-    </script><script>
-        window.contentMap = {"id-a4fec4":"Bihai.org Indicates Hope And Infinity."};
-    </script><link rel="stylesheet" href="/lib/iconfont/iconfont.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/lib/typeit/typeit.min.js"></script><script src="/js/theme.min.js"></script></body>
+
+
+
+<script>
+  var indexURL = "https://examplesite.org/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://examplesite.org/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://examplesite.org/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://examplesite.org/plugins/slick/slick.min.js"></script>
+
+<script src="https://examplesite.org/plugins/headroom/headroom.js"></script>
+
+<script src="https://examplesite.org/plugins/instafeed/instafeed.min.js"></script>
+
+<script src="https://examplesite.org/plugins/masonry/masonry.js"></script>
+
+<script src="https://examplesite.org/plugins/reading-time/readingTime.min.js"></script>
+
+<script src="https://examplesite.org/plugins/smooth-scroll/smooth-scroll.js"></script>
+
+<script src="https://examplesite.org/plugins/search/fuse.min.js"></script>
+
+<script src="https://examplesite.org/plugins/search/mark.js"></script>
+
+<script src="https://examplesite.org/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://examplesite.org/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
 </html>
