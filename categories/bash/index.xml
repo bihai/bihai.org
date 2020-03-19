@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bash on bihai.org</title>
-    <link>http://bihai.org/categories/bash/</link>
+    <link>https://bihai.org/categories/bash/</link>
     <description>Recent content in bash on bihai.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://bihai.org/categories/bash/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bihai.org/categories/bash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>bash for windows 运行Geany</title>
-      <link>http://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
+      <link>https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
+      <guid>https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
       <description>Win 10运行Geany for linux
 1、打开bash
 2、安装geany
@@ -24,20 +24,20 @@ apt-get install geany*  3、安装Xming</description>
     
     <item>
       <title>shell 脚本中经常要用到ssh。怎么能不交互的输密码呢？</title>
-      <link>http://bihai.org/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</link>
+      <link>https://bihai.org/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bihai.org/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</guid>
+      <guid>https://bihai.org/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</guid>
       <description>1、登录A机器
 2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.</description>
     </item>
     
     <item>
       <title>ubuntu on windows 编译安装 stardict 3.06</title>
-      <link>http://bihai.org/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</link>
+      <link>https://bihai.org/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bihai.org/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</guid>
+      <guid>https://bihai.org/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</guid>
       <description>胡正写的stardict： 星际译王——拉轰吧——目前还号称是linux下最好的词典。
 胡正是四大魔幻程序员之一，虽然身体略有不适，不妨碍他的努力和优秀。
 http://huzheng.org 
@@ -47,10 +47,10 @@ http://huzheng.org
     
     <item>
       <title>Ubuntu 安装黑客背单词Reciteword</title>
-      <link>http://bihai.org/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</link>
+      <link>https://bihai.org/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bihai.org/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</guid>
+      <guid>https://bihai.org/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</guid>
       <description>Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。
 本文介绍的是从源码编译安装的过程。
 Table of Contents
@@ -59,10 +59,10 @@ Table of Contents
     
     <item>
       <title>ubuntu之apache正向代理及反向代理(ProxyPass ProxyPassReverse)</title>
-      <link>http://bihai.org/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</link>
+      <link>https://bihai.org/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bihai.org/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</guid>
+      <guid>https://bihai.org/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</guid>
       <description>ubuntu之apache正向代理及反向代理(ProxyPass/ProxyPassReverse)
 环境是UBUNTU 最新版apache2安装的目录结构有变化网上很多文章都不适用了。
 配置 (1)安装proxy组件
@@ -71,20 +71,20 @@ a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)�
     
     <item>
       <title>使用 Git Hook 实现网站的自动部署</title>
-      <link>http://bihai.org/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</link>
+      <link>https://bihai.org/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bihai.org/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</guid>
+      <guid>https://bihai.org/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</guid>
       <description>自动化能解放人类的双手，而且更重要的是，因为按照规定的流程来走，也减少了很多误操作的产生。不知道大家平时都是怎么样更新自己生产环境的代码的，FTP 覆盖旧文件、服务器定时任务去 build 最新的源码，还是有更高级的做法？
 目前我在使用 Git Hook 来部署自己的项目。Git Hook 是 Git 提供的一个钩子，能被特定的事件触发后调用。其实，更通俗的讲，当你设置了 Git Hook 后，只要你的远程仓库收到一次 push 之后，Git Hook 就能帮你执行一次 bash 脚本。</description>
     </item>
     
     <item>
       <title>利用“bash on windows”安装配置emscripten</title>
-      <link>http://bihai.org/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</link>
+      <link>https://bihai.org/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bihai.org/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
+      <guid>https://bihai.org/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
       <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：</description>
     </item>
     
