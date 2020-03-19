@@ -1,27 +1,46 @@
-# About tyche.cc
-
-![nhew](https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381)
-# tyche.cc = Torch your confidence, hope & emotion.
-# 点燃你的信心、希望和激情。
-上次注册的tyche.cn因为忙忘了续费，被人抢注了，虽然烦了几天，但是因为.cn要求实名制，价格贵，地域限制，丢了也罢。
-偶尔逛xinnet，发现tyche.cc居然还在，每年只要区区18元，预交五年收了呵呵。
-
-喜欢这个域名是因为20年前我怀揣梦想准备成立软件公司，当时起名tychesoft.com，后来就被现实消磨了，现在这个域名已经值$2595了，不知那个傻蛋会要呵呵。
-现在又有闲情逸致了，准备重拾儿时梦想，当然不会局限于soft软件了，做就做大的，起码起名要大点。
-科普一下：
-
-[Tyche](https://en.wikipedia.org/wiki/Tyche)，(English /ˈtaɪki/; from Greek: Τύχη, meaning "luck"; Roman equivalent: Fortuna) was the presiding tutelary deity that governed the fortune and prosperity of a city, its destiny. She is the daughter of Aphrodite and Zeus or Hermes.
-希腊语含义为“机缘”、“幸运”，是古希腊主管幸运与繁荣的守护女神。
-
-另外还是一颗神秘[星体](http://www.nasa.gov/mission_pages/WISE/news/wise20110218.html)的名字。研究人员指出，一颗褐矮星很可能作为隐藏的伴星而围绕太阳运行——一些天文学家将这颗迄今为止尚未发现的天体称为堤喀（Tyche）。
-Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪恶的携带者，既是一名随意的神又是不可避免的宿命的象征。而作为神秘的太阳系伴星，它的存在能解释为什么许多长周期彗星会来自异常的方向。每隔几千万年，它悄悄向自己的伴星太阳发射一颗彗星，拖着长长的尾巴，带着神秘的信息，顺便毁灭一下地球上的生命——或者推动进化。
-好吧，我承认没办法注册到tyche.com，所以只能用tyche.cc冒充，然而这次也算歪打正着，首先，“cc”是难得的孪生字母域名，Tyche本身也是孪生，又是幸运和不幸的孪生女神，而且是太阳伴星的名字，很合适啊。另外，“cc”也可以代表“Chinese Company”或者“创业创新（双创）”，很符合总理教诲。
-中文名字，我还是打算用“太奇”，管他能否注册，开心就好了。
-
-好了，欢迎大家访问http://tyche.cc ！
+# 关于 LoveIt
 
 
-fa-comment): 支持 **[Disqus](https://disqus.com)** 评论系统
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
+[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
+[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt)
+[![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
+
+[LoveIt :(far fa-heart):](https://github.com/dillonzq/LoveIt) 是一个由 [Dillon](https://dillonzq.com) 开发的**简洁**、**优雅**且**高效**的 [Hugo](https://gohugo.io/) 博客主题。
+
+它的原型基于 [LeaveIt 主题](https://github.com/liuzc/LeaveIt/) 和 [KeepIt 主题](https://github.com/liuzc/LeaveIt/)。
+
+![Hugo 主题 LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
+
+### 特性
+
+#### 性能和 SEO
+
+* :(fas fa-rocket): **性能**优化：在 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights) 中， 99/100 的移动设备得分和 100/100 的桌面设备得分
+* :(fab fa-searchengin): 使用基于 JSON-LD 格式 的 **SEO SCHEMA** 文件进行 SEO 优化
+* :(fab fa-google): 支持 **[Google Analytics](https://analytics.google.com/analytics)**
+* :(fas fa-search): 支持搜索引擎的**网站验证** (Google, Bind, Yandex and Baidu)
+* :(fas fa-tachometer-alt): 支持所有第三方库的 **CDN**
+* :(fas fa-cloud-download-alt): 基于 [lazysizes](https://github.com/aFarkas/lazysizes) 自动转换图片为**懒加载**
+
+#### 外观和布局
+
+* :(fas fa-desktop): / :(fas fa-mobile): **响应式**布局
+* :(fas fa-moon): / :(fas fa-sun): **夜晚/白天** 主题模式
+* :(fas fa-layer-group): 全局一致的**设计语言**
+* :(fas fa-ellipsis-h): 支持**分页**
+* :(far fa-list-alt): 易用和自动展开的**文章目录**
+* :(fas fa-language): 支持**多语言**和国际化
+* :(fab fa-css3-alt): 美观的 **CSS 动画**
+
+#### 社交和评论系统
+
+* :(far fa-user): 支持 **[Gravatar](https://gravatar.com)** 头像
+* :(fas fa-user-circle): 支持本地**头像**
+* :(far fa-id-card): 支持多达 **59** 种社交链接
+* :(fas fa-share-square): 支持多达 **28** 种网站分享
+* :(far fa-comment): 支持 **[Disqus](https://disqus.com)** 评论系统
 * :(far fa-comment-dots): 支持 **[Gitalk](https://github.com/gitalk/gitalk)** 评论系统
 * :(far fa-comment-alt): 支持 **[Valine](https://valine.js.org/)** 评论系统
 * :(far fa-comments): 支持 **[Facebook](https://developers.facebook.com/docs/plugins/comments/) 评论**系统

@@ -7,10 +7,6 @@
                         hreflang="en"
                         href="https://bihai.org/en/"
                         /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/"
-                        /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://bihai.org/"
@@ -22,10 +18,6 @@
                         rel="alternate"
                         hreflang="en"
                         href="https://bihai.org/en/categories/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
@@ -81,10 +73,6 @@
                         rel="alternate"
                         hreflang="en"
                         href="https://bihai.org/en/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
