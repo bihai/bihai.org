@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>病毒木马 on bihai.org</title>
+    <link>https://bihai.org/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</link>
+    <description>Recent content in 病毒木马 on bihai.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://bihai.org/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logo1_.exe 木马 病毒的清除和免疫</title>
+      <link>https://bihai.org/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bihai.org/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</guid>
+      <description>关于 Logo1_.exe（W32/HLLP.Philis.g trojan.pwsteal.gen ） 病毒解决方案及免疫补丁的制作！W32/HLLP.Philis.g 病毒，最近发</description>
+    </item>
+    
+  </channel>
+</rss>

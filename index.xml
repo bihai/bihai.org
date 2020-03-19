@@ -1,0 +1,208 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>bihai.org | bihai.org</title>
+        <link>https://bihai.org/</link>
+        <description>bihai.org | bihai.org</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/" rel="self" type="application/rss+xml" /><item>
+                <title>关于 LoveIt</title>
+                <link>https://bihai.org/about/</link>
+                <pubDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</pubDate><guid>https://bihai.org/about/</guid>
+                <description>&lt;p&gt;&lt;a href=&#34;https://github.com/dillonzq/LoveIt/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;https://bihai.org/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square,  1.5x,  2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;GitHub release (latest by date)&#34;
+        title=&#34;GitHub release (latest by date)&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;https://bihai.org/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&amp;amp;logo=hugo,  1.5x,  2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;Hugo&#34;
+        title=&#34;Hugo&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://github.com/dillonzq/LoveIt/blob/master/LICENSE&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;https://bihai.org/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square,  1.5x,  2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;License&#34;
+        title=&#34;License&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://github.com/dillonzq/LoveIt&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;https://bihai.org/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;https://img.shields.io/github/stars/dillonzq/LoveIt?style=social,  1.5x,  2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;GitHub stars&#34;
+        title=&#34;GitHub stars&#34; /&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://github.com/dillonzq/LoveIt/fork&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;https://bihai.org/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;https://img.shields.io/github/forks/dillonzq/LoveIt?style=social,  1.5x,  2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;GitHub forks&#34;
+        title=&#34;GitHub forks&#34; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dillonzq/LoveIt&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;LoveIt :(far fa-heart):&lt;/a&gt;
+ 是一个由 &lt;a href=&#34;https://dillonzq.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Dillon&lt;/a&gt;
+ 开发的&lt;strong&gt;简洁&lt;/strong&gt;、&lt;strong&gt;优雅&lt;/strong&gt;且&lt;strong&gt;高效&lt;/strong&gt;的 &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Hugo&lt;/a&gt;
+ 博客主题。&lt;/p&gt;
+&lt;p&gt;它的原型基于 &lt;a href=&#34;https://github.com/liuzc/LeaveIt/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;LeaveIt 主题&lt;/a&gt;
+ 和 &lt;a href=&#34;https://github.com/liuzc/LeaveIt/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;KeepIt 主题&lt;/a&gt;
+。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://bihai.org/images/Apple-Devices-Preview.png&#34; title=&#34;Hugo 主题 LoveIt&#34; data-thumbnail=&#34;/images/Apple-Devices-Preview.png&#34; data-sub-html=&#34;&lt;h2&gt;Hugo Theme LoveIt&lt;/h2&gt;&lt;p&gt;Hugo 主题 LoveIt&lt;/p&gt;&#34;&gt;
+        &lt;img
+            class=&#34;lazyload&#34;
+            src=&#34;https://bihai.org/svg/loading.min.svg&#34;
+            data-sizes=&#34;auto&#34;
+            data-srcset=&#34;https://bihai.org/images/Apple-Devices-Preview.png, https://bihai.org/images/Apple-Devices-Preview.png 1.5x, https://bihai.org/images/Apple-Devices-Preview.png 2x&#34;
+            data-src=&#34;https://bihai.org/images/Apple-Devices-Preview.png&#34;
+            alt=&#34;Hugo Theme LoveIt&#34; /&gt;
+    &lt;/a&gt;&lt;figcaption class=&#34;image-caption&#34;&gt;Hugo Theme LoveIt&lt;/figcaption&gt;
+    &lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;特性&#34;&gt;特性&lt;/h3&gt;
+&lt;h4 id=&#34;性能和-seo&#34;&gt;性能和 SEO&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;:(fas fa-rocket): &lt;strong&gt;性能&lt;/strong&gt;优化：在 &lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Google PageSpeed Insights&lt;/a&gt;
+ 中， 99/100 的移动设备得分和 100/100 的桌面设备得分&lt;/li&gt;
+&lt;li&gt;:(fab fa-searchengin): 使用基于 JSON-LD 格式 的 &lt;strong&gt;SEO SCHEMA&lt;/strong&gt; 文件进行 SEO 优化&lt;/li&gt;
+&lt;li&gt;:(fab fa-google): 支持 &lt;strong&gt;&lt;a href=&#34;https://analytics.google.com/analytics&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Google Analytics&lt;/a&gt;
+&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(fas fa-search): 支持搜索引擎的&lt;strong&gt;网站验证&lt;/strong&gt; (Google, Bind, Yandex and Baidu)&lt;/li&gt;
+&lt;li&gt;:(fas fa-tachometer-alt): 支持所有第三方库的 &lt;strong&gt;CDN&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(fas fa-cloud-download-alt): 基于 &lt;a href=&#34;https://github.com/aFarkas/lazysizes&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;lazysizes&lt;/a&gt;
+ 自动转换图片为&lt;strong&gt;懒加载&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;外观和布局&#34;&gt;外观和布局&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;:(fas fa-desktop): / :(fas fa-mobile): &lt;strong&gt;响应式&lt;/strong&gt;布局&lt;/li&gt;
+&lt;li&gt;:(fas fa-moon): / :(fas fa-sun): &lt;strong&gt;夜晚/白天&lt;/strong&gt; 主题模式&lt;/li&gt;
+&lt;li&gt;:(fas fa-layer-group): 全局一致的&lt;strong&gt;设计语言&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(fas fa-ellipsis-h): 支持&lt;strong&gt;分页&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(far fa-list-alt): 易用和自动展开的&lt;strong&gt;文章目录&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(fas fa-language): 支持&lt;strong&gt;多语言&lt;/strong&gt;和国际化&lt;/li&gt;
+&lt;li&gt;:(fab fa-css3-alt): 美观的 &lt;strong&gt;CSS 动画&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;社交和评论系统&#34;&gt;社交和评论系统&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;:(far fa-user): 支持 &lt;strong&gt;&lt;a href=&#34;https://gravatar.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Gravatar&lt;/a&gt;
+&lt;/strong&gt; 头像&lt;/li&gt;
+&lt;li&gt;:(fas fa-user-circle): 支持本地&lt;strong&gt;头像&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(far fa-id-card): 支持多达 &lt;strong&gt;59&lt;/strong&gt; 种社交链接&lt;/li&gt;
+&lt;li&gt;:(fas fa-share-square): 支持多达 &lt;strong&gt;28&lt;/strong&gt; 种网站分享&lt;/li&gt;
+&lt;li&gt;:(far fa-comment): 支持 &lt;strong&gt;&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Disqus&lt;/a&gt;
+&lt;/strong&gt; 评论系统&lt;/li&gt;
+&lt;li&gt;:(far fa-comment-dots): 支持 &lt;strong&gt;&lt;a href=&#34;https://github.com/gitalk/gitalk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Gitalk&lt;/a&gt;
+&lt;/strong&gt; 评论系统&lt;/li&gt;
+&lt;li&gt;:(far fa-comment-alt): 支持 &lt;strong&gt;&lt;a href=&#34;https://valine.js.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Valine&lt;/a&gt;
+&lt;/strong&gt; 评论系统&lt;/li&gt;
+&lt;li&gt;:(far fa-comments): 支持 &lt;strong&gt;&lt;a href=&#34;https://developers.facebook.com/docs/plugins/comments/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Facebook&lt;/a&gt;
+ 评论&lt;/strong&gt;系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;扩展功能&#34;&gt;扩展功能&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;:(fas fa-code): 支持&lt;strong&gt;代码高亮&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(far fa-images): 支持基于 &lt;a href=&#34;https://github.com/sachinchoolur/lightgallery.js&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;lightgallery.js&lt;/a&gt;
+ 的&lt;strong&gt;图片画廊&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(fab fa-font-awesome): 支持 &lt;strong&gt;&lt;a href=&#34;https://fontawesome.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Font Awesome&lt;/a&gt;
+ 图标&lt;/strong&gt;的扩展 Markdown 语法&lt;/li&gt;
+&lt;li&gt;:(far fa-sticky-note): 支持&lt;strong&gt;上标注释&lt;/strong&gt;的扩展 Markdown 语法&lt;/li&gt;
+&lt;li&gt;:(fas fa-square-root-alt): 支持基于 &lt;a href=&#34;https://katex.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;$ \KaTeX $&lt;/a&gt;
+ 的&lt;strong&gt;数学公式&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;:(fas fa-project-diagram): 支持基于 &lt;a href=&#34;https://github.com/knsv/mermaid&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;mermaid&lt;/a&gt;
+ 的&lt;strong&gt;图表&lt;/strong&gt; shortcode&lt;/li&gt;
+&lt;li&gt;:(fas fa-chart-pie): 支持基于 &lt;a href=&#34;https://echarts.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;ECharts&lt;/a&gt;
+ 的&lt;strong&gt;交互式数据可视化&lt;/strong&gt; shortcode&lt;/li&gt;
+&lt;li&gt;:(fas fa-music): 支持基于 &lt;a href=&#34;https://github.com/MoePlayer/APlayer&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;APlayer&lt;/a&gt;
+ 和 &lt;a href=&#34;https://github.com/metowolf/MetingJS&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;MetingJS&lt;/a&gt;
+ 的&lt;strong&gt;音乐播放器&lt;/strong&gt; shortcode&lt;/li&gt;
+&lt;li&gt;:(fas fa-tv): 支持 &lt;strong&gt;Bilibili 视频&lt;/strong&gt; shortcode&lt;/li&gt;
+&lt;li&gt;:(far fa-bell): 支持多种&lt;strong&gt;注释&lt;/strong&gt;的 shortcode&lt;/li&gt;
+&lt;li&gt;:(fas fa-align-left): 支持&lt;strong&gt;自定义样式&lt;/strong&gt;的 shortcode&lt;/li&gt;
+&lt;li&gt;:(fas fa-i-cursor): 支持基于 &lt;a href=&#34;https://typeitjs.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;TypeIt&lt;/a&gt;
+ 的&lt;strong&gt;打字动画&lt;/strong&gt; shortcode&lt;/li&gt;
+&lt;li&gt;:(fas fa-arrow-down): 支持基于 &lt;a href=&#34;https://github.com/cferdinandi/smooth-scroll&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Smooth Scroll&lt;/a&gt;
+ 的&lt;strong&gt;滚动动画&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;许可协议&#34;&gt;许可协议&lt;/h3&gt;
+&lt;p&gt;LoveIt 根据 MIT 许可协议授权。&lt;/p&gt;
+&lt;p&gt;更多信息请查看 &lt;a href=&#34;https://github.com/dillonzq/LoveIt/blob/master/LICENSE&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;LICENSE 文件&lt;/a&gt;
+。&lt;/p&gt;
+&lt;p&gt;LoveIt 主题中用到了以下项目，感谢它们的作者：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fontawesome.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Font Awesome&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://forkaweso.me/Fork-Awesome/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Fork Awesome&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://daneden.github.io/animate.css/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Animate.css&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aFarkas/lazysizes&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;lazysizes&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sachinchoolur/lightgallery.js&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;lightgallery.js&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cferdinandi/smooth-scroll&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Smooth Scroll&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://typeitjs.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;TypeIt&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://katex.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;$ \KaTeX $&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/knsv/mermaid&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;mermaid&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://echarts.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;ECharts&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MoePlayer/APlayer&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;APlayer&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/metowolf/MetingJS&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;MetingJS&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gitalk/gitalk&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Gitalk&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://valine.js.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Valine&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            </item><item>
+                <title>About tyche.cc</title>
+                <link>https://bihai.org/home/</link>
+                <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate><guid>https://bihai.org/home/</guid>
+                <description>&lt;p&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;https://bihai.org/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381,  1.5x,  2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;nhew&#34;
+        title=&#34;nhew&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;tychecc--torch-your-confidence-hope--emotion&#34;&gt;tyche.cc = Torch your confidence, hope &amp;amp; emotion.&lt;/h1&gt;
+&lt;h1 id=&#34;点燃你的信心希望和激情&#34;&gt;点燃你的信心、希望和激情。&lt;/h1&gt;
+&lt;p&gt;上次注册的tyche.cn因为忙忘了续费，被人抢注了，虽然烦了几天，但是因为.cn要求实名制，价格贵，地域限制，丢了也罢。
+偶尔逛xinnet，发现tyche.cc居然还在，每年只要区区18元，预交五年收了呵呵。&lt;/p&gt;
+&lt;p&gt;喜欢这个域名是因为20年前我怀揣梦想准备成立软件公司，当时起名tychesoft.com，后来就被现实消磨了，现在这个域名已经值$2595了，不知那个傻蛋会要呵呵。
+现在又有闲情逸致了，准备重拾儿时梦想，当然不会局限于soft软件了，做就做大的，起码起名要大点。
+科普一下：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Tyche&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Tyche&lt;/a&gt;
+，(English /ˈtaɪki/; from Greek: Τύχη, meaning &amp;ldquo;luck&amp;rdquo;; Roman equivalent: Fortuna) was the presiding tutelary deity that governed the fortune and prosperity of a city, its destiny. She is the daughter of Aphrodite and Zeus or Hermes.
+希腊语含义为“机缘”、“幸运”，是古希腊主管幸运与繁荣的守护女神。&lt;/p&gt;
+&lt;p&gt;另外还是一颗神秘&lt;a href=&#34;http://www.nasa.gov/mission_pages/WISE/news/wise20110218.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;星体&lt;/a&gt;
+的名字。研究人员指出，一颗褐矮星很可能作为隐藏的伴星而围绕太阳运行——一些天文学家将这颗迄今为止尚未发现的天体称为堤喀（Tyche）。
+Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪恶的携带者，既是一名随意的神又是不可避免的宿命的象征。而作为神秘的太阳系伴星，它的存在能解释为什么许多长周期彗星会来自异常的方向。每隔几千万年，它悄悄向自己的伴星太阳发射一颗彗星，拖着长长的尾巴，带着神秘的信息，顺便毁灭一下地球上的生命——或者推动进化。
+好吧，我承认没办法注册到tyche.com，所以只能用tyche.cc冒充，然而这次也算歪打正着，首先，“cc”是难得的孪生字母域名，Tyche本身也是孪生，又是幸运和不幸的孪生女神，而且是太阳伴星的名字，很合适啊。另外，“cc”也可以代表“Chinese Company”或者“创业创新（双创）”，很符合总理教诲。
+中文名字，我还是打算用“太奇”，管他能否注册，开心就好了。&lt;/p&gt;
+&lt;p&gt;好了，欢迎大家访问http://tyche.cc ！&lt;/p&gt;
+</description>
+            </item><item>
+                <title>Posts</title>
+                <link>https://bihai.org/posts/</link>
+                <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate><guid>https://bihai.org/posts/</guid>
+                <description></description>
+            </item></channel>
+</rss>
