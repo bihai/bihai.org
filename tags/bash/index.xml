@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bash on bihai.org</title>
+    <title>bash on Prologue</title>
     <link>https://bihai.org/tags/bash/</link>
-    <description>Recent content in bash on bihai.org</description>
+    <description>Recent content in bash on Prologue</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -19,7 +19,17 @@
       <description>Win 10运行Geany for linux
 1、打开bash
 2、安装geany
-apt-get install geany*  3、安装Xming</description>
+apt-get install geany*  3、安装Xming
+https://sourceforge.net/projects/xming/ 
+4、安装x11
+apt-get install libX11-dev libXext-dev libXtst-dev libXrender-dev libxmu-dev libxmuu-dev msttcorefonts gtk2-engines-pixbuf```  5、运行geany
+$ geany  6、安装Freebasic for linux
+7、安装xterm
+apt-get install xterm  8、新建hello.bas，输入代码
+screen 19 print &amp;quot;hello 历史&amp;quot; sleep  9、构建、运行，OK
+ 点赞  收藏  分享   * 文章举报    
+thriller 
+发布了19 篇原创文章 · 获赞 18 · 访问量 5万+</description>
     </item>
     
     <item>
@@ -29,7 +39,11 @@ apt-get install geany*  3、安装Xming</description>
       
       <guid>https://bihai.org/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</guid>
       <description>1、登录A机器
-2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.</description>
+2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.pub
+3、将 .pub 文件复制到B机器的 .ssh 目录， 并
+cat id_dsa.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys  4、大功告成，从A机器登录B机器的目标账户，不再需要密码了（直接运行 #ssh 192.168.1.100 ）
+面交互输入，就得使用 expect 脚本，例:
+#!/bin/bash passwd=&#39;123456&#39; /usr/bin/expect &amp;lt;&amp;lt;-EOF set time 30 spawn ssh root@192.168.1.100 expect { &amp;quot;*yes/no&amp;quot; { send &amp;quot;yes\r&amp;quot;; exp_continue } &amp;quot;*password:&amp;quot; { send &amp;quot;$passwd\r&amp;quot; } } expect &amp;quot;*#&amp;quot; send &amp;quot;cd /home/trunk\r&amp;quot; expect &amp;quot;*#&amp;quot; send &amp;quot;ls\r&amp;quot; expect &amp;quot;*#&amp;quot; send &amp;quot;exit\r&amp;quot; interact expect eof EOF   点赞 3  收藏  分享   * 文章举报</description>
     </item>
     
     <item>
@@ -42,7 +56,15 @@ apt-get install geany*  3、安装Xming</description>
 胡正是四大魔幻程序员之一，虽然身体略有不适，不妨碍他的努力和优秀。
 http://huzheng.org 
 他号称所有（大部分）的软件、著作都是免费的，这一点很了不起，这也是我的梦想。
-那么程序员怎么生存呢？这是个问题。</description>
+那么程序员怎么生存呢？这是个问题。
+程序员可以兼职送外卖，呵呵。
+支持一把！
+获取方式： 1、下载地址： http://code.google.com/p/stardict-3/downloads/list  (需要爬墙)
+2、也可以这个： https://sourceforge.net/projects/stardict-4/ 
+3、或者祭出GITHUB大神：
+git clone https://github.com/huzheng001/stardict-3  还是这个比较靠谱:)
+开始编译： cd stardict-3 apt update &amp;amp;&amp;amp; apt upgrade apt install libenchant-dev libgtkspell-dev libgconf2-dev libgnome2-dev libgnome-common libespeak-dev libcanberra-gtk3-dev libbonobo-2.0-dev libmysqlclient-dev flite1-dev ./autogen.sh ./configure --prefix=/usr --sysconfdir=/etc --mandir=/usr/share/man --disable-gucharmap --disable-dictdotcn --disable-festival --disable-flite  That’s all folks!
+ 点赞  收藏  分享   * 文章举报</description>
     </item>
     
     <item>
@@ -54,7 +76,32 @@ http://huzheng.org
       <description>Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。
 本文介绍的是从源码编译安装的过程。
 Table of Contents
-1 下载及安装（转载部分）</description>
+1 下载及安装（转载部分）
+1.1 下载程序
+1.2 准备工具
+1.3 黑客背单词的安装
+2 遇到的编译错误
+3 问题解决
+1 下载及安装（转载部分）
+1.1 下载程序
+reciteword的网站是：
+作者提供了如下几个包，请按需下载源码包：
+主程序源码（必须） reciteword
+课本（重要） reciteword-books
+词典（可选） reciteword-dicts
+皮肤（可选） reciteword-skins-rw
+真人发音 WyabdcRealPeopleTTS （可选，是stardict的真人语音）
+1.2 准备工具
+先安装编译需要的包
+apt-get install libesd0-dev pkg-config libgtk2.0-dev esound
+如果是Ubuntu 8.04版本，安装时可能会出现删除pulseaudio-esound-compat，ubuntu- desktop这两个文件，请之后再安装回去，如果不安装，进入桌面后桌面不成正常使用，我的方法是重启后按ctrl+alt+f1，进入控制台，打入以下命令：
+sudo apt-get install ubuntu-desktop就会安装这两个文件，重启后正常 安装libesd0-alsa0，保证开启esd後，仍能用alsa。
+apt-get install libesd-alsa0启用esd，这是reciteword播放声音所必须的：（假设是gnome环境）
+在菜单中：系统-&amp;gt;首选项-&amp;gt;音效，在打开的窗口中：音效-&amp;gt;允许软件混音(ESD)。
+为了使设置生效，建议你最好重新启动系统。
+1.3 黑客背单词的安装
+安装过程就没有什么特别的了，进入存有reciteword的文件后：
+　tar -xvfj reciteword-*.tar.bz2 cd reciteword-0.* ./configure –prefix=/usr make sudo make install 2  遇到的编译错误</description>
     </item>
     
     <item>
@@ -66,7 +113,11 @@ Table of Contents
       <description>ubuntu之apache正向代理及反向代理(ProxyPass/ProxyPassReverse)
 环境是UBUNTU 最新版apache2安装的目录结构有变化网上很多文章都不适用了。
 配置 (1)安装proxy组件
-a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)修改配置</description>
+a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)修改配置
+sudo vim /etc/apache2/mods-enabled/proxy.conf  如果有内容设置则设置如下：
+&amp;lt;IfModule mod_proxy.c&amp;gt; #turning ProxyRequests on and allowing proxying from all may allow #spammers to use your proxy to send email. ProxyRequests Off &amp;lt;Proxy *&amp;gt; Order deny,allow Deny from all #Allow from .your_domain.com &amp;lt;/Proxy&amp;gt;  (3)修改配置
+vim /etc/apache2/sites-enabled/default &amp;lt;VirtualHost *:80&amp;gt; ... ProxyPass /test/ http://127.0.0.1:3000/ ProxyPassReverse /test/ http://127.0.0.1:3000/ ... &amp;lt;/VirtualHost&amp;gt;  重启服务：
+sudo service apache2 restart  测试一下试试：</description>
     </item>
     
     <item>
@@ -76,7 +127,14 @@ a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)�
       
       <guid>https://bihai.org/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</guid>
       <description>自动化能解放人类的双手，而且更重要的是，因为按照规定的流程来走，也减少了很多误操作的产生。不知道大家平时都是怎么样更新自己生产环境的代码的，FTP 覆盖旧文件、服务器定时任务去 build 最新的源码，还是有更高级的做法？
-目前我在使用 Git Hook 来部署自己的项目。Git Hook 是 Git 提供的一个钩子，能被特定的事件触发后调用。其实，更通俗的讲，当你设置了 Git Hook 后，只要你的远程仓库收到一次 push 之后，Git Hook 就能帮你执行一次 bash 脚本。</description>
+目前我在使用 Git Hook 来部署自己的项目。Git Hook 是 Git 提供的一个钩子，能被特定的事件触发后调用。其实，更通俗的讲，当你设置了 Git Hook 后，只要你的远程仓库收到一次 push 之后，Git Hook 就能帮你执行一次 bash 脚本。
+下面是我使用 Git Hook 进行简单的自动化部署，可能还有更高级的做法，大家自己去挖掘。
+在服务器初始化一个远程 Git 仓库
+git init 和 git –bare init 初始化出来的仓库是完全不一样的，具体我 Google 了下，英文倒是理解了，但是要翻译出中文却不知道用什么形容词去称呼这2种仓库。
+这里我们要通过 git –bare init 初始化一个远程仓库
+$ cd ~ $ mkdir testRepo $ cd testRepo $ git --bare init  在服务器初始化一个本地 Git 仓库
+这个仓库就是通过 git init 初始化出来最常见的本地仓库，它的作用是拉去远程仓库（其实就在它旁边）最新的源码，然后在这个仓库里进行编译，把代码编译到 www 目录（网站的根目录）。
+$ cd ~ $ mkdir testRepo $ cd testRepo $ git --bare init  为远程仓库设置 Hook</description>
     </item>
     
     <item>
@@ -85,7 +143,29 @@ a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bihai.org/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
-      <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：</description>
+      <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：
+1） 所有设置、更新和安全、针对开发人员、开发人员模式；
+2） Windows 更新、高级选项、获取Insider Preview版本；
+3） 选择你的会员级别、快；
+4） 最低更新至14316版本；
+5） 搜索、启用或关闭windows功能；
+6） 选中Windows Subsystem for Linux (Beta)；
+7） 重新启动、运行、bash
+8） 按Y键下载ubuntu及配置bash。
+  安装emscripten：
+1） 在/etc/apt/sources.list中加入国内快速镜像，如：163.com等；
+2） 更新升级ubuntu环境
+apt-get update &amp;amp;&amp;amp; apt-get upgrade
+3） 安装构建工具
+apt-get install build-essential
+4） 安装CMake
+apt-get install cmake
+5）安装 Python
+sudo apt-get install python2.7
+6）安装 node.js
+sudo apt-get install nodejs
+7）安装 Java
+sudo apt-get install default-jre</description>
     </item>
     
   </channel>

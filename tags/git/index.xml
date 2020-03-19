@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on bihai.org</title>
+    <title>git on Prologue</title>
     <link>https://bihai.org/tags/git/</link>
-    <description>Recent content in git on bihai.org</description>
+    <description>Recent content in git on Prologue</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -17,7 +17,11 @@
       
       <guid>https://bihai.org/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</guid>
       <description>1、登录A机器
-2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.</description>
+2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.pub
+3、将 .pub 文件复制到B机器的 .ssh 目录， 并
+cat id_dsa.pub &amp;gt;&amp;gt; ~/.ssh/authorized_keys  4、大功告成，从A机器登录B机器的目标账户，不再需要密码了（直接运行 #ssh 192.168.1.100 ）
+面交互输入，就得使用 expect 脚本，例:
+#!/bin/bash passwd=&#39;123456&#39; /usr/bin/expect &amp;lt;&amp;lt;-EOF set time 30 spawn ssh root@192.168.1.100 expect { &amp;quot;*yes/no&amp;quot; { send &amp;quot;yes\r&amp;quot;; exp_continue } &amp;quot;*password:&amp;quot; { send &amp;quot;$passwd\r&amp;quot; } } expect &amp;quot;*#&amp;quot; send &amp;quot;cd /home/trunk\r&amp;quot; expect &amp;quot;*#&amp;quot; send &amp;quot;ls\r&amp;quot; expect &amp;quot;*#&amp;quot; send &amp;quot;exit\r&amp;quot; interact expect eof EOF   点赞 3  收藏  分享   * 文章举报</description>
     </item>
     
     <item>
@@ -27,7 +31,14 @@
       
       <guid>https://bihai.org/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</guid>
       <description>自动化能解放人类的双手，而且更重要的是，因为按照规定的流程来走，也减少了很多误操作的产生。不知道大家平时都是怎么样更新自己生产环境的代码的，FTP 覆盖旧文件、服务器定时任务去 build 最新的源码，还是有更高级的做法？
-目前我在使用 Git Hook 来部署自己的项目。Git Hook 是 Git 提供的一个钩子，能被特定的事件触发后调用。其实，更通俗的讲，当你设置了 Git Hook 后，只要你的远程仓库收到一次 push 之后，Git Hook 就能帮你执行一次 bash 脚本。</description>
+目前我在使用 Git Hook 来部署自己的项目。Git Hook 是 Git 提供的一个钩子，能被特定的事件触发后调用。其实，更通俗的讲，当你设置了 Git Hook 后，只要你的远程仓库收到一次 push 之后，Git Hook 就能帮你执行一次 bash 脚本。
+下面是我使用 Git Hook 进行简单的自动化部署，可能还有更高级的做法，大家自己去挖掘。
+在服务器初始化一个远程 Git 仓库
+git init 和 git –bare init 初始化出来的仓库是完全不一样的，具体我 Google 了下，英文倒是理解了，但是要翻译出中文却不知道用什么形容词去称呼这2种仓库。
+这里我们要通过 git –bare init 初始化一个远程仓库
+$ cd ~ $ mkdir testRepo $ cd testRepo $ git --bare init  在服务器初始化一个本地 Git 仓库
+这个仓库就是通过 git init 初始化出来最常见的本地仓库，它的作用是拉去远程仓库（其实就在它旁边）最新的源码，然后在这个仓库里进行编译，把代码编译到 www 目录（网站的根目录）。
+$ cd ~ $ mkdir testRepo $ cd testRepo $ git --bare init  为远程仓库设置 Hook</description>
     </item>
     
   </channel>

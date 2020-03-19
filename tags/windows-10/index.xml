@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>windows-10 on bihai.org</title>
+    <title>windows-10 on Prologue</title>
     <link>https://bihai.org/tags/windows-10/</link>
-    <description>Recent content in windows-10 on bihai.org</description>
+    <description>Recent content in windows-10 on Prologue</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -16,7 +16,29 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bihai.org/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
-      <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：</description>
+      <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：
+1） 所有设置、更新和安全、针对开发人员、开发人员模式；
+2） Windows 更新、高级选项、获取Insider Preview版本；
+3） 选择你的会员级别、快；
+4） 最低更新至14316版本；
+5） 搜索、启用或关闭windows功能；
+6） 选中Windows Subsystem for Linux (Beta)；
+7） 重新启动、运行、bash
+8） 按Y键下载ubuntu及配置bash。
+  安装emscripten：
+1） 在/etc/apt/sources.list中加入国内快速镜像，如：163.com等；
+2） 更新升级ubuntu环境
+apt-get update &amp;amp;&amp;amp; apt-get upgrade
+3） 安装构建工具
+apt-get install build-essential
+4） 安装CMake
+apt-get install cmake
+5）安装 Python
+sudo apt-get install python2.7
+6）安装 node.js
+sudo apt-get install nodejs
+7）安装 Java
+sudo apt-get install default-jre</description>
     </item>
     
   </channel>

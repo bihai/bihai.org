@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on bihai.org</title>
+    <title>linux on Prologue</title>
     <link>https://bihai.org/tags/linux/</link>
-    <description>Recent content in linux on bihai.org</description>
+    <description>Recent content in linux on Prologue</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -19,7 +19,32 @@
       <description>Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。
 本文介绍的是从源码编译安装的过程。
 Table of Contents
-1 下载及安装（转载部分）</description>
+1 下载及安装（转载部分）
+1.1 下载程序
+1.2 准备工具
+1.3 黑客背单词的安装
+2 遇到的编译错误
+3 问题解决
+1 下载及安装（转载部分）
+1.1 下载程序
+reciteword的网站是：
+作者提供了如下几个包，请按需下载源码包：
+主程序源码（必须） reciteword
+课本（重要） reciteword-books
+词典（可选） reciteword-dicts
+皮肤（可选） reciteword-skins-rw
+真人发音 WyabdcRealPeopleTTS （可选，是stardict的真人语音）
+1.2 准备工具
+先安装编译需要的包
+apt-get install libesd0-dev pkg-config libgtk2.0-dev esound
+如果是Ubuntu 8.04版本，安装时可能会出现删除pulseaudio-esound-compat，ubuntu- desktop这两个文件，请之后再安装回去，如果不安装，进入桌面后桌面不成正常使用，我的方法是重启后按ctrl+alt+f1，进入控制台，打入以下命令：
+sudo apt-get install ubuntu-desktop就会安装这两个文件，重启后正常 安装libesd0-alsa0，保证开启esd後，仍能用alsa。
+apt-get install libesd-alsa0启用esd，这是reciteword播放声音所必须的：（假设是gnome环境）
+在菜单中：系统-&amp;gt;首选项-&amp;gt;音效，在打开的窗口中：音效-&amp;gt;允许软件混音(ESD)。
+为了使设置生效，建议你最好重新启动系统。
+1.3 黑客背单词的安装
+安装过程就没有什么特别的了，进入存有reciteword的文件后：
+　tar -xvfj reciteword-*.tar.bz2 cd reciteword-0.* ./configure –prefix=/usr make sudo make install 2  遇到的编译错误</description>
     </item>
     
     <item>
@@ -32,7 +57,15 @@ Table of Contents
 网址：
 http://www.oracle.com/technetwork/java/javase/downloads/index.html 
 2, 解压JDK
-进入JDK的下载目录</description>
+进入JDK的下载目录
+sudo tar zxvf jdk-8u91-linux-x64.tar.gz -C ~/jdk/ （8u91代表版本号，请自行修改，下同）  3,设置环境变量（全局）
+sudo gedit /etc/profile  打开profile文件输入
+export JAVA_HOME=~/jdk/jdk1.8.0_91 export CLASSPATH=&amp;quot;.:$JAVA_HOME/lib:$CLASSPATH&amp;quot; export PATH=&amp;quot;$JAVA_HOME/bin:$PATH&amp;quot;  4,设置系统默认JDK
+sudo update-alternatives --install /usr/bin/java java ~/jdk/jdk1.8.0_91/bin/java 300 sudo update-alternatives --install /usr/bin/javac javac ~/jdk/jdk1.8.0_91/bin/javac 300 sudo update-alternatives --config java  5, 验证JDK
+输入命令
+java -version  见到JDK的信息则表示成功。
+ 点赞  收藏  分享   * 文章举报    
+thriller</description>
     </item>
     
     <item>
@@ -44,7 +77,11 @@ http://www.oracle.com/technetwork/java/javase/downloads/index.html
       <description>ubuntu之apache正向代理及反向代理(ProxyPass/ProxyPassReverse)
 环境是UBUNTU 最新版apache2安装的目录结构有变化网上很多文章都不适用了。
 配置 (1)安装proxy组件
-a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)修改配置</description>
+a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)修改配置
+sudo vim /etc/apache2/mods-enabled/proxy.conf  如果有内容设置则设置如下：
+&amp;lt;IfModule mod_proxy.c&amp;gt; #turning ProxyRequests on and allowing proxying from all may allow #spammers to use your proxy to send email. ProxyRequests Off &amp;lt;Proxy *&amp;gt; Order deny,allow Deny from all #Allow from .your_domain.com &amp;lt;/Proxy&amp;gt;  (3)修改配置
+vim /etc/apache2/sites-enabled/default &amp;lt;VirtualHost *:80&amp;gt; ... ProxyPass /test/ http://127.0.0.1:3000/ ProxyPassReverse /test/ http://127.0.0.1:3000/ ... &amp;lt;/VirtualHost&amp;gt;  重启服务：
+sudo service apache2 restart  测试一下试试：</description>
     </item>
     
     <item>
@@ -53,7 +90,29 @@ a2enmod proxy proxy_ajp proxy_balancer proxy_connect proxy_ftp proxy_http  (2)�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bihai.org/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</guid>
-      <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：</description>
+      <description>利用“bash on windows”安装配置emscripten   配置使用bash on windows：
+1） 所有设置、更新和安全、针对开发人员、开发人员模式；
+2） Windows 更新、高级选项、获取Insider Preview版本；
+3） 选择你的会员级别、快；
+4） 最低更新至14316版本；
+5） 搜索、启用或关闭windows功能；
+6） 选中Windows Subsystem for Linux (Beta)；
+7） 重新启动、运行、bash
+8） 按Y键下载ubuntu及配置bash。
+  安装emscripten：
+1） 在/etc/apt/sources.list中加入国内快速镜像，如：163.com等；
+2） 更新升级ubuntu环境
+apt-get update &amp;amp;&amp;amp; apt-get upgrade
+3） 安装构建工具
+apt-get install build-essential
+4） 安装CMake
+apt-get install cmake
+5）安装 Python
+sudo apt-get install python2.7
+6）安装 node.js
+sudo apt-get install nodejs
+7）安装 Java
+sudo apt-get install default-jre</description>
     </item>
     
   </channel>

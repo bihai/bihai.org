@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>java on bihai.org</title>
+    <title>java on Prologue</title>
     <link>https://bihai.org/categories/java/</link>
-    <description>Recent content in java on bihai.org</description>
+    <description>Recent content in java on Prologue</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -20,7 +20,15 @@
 网址：
 http://www.oracle.com/technetwork/java/javase/downloads/index.html 
 2, 解压JDK
-进入JDK的下载目录</description>
+进入JDK的下载目录
+sudo tar zxvf jdk-8u91-linux-x64.tar.gz -C ~/jdk/ （8u91代表版本号，请自行修改，下同）  3,设置环境变量（全局）
+sudo gedit /etc/profile  打开profile文件输入
+export JAVA_HOME=~/jdk/jdk1.8.0_91 export CLASSPATH=&amp;quot;.:$JAVA_HOME/lib:$CLASSPATH&amp;quot; export PATH=&amp;quot;$JAVA_HOME/bin:$PATH&amp;quot;  4,设置系统默认JDK
+sudo update-alternatives --install /usr/bin/java java ~/jdk/jdk1.8.0_91/bin/java 300 sudo update-alternatives --install /usr/bin/javac javac ~/jdk/jdk1.8.0_91/bin/javac 300 sudo update-alternatives --config java  5, 验证JDK
+输入命令
+java -version  见到JDK的信息则表示成功。
+ 点赞  收藏  分享   * 文章举报    
+thriller</description>
     </item>
     
   </channel>
