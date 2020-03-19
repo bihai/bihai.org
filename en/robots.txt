@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://bihai.org/blog/en/sitemap.xml
+Sitemap: https://bihai.org/en/sitemap.xml
