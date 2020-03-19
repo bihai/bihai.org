@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>使用 Git Hook 实现网站的自动部署 | bihai.org</title>
+        <meta name="Description" content="关于 bhLoveIt 主题"><meta property="og:title" content="使用 Git Hook 实现网站的自动部署" />
+<meta property="og:description" content="自动化能解放人类的双手，而且更重要的是，因为按照规定的流程来走，也减少了很多误操作的产生。不知道大家平时都是怎么样更新自己生产环境的代码的，" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bihai.org/blog/blog/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/" />
+<meta property="og:site_name" content="bihai.org" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="使用 Git Hook 实现网站的自动部署"/>
+<meta name="twitter:description" content="自动化能解放人类的双手，而且更重要的是，因为按照规定的流程来走，也减少了很多误操作的产生。不知道大家平时都是怎么样更新自己生产环境的代码的，"/>
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="canonical" href="https://bihai.org/blog/blog/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="prev" href="https://bihai.org/blog/blog/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/" /><link rel="next" href="https://bihai.org/blog/blog/posts/xamarin-ios-%E7%A4%BA%E4%BE%8B/" /><link rel="stylesheet" href="/blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/blog/lib/animate/animate.min.css"><link rel="stylesheet" href="/blog/css/style.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "使用 Git Hook 实现网站的自动部署",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/bihai.org\/blog\/blog\/posts\/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/bihai.org\/blog\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "blog","keywords": "bash, git","wordcount":  701 ,
+        "url": "https:\/\/bihai.org\/blog\/blog\/posts\/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "bihai.org",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/bihai.org\/blog\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "bihai"
+            },"description": ""
+    }
+    </script></head>
+    <body><script>
+            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;} else {
+                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            }
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/blog/">bihai.org</a>
+        </div>
+        <div class="menu"><a class="menu-item" href="/blog/blog/posts/" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/blog/blog/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/blog/blog/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/blog/blog/categories/documentation/" rel="noopener noreffer">文档</a><a class="menu-item" href="/blog/blog/about/" rel="noopener noreffer">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/blog/blog/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="header-title">
+                <a href="/blog/">bihai.org</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/blog/blog/posts/" title="" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/blog/blog/tags/" title="" rel="noopener noreffer">标签</a><a class="menu-item" href="/blog/blog/categories/" title="" rel="noopener noreffer">分类</a><a class="menu-item" href="/blog/blog/categories/documentation/" title="" rel="noopener noreffer">文档</a><a class="menu-item" href="/blog/blog/about/" title="" rel="noopener noreffer">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/blog/blog/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+
+<script>
+    window.desktopHeaderMode = "fixed";
+    window.mobileHeaderMode = "auto";
+</script>
+<main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">使用 Git Hook 实现网站的自动部署</h1><div class="content" id="content"><p>自动化能解放人类的双手，而且更重要的是，因为按照规定的流程来走，也减少了很多误操作的产生。不知道大家平时都是怎么样更新自己生产环境的代码的，FTP
+覆盖旧文件、服务器定时任务去 build 最新的源码，还是有更高级的做法？</p>
+<p>目前我在使用 Git Hook 来部署自己的项目。Git Hook 是 Git 提供的一个钩子，能被特定的事件触发后调用。其实，更通俗的讲，当你设置了
+Git Hook 后，只要你的远程仓库收到一次 push 之后，Git Hook 就能帮你执行一次 bash 脚本。</p>
+<p>下面是我使用 Git Hook 进行简单的自动化部署，可能还有更高级的做法，大家自己去挖掘。</p>
+<p>在服务器初始化一个远程 Git 仓库</p>
+<p>git init 和 git –bare init 初始化出来的仓库是完全不一样的，具体我 Google
+了下，英文倒是理解了，但是要翻译出中文却不知道用什么形容词去称呼这2种仓库。</p>
+<p>这里我们要通过 git –bare init 初始化一个远程仓库</p>
+<pre><code>$ cd ~
+$ mkdir testRepo
+$ cd testRepo
+$ git --bare init
+</code></pre>
+<p>在服务器初始化一个本地 Git 仓库</p>
+<p>这个仓库就是通过 git init 初始化出来最常见的本地仓库，它的作用是拉去远程仓库（其实就在它旁边）最新的源码，然后在这个仓库里进行编译，把代码编译到
+www 目录（网站的根目录）。</p>
+<pre><code>$ cd ~
+$ mkdir testRepo
+$ cd testRepo
+$ git --bare init
+</code></pre>
+<p>为远程仓库设置 Hook</p>
+<pre><code>$ cd ~/testRepo/hooks
+$ vim post-receive
+</code></pre>
+<p>post-receive 里面的执行脚本</p>
+<pre><code>#!/bin/sh
+unset GIT_DIR
+DeployPath=/home/user/testDeploy
+WwwPath=/home/wwwroot/testDeploy
+cd $DeployPath
+git add . -A &amp;&amp; git stash
+git pull origin master
+# 下面这2步都是按照实际你自己添加的bash脚本
+fis release -Dompd $WwwPath # 我使用的FIS，对前端代码进行编译
+qrsync /home/user/qiniutools/config.json # 使用七牛同步工具进行同步
+</code></pre>
+<p>最后，为 post-receive 添加可执行权限</p>
+<pre><code>chmod +x post-receive
+</code></pre>
+<p>为本地仓库添加 remote 源</p>
+<p>这次的本地仓库就真的是你开发机上面的本地了。在你原有 Git 项目里面添加一条新的 remote 源，以后往这个 remote 源里面 push
+代码就会自动触发上面那 bash 脚本了。</p>
+<pre><code>$ git remote add deploy user@server.ip:/home/user/testRepo
+$ git push deploy master
+</code></pre>
+<ul>
+<li><a href="javascript:;" rel="noopener noreffer"> 点赞  </a>
+</li>
+<li><a href="javascript:;" rel="noopener noreffer"> 收藏  </a>
+</li>
+<li><a href="javascript:;" rel="noopener noreffer"> 分享 </a>
+</li>
+<li>
+<pre><code>* 文章举报 
+</code></pre>
+</li>
+</ul>
+<p> <img
+        class="lazyload"
+        src="/blog/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://profile.csdnimg.cn/2/1/1/3_thriller,  1.5x,  2x"
+        data-src=""
+        alt=""
+        title="" />
+<a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"><img
+        class="lazyload"
+        src="/blog/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://g.csdnimg.cn/static/user-reg-year/1x/20.png,  1.5x,  2x"
+        data-src=""
+        alt=""
+        title="" />
+</a>
+</p>
+<p><a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"> thriller </a>
+</p>
+<p>发布了19 篇原创文章  ·  获赞 18  ·  访问量 5万+</p>
+<p><a href="https://im.csdn.net/im/main.html?userName=thriller" target="_blank" rel="noopener noreffer"> 私信 </a>
+ 关注</p>
+</div>
+    </div></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bihai.org" target="_blank">bihai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer>
+</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
+            <i class="fas fa-chevron-up fa-fw"></i>
+        </a><script>
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('content'), {
+                selector: '.lightgallery',
+                speed: 400,
+                hideBarsDelay: 2000,
+                thumbnail: true,
+                exThumbImage: 'data-thumbnail',
+                thumbWidth: 80,
+                thumbContHeight: 80,
+            });
+        });
+    </script><link rel="stylesheet" href="/blog/lib/lightgallery/lightgallery.min.css"><script src="/blog/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/blog/lib/lazysizes/lazysizes.min.js"></script><script src="/blog/lib/lightgallery/lightgallery.min.js"></script><script src="/blog/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/blog/lib/lightgallery/lg-zoom.min.js"></script><script src="/blog/js/theme.min.js"></script></body>
+</html>

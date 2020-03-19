@@ -1,15 +1,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>bihai.org | bihai.org</title>
-        <link>https://bihai.org/</link>
+        <link>https://bihai.org/blog/</link>
         <description>bihai.org | bihai.org</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/blog/" rel="self" type="application/rss+xml" /><item>
                 <title>About tyche.cc</title>
-                <link>https://bihai.org/about/</link>
-                <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate><guid>https://bihai.org/about/</guid>
+                <link>https://bihai.org/blog/about/</link>
+                <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate><guid>https://bihai.org/blog/about/</guid>
                 <description>&lt;p&gt;&lt;img
         class=&#34;lazyload&#34;
-        src=&#34;https://bihai.org/svg/loading.small.min.svg&#34;
+        src=&#34;https://bihai.org/blog/blog/svg/loading.small.min.svg&#34;
         data-sizes=&#34;auto&#34;
         data-srcset=&#34;https://cdn.v2ex.co/avatar/afec/1e2e/94644_large.png?m=1473034381,  1.5x,  2x&#34;
         data-src=&#34;&#34;
@@ -33,9 +33,9 @@ Tyche很有意思，作为希腊女神，她既是好运气的给予者也是邪
 &lt;p&gt;好了，欢迎大家访问http://tyche.cc ！&lt;/p&gt;
 </description>
             </item><item>
-                <title>Posts</title>
-                <link>https://bihai.org/posts/</link>
-                <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate><guid>https://bihai.org/posts/</guid>
+                <title>Blogs</title>
+                <link>https://bihai.org/blog/blog/</link>
+                <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate><guid>https://bihai.org/blog/blog/</guid>
                 <description></description>
             </item></channel>
 </rss>
