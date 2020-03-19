@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>技术文章-article on Prologue</title>
+    <title>技术文章-article on bihai.org</title>
     <link>https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</link>
-    <description>Recent content in 技术文章-article on Prologue</description>
+    <description>Recent content in 技术文章-article on bihai.org</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 28 Sep 2016 10:00:47 +0800</lastBuildDate>
     
 	<atom:link href="https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/index.xml" rel="self" type="application/rss+xml" />

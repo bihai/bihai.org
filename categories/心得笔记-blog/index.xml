@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>心得笔记-blog on Prologue</title>
+    <title>心得笔记-blog on bihai.org</title>
     <link>https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</link>
-    <description>Recent content in 心得笔记-blog on Prologue</description>
+    <description>Recent content in 心得笔记-blog on bihai.org</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 28 Sep 2016 10:00:47 +0800</lastBuildDate>
     
 	<atom:link href="https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/index.xml" rel="self" type="application/rss+xml" />

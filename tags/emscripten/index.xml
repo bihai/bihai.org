@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emscripten on Prologue</title>
+    <title>emscripten on bihai.org</title>
     <link>https://bihai.org/tags/emscripten/</link>
-    <description>Recent content in emscripten on Prologue</description>
+    <description>Recent content in emscripten on bihai.org</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     
 	<atom:link href="https://bihai.org/tags/emscripten/index.xml" rel="self" type="application/rss+xml" />
     

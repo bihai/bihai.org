@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>templates on Prologue</title>
+    <title>templates on bihai.org</title>
     <link>https://bihai.org/tags/templates/</link>
-    <description>Recent content in templates on Prologue</description>
+    <description>Recent content in templates on bihai.org</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     
 	<atom:link href="https://bihai.org/tags/templates/index.xml" rel="self" type="application/rss+xml" />
     
