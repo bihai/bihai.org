@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>首次使用HOOKAPI暴力破解SQLITE3加密的数据库 | bihai.org</title>
+        <meta name="Description" content="关于 bihai.org"><meta property="og:title" content="首次使用HOOKAPI暴力破解SQLITE3加密的数据库" />
+<meta property="og:description" content="怕原作者生气，在这就不放源代码了。 最近研究“给力大CI典”的时候，反汇编了一下，是用DELPHI写的，使用SQLITE3定制版本加密了一部分" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bihai.org/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" />
+<meta property="og:site_name" content="bihai.org" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="首次使用HOOKAPI暴力破解SQLITE3加密的数据库"/>
+<meta name="twitter:description" content="怕原作者生气，在这就不放源代码了。 最近研究“给力大CI典”的时候，反汇编了一下，是用DELPHI写的，使用SQLITE3定制版本加密了一部分"/>
+<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#da532c">
+<link rel="canonical" href="https://bihai.org/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="next" href="https://bihai.org/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "首次使用HOOKAPI暴力破解SQLITE3加密的数据库",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/bihai.org\/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/bihai.org\/cover.png",
+                "width":  800 ,
+                "height":  600 
+            },"genre": "posts","wordcount":  335 ,
+        "url": "https:\/\/bihai.org\/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "bihai.org",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/bihai.org\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "bihai"
+            },"description": ""
+    }
+    </script></head>
+    <body><script>
+            if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;} else {
+                window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            }
+            window.isDark && document.body.classList.add('dark-theme');
+        </script><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/">bihai.org</a>
+        </div>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" rel="noopener noreffer">分类</a><a class="menu-item" href="/categories/documentation/" rel="noopener noreffer">文档</a><a class="menu-item" href="/about/" rel="noopener noreffer">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="header-title">
+                <a href="/">bihai.org</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">所有文章</a><a class="menu-item" href="/tags/" title="" rel="noopener noreffer">标签</a><a class="menu-item" href="/categories/" title="" rel="noopener noreffer">分类</a><a class="menu-item" href="/categories/documentation/" title="" rel="noopener noreffer">文档</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+
+<script>
+    window.desktopHeaderMode = "fixed";
+    window.mobileHeaderMode = "auto";
+</script>
+<main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">首次使用HOOKAPI暴力破解SQLITE3加密的数据库</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a>
+</span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=0001-01-01>0001-01-01</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>约 335 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>预计阅读 1 分钟&nbsp;<span id="/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" class="leancloud_visitors" data-flag-title="首次使用HOOKAPI暴力破解SQLITE3加密的数据库">
+                        <i class="far fa-eye fa-fw"></i><span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="content" id="content"><p>怕原作者生气，在这就不放源代码了。<br>
+最近研究“给力大CI典”的时候，反汇编了一下，是用DELPHI写的，使用SQLITE3定制版本加密了一部分数据库，于是通过HOOKAPI到sqlite3_k
+ey，找到了密码，然后用VB6写了个解密SQLITE3的工具，把数据库都解密了。<br>
+这里就给出两个密钥：<br>
+1、shao8977545<em>S<br>
+用于zclb.db。<br>
+2、shao897754</em>Z<br>
+用于其余的加密数据库。<br>
+具体用法很简单，就是调用sqlite3_key，然后sqlite3_rekey，然后就没有然后了。<br>
+因为是用来学习反编译和SQLITE加解密，这里就只说说思路而已，具体请下载支持“给力大CI典”，资料都在里面。</p>
+<ul>
+<li><a href="javascript:;" rel="noopener noreffer"> 点赞  2  </a>
+</li>
+<li><a href="javascript:;" rel="noopener noreffer"> 收藏  </a>
+</li>
+<li><a href="javascript:;" rel="noopener noreffer"> 分享 </a>
+</li>
+<li>
+<pre><code>* 文章举报 
+</code></pre>
+</li>
+</ul>
+<p> <img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://profile.csdnimg.cn/2/1/1/3_thriller,  1.5x,  2x"
+        data-src=""
+        alt=""
+        title="" />
+<a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"><img
+        class="lazyload"
+        src="/svg/loading.small.min.svg"
+        data-sizes="auto"
+        data-srcset="https://g.csdnimg.cn/static/user-reg-year/1x/20.png,  1.5x,  2x"
+        data-src=""
+        alt=""
+        title="" />
+</a>
+</p>
+<p><a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"> thriller </a>
+</p>
+<p>发布了19 篇原创文章  ·  获赞 18  ·  访问量 5万+</p>
+<p><a href="https://im.csdn.net/im/main.html?userName=thriller" target="_blank" rel="noopener noreffer"> 私信 </a>
+ 关注</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>本文于 0001-01-01 更新</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://bihai.org/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" data-title="首次使用HOOKAPI暴力破解SQLITE3加密的数据库"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 人人" data-sharer="renren" data-url="https://bihai.org/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/"><i class="fab fa-renren fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://bihai.org/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" data-title="首次使用HOOKAPI暴力破解SQLITE3加密的数据库"><i class="loveit it-baidu-fill"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://bihai.org/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" data-title="首次使用HOOKAPI暴力破解SQLITE3加密的数据库"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section></section>
+        <section>
+            <span><a href="javascript:window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/" class="next" rel="next" title="越狱之后如何远程连接（SSH）iOS设备？">越狱之后如何远程连接（SSH）iOS设备？<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div class="comment"><div id="valine"></div><script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                new Valine({
+                    el: '#valine',
+                    appId: 'QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI',
+                    appKey: 'WBmoGyJtbqUswvfLh6L8iEBr',placeholder: '你的评论 ...',verify: true,avatar: 'mp',pageSize: 10,lang: 'zh-cn',visitor: true,recordIP: true,});
+            });
+        </script>
+        <noscript>
+            Please enable JavaScript to view the <a href="https://valine.js.org/">comments powered by Valine.</a>
+        </noscript></div>
+    </article></div>
+            </main><footer class="footer">
+    <div class="copyright"><div class="copyright-line">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer"><i class="far fa-heart fa-fw"></i> LoveIt</a>
+        </div>
+
+        <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bihai.org" target="_blank">bihai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer>
+</div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
+            <i class="fas fa-chevron-up fa-fw"></i>
+        </a><script>
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('content'), {
+                selector: '.lightgallery',
+                speed: 400,
+                hideBarsDelay: 2000,
+                thumbnail: true,
+                exThumbImage: 'data-thumbnail',
+                thumbWidth: 80,
+                thumbContHeight: 80,
+            });
+        });
+    </script><link rel="stylesheet" href="/lib/valine/valine.css"><link rel="stylesheet" href="/lib/iconfont/iconfont.min.css"><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/valine/Valine.min.js"></script><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/js/theme.min.js"></script></body>
+</html>
