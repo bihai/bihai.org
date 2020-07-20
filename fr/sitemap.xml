@@ -3,65 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bihai.org/blog/fr/categories/</loc>
+    <loc>https://bihai.org/fr/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bihai.org/blog/en/categories/"
+                href="https://bihai.org/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://bihai.org/blog/categories/"
+                href="https://bihai.org/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://bihai.org/blog/fr/categories/"
+                href="https://bihai.org/fr/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/fr/</loc>
+    <loc>https://bihai.org/fr/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bihai.org/blog/en/"
+                href="https://bihai.org/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://bihai.org/blog/"
+                href="https://bihai.org/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://bihai.org/blog/fr/"
+                href="https://bihai.org/fr/"
                 />
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/fr/tags/</loc>
+    <loc>https://bihai.org/fr/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bihai.org/blog/en/tags/"
+                href="https://bihai.org/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://bihai.org/blog/tags/"
+                href="https://bihai.org/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://bihai.org/blog/fr/tags/"
+                href="https://bihai.org/fr/tags/"
                 />
   </url>
   

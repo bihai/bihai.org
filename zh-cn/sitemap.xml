@@ -3,17 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bihai.org/blog/about/</loc>
+    <loc>https://bihai.org/about/</loc>
     <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/about/</loc>
+    <loc>https://bihai.org/blog/posts/about/</loc>
     <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://bihai.org/</loc>
+    <lastmod>2016-09-28T10:00:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bihai.org/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bihai.org/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://bihai.org/"
+                />
   </url>
   
   <url>
@@ -21,480 +43,458 @@
     <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bihai.org/blog/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://bihai.org/blog/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://bihai.org/blog/"
-                />
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/</loc>
-    <lastmod>2016-09-28T10:00:47+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://bihai.org/blog/categories/</loc>
+    <loc>https://bihai.org/categories/</loc>
     <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bihai.org/blog/en/categories/"
+                href="https://bihai.org/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://bihai.org/blog/fr/categories/"
+                href="https://bihai.org/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://bihai.org/blog/categories/"
+                href="https://bihai.org/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</loc>
+    <loc>https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</loc>
     <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</loc>
+    <loc>https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</loc>
     <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</loc>
+    <loc>https://bihai.org/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</loc>
     <lastmod>2016-09-28T10:00:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/android/</loc>
+    <loc>https://bihai.org/tags/android/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/android/</loc>
+    <loc>https://bihai.org/categories/android/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</loc>
+    <loc>https://bihai.org/blog/posts/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/bash/</loc>
+    <loc>https://bihai.org/tags/bash/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/bash/</loc>
+    <loc>https://bihai.org/categories/bash/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</loc>
+    <loc>https://bihai.org/blog/posts/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</loc>
+    <loc>https://bihai.org/tags/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</loc>
+    <loc>https://bihai.org/categories/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</loc>
+    <loc>https://bihai.org/blog/posts/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/c/</loc>
+    <loc>https://bihai.org/tags/c/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/c/</loc>
+    <loc>https://bihai.org/categories/c/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/c&#43;&#43;/</loc>
+    <loc>https://bihai.org/tags/c&#43;&#43;/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/c&#43;&#43;/</loc>
+    <loc>https://bihai.org/categories/c&#43;&#43;/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/emscripten/</loc>
+    <loc>https://bihai.org/tags/emscripten/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/emscripten/</loc>
+    <loc>https://bihai.org/categories/emscripten/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/exception/</loc>
+    <loc>https://bihai.org/tags/exception/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/exception/</loc>
+    <loc>https://bihai.org/categories/exception/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/flash/</loc>
+    <loc>https://bihai.org/tags/flash/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/flash/</loc>
+    <loc>https://bihai.org/categories/flash/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/freebasic/</loc>
+    <loc>https://bihai.org/tags/freebasic/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/freebasic/</loc>
+    <loc>https://bihai.org/categories/freebasic/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/git/</loc>
+    <loc>https://bihai.org/tags/git/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/git/</loc>
+    <loc>https://bihai.org/categories/git/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/html/</loc>
+    <loc>https://bihai.org/tags/html/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/html/</loc>
+    <loc>https://bihai.org/categories/html/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/ios-toolchain-for-bash-on-windows/</loc>
+    <loc>https://bihai.org/blog/posts/ios-toolchain-for-bash-on-windows/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/j2me/</loc>
+    <loc>https://bihai.org/tags/j2me/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/j2me/</loc>
+    <loc>https://bihai.org/categories/j2me/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</loc>
+    <loc>https://bihai.org/blog/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</loc>
+    <loc>https://bihai.org/blog/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/java/</loc>
+    <loc>https://bihai.org/tags/java/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/java/</loc>
+    <loc>https://bihai.org/categories/java/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/linux/</loc>
+    <loc>https://bihai.org/tags/linux/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/linux/</loc>
+    <loc>https://bihai.org/categories/linux/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</loc>
+    <loc>https://bihai.org/blog/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/nokia/</loc>
+    <loc>https://bihai.org/tags/nokia/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/nokia/</loc>
+    <loc>https://bihai.org/categories/nokia/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/php/</loc>
+    <loc>https://bihai.org/tags/php/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/php/</loc>
+    <loc>https://bihai.org/categories/php/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</loc>
+    <loc>https://bihai.org/blog/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/string/</loc>
+    <loc>https://bihai.org/tags/string/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/string/</loc>
+    <loc>https://bihai.org/categories/string/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/</loc>
+    <loc>https://bihai.org/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bihai.org/blog/en/tags/"
+                href="https://bihai.org/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://bihai.org/blog/fr/tags/"
+                href="https://bihai.org/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://bihai.org/blog/tags/"
+                href="https://bihai.org/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/templates/</loc>
+    <loc>https://bihai.org/tags/templates/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/templates/</loc>
+    <loc>https://bihai.org/categories/templates/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/</loc>
+    <loc>https://bihai.org/blog/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</loc>
+    <loc>https://bihai.org/blog/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</loc>
+    <loc>https://bihai.org/blog/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</loc>
+    <loc>https://bihai.org/blog/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</loc>
+    <loc>https://bihai.org/blog/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</loc>
+    <loc>https://bihai.org/blog/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
+    <loc>https://bihai.org/blog/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/windows-10/</loc>
+    <loc>https://bihai.org/tags/windows-10/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/windows-10/</loc>
+    <loc>https://bihai.org/categories/windows-10/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/xamarin-ios-%E7%A4%BA%E4%BE%8B/</loc>
+    <loc>https://bihai.org/blog/posts/xamarin-ios-%E7%A4%BA%E4%BE%8B/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</loc>
+    <loc>https://bihai.org/blog/posts/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</loc>
+    <loc>https://bihai.org/blog/posts/%E5%85%B3%E6%B3%A8%E5%BE%AE%E8%BD%AF%E7%9A%84bash-on-windows/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</loc>
+    <loc>https://bihai.org/blog/posts/%E5%88%A9%E7%94%A8bash-on-windows%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEemscripten/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E5%A4%A7%E5%85%A8%E9%83%A8%E5%88%86/</loc>
+    <loc>https://bihai.org/blog/posts/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E5%A4%A7%E5%85%A8%E9%83%A8%E5%88%86/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%B0%8F%E5%BF%83%E7%8C%9C%E5%88%B0%E4%BA%86%E5%BC%80%E5%BF%83%E8%AF%8D%E5%9C%BA%E5%92%8C%E7%99%BE%E8%AF%8D%E6%96%A9%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E6%B3%95%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</loc>
+    <loc>https://bihai.org/blog/posts/%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%B0%8F%E5%BF%83%E7%8C%9C%E5%88%B0%E4%BA%86%E5%BC%80%E5%BF%83%E8%AF%8D%E5%9C%BA%E5%92%8C%E7%99%BE%E8%AF%8D%E6%96%A9%E7%9A%84%E5%8A%A0%E5%AF%86%E6%96%B9%E6%B3%95%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E7%96%AB%E6%83%85%E6%9C%9F%E9%97%B4%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC-%E6%90%9E%E4%B8%80%E6%90%9E%E8%80%81%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90%E8%A7%A3%E5%8C%85/</loc>
+    <loc>https://bihai.org/blog/posts/%E7%96%AB%E6%83%85%E6%9C%9F%E9%97%B4%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC-%E6%90%9E%E4%B8%80%E6%90%9E%E8%80%81%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90%E8%A7%A3%E5%8C%85/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</loc>
+    <loc>https://bihai.org/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/categories/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</loc>
+    <loc>https://bihai.org/categories/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/</loc>
+    <loc>https://bihai.org/blog/posts/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/</loc>
+    <loc>https://bihai.org/blog/posts/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://bihai.org/blog/blog/posts/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://bihai.org/blog/posts/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
