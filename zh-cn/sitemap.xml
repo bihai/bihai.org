@@ -3,6 +3,7 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
             <loc>https://bihai.org/about/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bihai.org/en/about/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/about/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
@@ -30,6 +31,7 @@
                     hreflang="zh-cn"
                     href="https://bihai.org/categories/"
                     /></url><url>
+            <loc>https://bihai.org/en/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/posts/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
