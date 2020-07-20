@@ -1,7 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>bhLoveIt | bhLoveIt</title>
-        <link>https://bihai.org/blog/en/</link>
-        <description>bhLoveIt | bhLoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://bihai.org/blog/en/" rel="self" type="application/rss+xml" /></channel>
+  <channel>
+    <title>bhLoveIt</title>
+    <link>https://bihai.org/blog/en/</link>
+    <description>Recent content on bhLoveIt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://bihai.org/blog/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
 </rss>

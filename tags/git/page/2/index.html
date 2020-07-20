@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <script>
+        var yiliaConfig = {
+            fancybox:  true ,
+            animate:  false ,
+            isHome: false,
+            isPost: false,
+            isArchive: true,
+            isTag: false,
+            isCategory: false,
+            open_in_new:  true ,
+            rootUrl: "\/"
+        };
+    </script>
+
+    <title>git</title>
+    <link rel="icon" href="/favicon.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+    
+    
+    <link rel="stylesheet" href="/highlight/styles/darcula.css">
+    <script src="/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+
+<body>
+<div id="container">
+    <div class="left-col">
+        <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn js-avatar">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">NightFarmer</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">理论指导实践，实践深化理论</p>
+        
+
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/./">主页</a></li>
+                        
+                            <li><a href="/./post/">所有文章</a></li>
+                        
+                            <li><a href="/./tags/">标签云</a></li>
+                        
+                            <li><a href="/./about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <li id="email"><a class="email" target="_blank" href="mailto:nightfarmer@163.com" title="email"></a></li>
+                            
+                                <li id="github"><a class="github" target="_blank" href="https://github.com/NightFarmer" title="github"></a></li>
+                            
+                        </ul>
+                    </nav>
+                </section>
+
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        
+                            <a href="/blog/tags/android" style="font-size: 12px;" class="color2">Android</a>
+                        
+                            <a href="/blog/tags/bash" style="font-size: 12px;" class="color2">Bash</a>
+                        
+                            <a href="/blog/tags/basic%E4%B8%87%E8%8A%B1%E7%AD%92" style="font-size: 12px;" class="color4">Basic万花筒</a>
+                        
+                            <a href="/blog/tags/c" style="font-size: 12px;" class="color4">C</a>
+                        
+                            <a href="/blog/tags/c&#43;&#43;" style="font-size: 12px;" class="color3">C&#43;&#43;</a>
+                        
+                            <a href="/blog/tags/emscripten" style="font-size: 12px;" class="color2">Emscripten</a>
+                        
+                            <a href="/blog/tags/exception" style="font-size: 12px;" class="color2">Exception</a>
+                        
+                            <a href="/blog/tags/flash" style="font-size: 12px;" class="color2">Flash</a>
+                        
+                            <a href="/blog/tags/freebasic" style="font-size: 12px;" class="color1">Freebasic</a>
+                        
+                            <a href="/blog/tags/git" style="font-size: 12px;" class="color3">Git</a>
+                        
+                            <a href="/blog/tags/html" style="font-size: 12px;" class="color2">Html</a>
+                        
+                            <a href="/blog/tags/j2me" style="font-size: 12px;" class="color2">J2me</a>
+                        
+                            <a href="/blog/tags/java" style="font-size: 12px;" class="color4">Java</a>
+                        
+                            <a href="/blog/tags/linux" style="font-size: 12px;" class="color3">Linux</a>
+                        
+                            <a href="/blog/tags/nokia" style="font-size: 12px;" class="color1">Nokia</a>
+                        
+                            <a href="/blog/tags/php" style="font-size: 12px;" class="color2">Php</a>
+                        
+                            <a href="/blog/tags/string" style="font-size: 12px;" class="color1">String</a>
+                        
+                            <a href="/blog/tags/templates" style="font-size: 12px;" class="color4">Templates</a>
+                        
+                            <a href="/blog/tags/windows-10" style="font-size: 12px;" class="color4">Windows-10</a>
+                        
+                            <a href="/blog/tags/%E7%97%85%E6%AF%92%E6%9C%A8%E9%A9%AC" style="font-size: 12px;" class="color1">病毒木马</a>
+                        
+                    </div>
+                </section>
+                
+
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.baidu.com">友链1</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.baidu.com">友链2</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">我就是我，是不一样的烟火</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>
+</div>
+
+    </div>
+    <div class="mid-col">
+        <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">NightFarmer</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">NightFarmer</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">理论指导实践，实践深化理论</p>
+            
+            <nav class="header-menu">
+                <ul>
+                    
+                    <li><a href="/./">主页</a></li>
+                    
+                    <li><a href="/./post/">所有文章</a></li>
+                    
+                    <li><a href="/./tags/">标签云</a></li>
+                    
+                    <li><a href="/./about/">关于我</a></li>
+                    
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                            <li id="email"><a class="email" target="_blank" href="mailto:nightfarmer@163.com" title="email"></a></li>
+                            
+                            <li id="github"><a class="github" target="_blank" href="https://github.com/NightFarmer" title="github"></a></li>
+                            
+                        </ul>
+            </nav>
+        </header>
+    </div>
+</nav>
+
+        <div class="body-wrap">
+            
+            
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/ios-toolchain-for-bash-on-windows/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/ios-toolchain-for-bash-on-windows/">iOS toolchain for bash on windows</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            ** Bash on windows 可以生成iOS或者Mac应用，WOW! ** git clone --recursive https://github.com/waneck/linux-ios-toolchain.git cd linux-ios-toolchain sudo apt-get install gcc g++ clang libclang-dev uuid-dev libssl-dev libpng12-dev libicu-dev bison flex libsqlite3-dev libtool llvm-dev libxml2-dev automake pkg-config make sudo make install #下载toolchain4: git clone https://github.com/javacom/toolchain4.git
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/ios-toolchain-for-bash-on-windows/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/">J2ME中用LWUIT画简单的指针时钟</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            J2ME中用LWUIT画简单的指针时钟by thriller at http://tyche.cnLWUIT(The Lightweight UI Toolkit)是一个轻量级JavaME 用户界面工具包。LWUIT类似Swing 的MVC
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/j2me/" style="font-size: 12px;">J2ME</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/j2me/"
+                           style="font-size: 12px;">J2ME</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/">J2ME版太奇论语</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            J2ME版太奇论语终于初步完成啦 这是英语版，可以学英语简单对话。 [flash=340,340]http://player.youku.com/player.php/sid/XMTIzMjg0OTA0/v.swf[/fla sh] 20天做完，大多业余时间，效率不错，而且顺便自学了下J2ME和JAVA，
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/flash/" style="font-size: 12px;">Flash</a>
+                
+                <a class="color5" href="/categories/nokia/" style="font-size: 12px;">Nokia</a>
+                
+                <a class="color5" href="/categories/php/" style="font-size: 12px;">PHP</a>
+                
+                <a class="color5" href="/categories/c/" style="font-size: 12px;">C</a>
+                
+                <a class="color5" href="/categories/c&#43;&#43;/" style="font-size: 12px;">C&#43;&#43;</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/flash/"
+                           style="font-size: 12px;">Flash</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/nokia/"
+                           style="font-size: 12px;">Nokia</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/php/"
+                           style="font-size: 12px;">PHP</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/c/"
+                           style="font-size: 12px;">C</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/c&#43;&#43;/"
+                           style="font-size: 12px;">C&#43;&#43;</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/">Logo1_.exe 木马 病毒的清除和免疫</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            关于 Logo1_.exe（W32/HLLP.Philis.g trojan.pwsteal.gen ） 病毒解决方案及免疫补丁的制作！W32/HLLP.Philis.g 病毒，最近发
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/%e7%97%85%e6%af%92%e6%9c%a8%e9%a9%ac/" style="font-size: 12px;">病毒木马</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/%e7%97%85%e6%af%92%e6%9c%a8%e9%a9%ac/"
+                           style="font-size: 12px;">病毒木马</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/logo1_.exe-%E6%9C%A8%E9%A9%AC-%E7%97%85%E6%AF%92%E7%9A%84%E6%B8%85%E9%99%A4%E5%92%8C%E5%85%8D%E7%96%AB/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/">shell 脚本中经常要用到ssh。怎么能不交互的输密码呢？</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            1、登录A机器 2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.pub 3、将 .pub 文件复制到B机器的 .ssh 目录， 并 cat id_dsa.pub &gt;&gt; ~/.ssh/authorized_keys 4、大功告成，从A机器
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/bash/" style="font-size: 12px;">bash</a>
+                
+                <a class="color5" href="/categories/git/" style="font-size: 12px;">git</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/bash/"
+                           style="font-size: 12px;">bash</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/git/"
+                           style="font-size: 12px;">git</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/">Tyche.cc 上线！</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            tyche.cc = Torch your confidence, hope &amp; emotion. 点燃你的信心、希望和激情。 上次注册的tyche.cn因为忙忘了续费，被人抢注了，虽然烦了几天，但是因为.cn要求实名制，价格
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/tyche.cc-%E4%B8%8A%E7%BA%BF/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/">ubuntu on windows 编译安装 stardict 3.06</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            胡正写的stardict： 星际译王——拉轰吧——目前还号称是linux下最好的词典。 胡正是四大魔幻程序员之一，虽然身体略有不适，不妨碍他的努
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/bash/" style="font-size: 12px;">bash</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/bash/"
+                           style="font-size: 12px;">bash</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/">ubuntu 安装freebasic</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            apt-get install libx11-dev libXext-dev libxpm-dev libxrandr-dev libxrender-dev libncurses5-dev 点赞 收藏 分享 * 文章举报 thriller 发布了19 篇原创文章 · 获赞 18 · 访问量 5万+ 私信 关注
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/freebasic/" style="font-size: 12px;">FreeBASIC</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/freebasic/"
+                           style="font-size: 12px;">FreeBASIC</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85freebasic/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/">Ubuntu 安装黑客背单词Reciteword</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。 本
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/linux/" style="font-size: 12px;">linux</a>
+                
+                <a class="color5" href="/categories/bash/" style="font-size: 12px;">bash</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/linux/"
+                           style="font-size: 12px;">linux</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/bash/"
+                           style="font-size: 12px;">bash</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/">ubuntu14.04 安装配置JDK</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            1,下载jdk-7u45-linux-x64.tar.gz 网址： http://www.oracle.com/technetwork/java/javase/downloads/index.html 2, 解压JDK 进入JDK的下载目录 sudo tar zxvf jdk-8u91-linux-x64.tar.gz -C ~/jdk/ （8u91代表版本号，请自行修
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/emscripten/" style="font-size: 12px;">emscripten</a>
+                
+                <a class="color5" href="/categories/linux/" style="font-size: 12px;">linux</a>
+                
+                <a class="color5" href="/categories/java/" style="font-size: 12px;">java</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/emscripten/"
+                           style="font-size: 12px;">emscripten</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/linux/"
+                           style="font-size: 12px;">linux</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/java/"
+                           style="font-size: 12px;">java</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/">ubuntu之apache正向代理及反向代理(ProxyPass ProxyPassReverse)</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            ubuntu之apache正向代理及反向代理(ProxyPass/ProxyPassReverse) 环境是UBUNTU 最新版apache2安
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+            <div class="article-category tagcloud">
+                
+                <a class="color5" href="/categories/linux/" style="font-size: 12px;">linux</a>
+                
+                <a class="color5" href="/categories/bash/" style="font-size: 12px;">bash</a>
+                
+            </div>
+            
+
+            
+            <div class="article-tag tagcloud">
+                <ul class="article-tag-list">
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/linux/"
+                           style="font-size: 12px;">linux</a>
+                    </li>
+                    
+                    <li class="article-tag-list-item">
+                        <a class="article-tag-list-link color1" href="/tags/bash/"
+                           style="font-size: 12px;">bash</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+                    <article id="post-Recycler-pbl" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+    <div class="article-meta">
+        <a href="https://bihai.org/blog/blog/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/" class="article-date">
+            <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">0001-01-01</time>
+        </a>
+    </div>
+
+    <div class="article-inner">
+        
+        <input type="hidden" class="isFancy">
+        
+
+        <header class="article-header">
+
+
+            <h1 itemprop="name">
+                <a class="article-title" href="https://bihai.org/blog/blog/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/">WEIPHP 4 欢迎语BUG：如果是多图文，则所有文章都显示第一篇</a>
+            </h1>
+
+
+        </header>
+
+
+        <div class="article-entry" itemprop="articleBody">
+            WEIPHP 4 欢迎语BUG：如果是多图文，则所有文章都显示第一篇 找了半天，原来是个低级错误： 打开\Application\Home\Model\Wei
+        </div>
+
+        <div class="article-info article-info-index">
+
+            
+
+            
+
+            <p class="article-more-link">
+                <a href="https://bihai.org/blog/blog/posts/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/">more &gt;&gt;</a>
+            </p>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</article>
+
+                
+            
+            
+<nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/blog/tags/git/">« Prev</a>
+    
+
+    
+        
+        
+            <a class="page-number" href="/blog/tags/git/">1</a>
+        
+    
+        
+        
+            <span class="page-number current">2</span>
+        
+    
+        
+        
+            <a class="page-number" href="/blog/tags/git/page/3/">3</a>
+        
+    
+    
+    
+    
+    
+    
+
+    
+    <a class="extend next" rel="next" href="/blog/tags/git/page/3//">Next »</a>
+    
+
+    
+    
+
+
+</nav>
+
+
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2020 NightFarmer
+            </div>
+            <div class="footer-right">
+                <a href="http://gohugo.io/" target="_blank">Hugo</a>  Theme <a href="https://github.com/NightFarmer/hugo-theme-yelee" target="_blank">Yelee</a> by NightFarmer
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >本站到访数:
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量:
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+
+    </div>
+    
+<script src="/js/GithubRepoWidget.js"></script>
+<script src="//7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum =  5 ;
+                var backgroundimg = "url(\/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+</div>
+</body>
+</html>
+
