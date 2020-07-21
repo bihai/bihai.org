@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Ubuntu 安装黑客背单词Reciteword - bihai.org</title><meta name="Description" content="关于 bhLoveIt 主题"><meta property="og:title" content="Ubuntu 安装黑客背单词Reciteword" />
+<meta property="og:description" content="Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。 本" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bihai.org/blog/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/" />
+<meta property="og:site_name" content="bihai.org" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Ubuntu 安装黑客背单词Reciteword"/>
+<meta name="twitter:description" content="Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。 本"/>
+<meta name="application-name" content="bihai.org">
+<meta name="apple-mobile-web-app-title" content="bihai.org"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/blog/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/" /><link rel="prev" href="https://bihai.org/blog/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/" /><link rel="next" href="https://bihai.org/blog/ubuntu-%E5%AE%89%E8%A3%85freebasic/" /><link rel="stylesheet" href="/blog/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="stylesheet" href="/blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/blog/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Ubuntu 安装黑客背单词Reciteword",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/bihai.org\/blog\/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword\/"
+        },"genre": "posts","keywords": "linux, bash","wordcount":  1298 ,
+        "url": "https:\/\/bihai.org\/blog\/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "bihai"},"author": {
+                "@type": "Person",
+                "name": "bihai"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/blog/" title="bihai.org">bihai.org</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/blog/blog/posts/"> 所有文章 </a><a class="menu-item" href="/blog/blog/tags/"> 标签 </a><a class="menu-item" href="/blog/blog/categories/"> 分类 </a><a class="menu-item" href="/blog/blog/categories/documentation/"> 文档 </a><a class="menu-item" href="/blog/blog/about/"> 关于 </a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/blog/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/" selected>简体中文</option></select>
+                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/blog/" title="bihai.org">bihai.org</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/blog/blog/posts/" title="">所有文章</a><a class="menu-item" href="/blog/blog/tags/" title="">标签</a><a class="menu-item" href="/blog/blog/categories/" title="">分类</a><a class="menu-item" href="/blog/blog/categories/documentation/" title="">文档</a><a class="menu-item" href="/blog/blog/about/" title="">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/blog/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Ubuntu 安装黑客背单词Reciteword</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a></span>&nbsp;<span class="post-category">收录于 <a href="/blog/categories/linux/"><i class="far fa-folder fa-fw"></i>linux</a>&nbsp;<a href="/blog/categories/bash/"><i class="far fa-folder fa-fw"></i>bash</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1298 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p>Reciteword是一款中文界面的背单词软件（也称黑客背单词），功能比较强大。在Ubuntu中安装可能会遇到一些小困难，故在此说明一下。<br>
+本文介绍的是从源码编译安装的过程。<br>
+Table of Contents<br>
+1 下载及安装（转载部分）<br>
+1.1 下载程序<br>
+1.2 准备工具<br>
+1.3 黑客背单词的安装<br>
+2 遇到的编译错误<br>
+3 问题解决<br>
+1 下载及安装（转载部分）<br>
+1.1 下载程序<br>
+reciteword的网站是：<br>
+作者提供了如下几个包，请按需下载源码包：<br>
+主程序源码（必须） reciteword</p>
+<p>课本（重要） reciteword-books<br>
+词典（可选） reciteword-dicts<br>
+皮肤（可选） reciteword-skins-rw<br>
+真人发音 WyabdcRealPeopleTTS （可选，是stardict的真人语音）<br>
+1.2 准备工具<br>
+先安装编译需要的包<br>
+apt-get install libesd0-dev pkg-config libgtk2.0-dev esound<br>
+如果是Ubuntu 8.04版本，安装时可能会出现删除pulseaudio-esound-compat，ubuntu-
+desktop这两个文件，请之后再安装回去，如果不安装，进入桌面后桌面不成正常使用，我的方法是重启后按ctrl+alt+f1，进入控制台，打入以下命令：<br>
+sudo apt-get install ubuntu-desktop就会安装这两个文件，重启后正常
+安装libesd0-alsa0，保证开启esd後，仍能用alsa。<br>
+apt-get install libesd-alsa0启用esd，这是reciteword播放声音所必须的：（假设是gnome环境）<br>
+在菜单中：系统-&gt;首选项-&gt;音效，在打开的窗口中：音效-&gt;允许软件混音(ESD)。<br>
+为了使设置生效，建议你最好重新启动系统。<br>
+1.3 黑客背单词的安装<br>
+安装过程就没有什么特别的了，进入存有reciteword的文件后：</p>
+<pre><code>　tar -xvfj reciteword-*.tar.bz2
+　　cd reciteword-0.*
+　　./configure –prefix=/usr
+　　make
+　　sudo make install 
+　　2
+</code></pre>
+<p>遇到的编译错误<br>
+ubuntu会出现这样编译出错</p>
+<pre><code>bookfile.cpp: In function ‘gchar* rw_book_get_value(const gchar*, gchar*, gint)’:
+bookfile.cpp:95: error: invalid conversion from ‘const char*’ to ‘gchar*’
+bookfile.cpp: In function ‘gint rw_book_get_file_info(gchar*, gchar**, gchar**, gchar**, gchar**, gchar**, gchar**)’:
+bookfile.cpp:140: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:153: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:154: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:155: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:156: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:157: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp: In function ‘BookFile* rw_book_open_file(gchar*)’:
+bookfile.cpp:228: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:229: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:230: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:231: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:232: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:233: warning: deprecated conversion from string constant to ‘gchar*’
+bookfile.cpp:209: warning: ignoring return value of ‘size_t fread(void*, size_t, size_t, FILE*)’, declared with attribute warn_unused_result
+make[3]: *** [bookfile.o] 错误 1
+make[3]:正在离开目录 `/tmp/word/reciteword-0.8.4/src'
+make[2]: *** [all-recursive] 错误 1
+make[2]:正在离开目录 `/tmp/word/reciteword-0.8.4/src'
+make[1]: *** [all-recursive] 错误 1
+make[1]:正在离开目录 `/tmp/word/reciteword-0.8.4'
+make: *** [all] 错误 2
+</code></pre>
+<p>3 问题解决</p>
+<pre><code>　bookfile.c
+pp:95: error: invalid conversion from ‘const char*’ to ‘gchar*
+</code></pre>
+<p>根据以上错误找到 bookfile.cpp 在头文件处加上两句代码</p>
+<pre><code>#include &quot;bookfile.h&quot;
+#include &lt;cstring&gt;
+#include &lt;cstdio&gt;
+#include &lt;sys/stat.h&gt;
+#include &lt;fstream&gt;
+#include &lt;string&gt;
+
+const gchar* str1;
+const gchar* str2 = strchr(str1, 'a');
+</code></pre>
+<p>再找到函数 （大概在90行里）</p>
+<pre><code>static gchar *
+rw_book_get_value (const gchar * str1, gchar * str2,gint utf8)
+-----------------------------------------------------
+</code></pre>
+<p>把原来的 tmp1 = strstr (str1, str2);<br>
+改为 tmp1 = (gchar*)strstr (str1, str2);<br>
+经过上面的改动 再编译即可</p>
+<p>编译成功，要安装到/usr/local/share/reciteword/：</p>
+<pre><code>tar -xjvf reciteword-books-0.8.5.tar.bz2 -C /usr/local/share/reciteword/
+tar -xjvf reciteword-dicts-0.8.2.tar.bz2 -C /usr/local/share/reciteword/
+tar -xjvf reciteword-skins-rw-0.8.2.tar.bz2 -C /usr/local/share/reciteword/skins
+tar -xjvf reciteword-skins-rw_en-0.8.2.tar.bz2 -C /usr/local/share/reciteword/skins
+tar -xjvf WyabdcRealPeopleTTS.tar.bz2 -C /usr/share
+</code></pre>
+<p>搞定</p>
+<ul>
+<li><a href="javascript:;" rel=""> 点赞  1  </a></li>
+<li><a href="javascript:;" rel=""> 收藏  </a></li>
+<li><a href="javascript:;" rel=""> 分享 </a></li>
+<li>
+<pre><code>* 文章举报 
+</code></pre>
+</li>
+</ul>
+<p> <img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://profile.csdnimg.cn/2/1/1/3_thriller"
+        data-srcset="https://profile.csdnimg.cn/2/1/1/3_thriller, https://profile.csdnimg.cn/2/1/1/3_thriller 1.5x, https://profile.csdnimg.cn/2/1/1/3_thriller 2x"
+        data-sizes="auto"
+        alt="https://profile.csdnimg.cn/2/1/1/3_thriller"
+        title="https://profile.csdnimg.cn/2/1/1/3_thriller" />
+<a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://g.csdnimg.cn/static/user-reg-year/1x/20.png"
+        data-srcset="https://g.csdnimg.cn/static/user-reg-year/1x/20.png, https://g.csdnimg.cn/static/user-reg-year/1x/20.png 1.5x, https://g.csdnimg.cn/static/user-reg-year/1x/20.png 2x"
+        data-sizes="auto"
+        alt="https://g.csdnimg.cn/static/user-reg-year/1x/20.png"
+        title="https://g.csdnimg.cn/static/user-reg-year/1x/20.png" />
+</a></p>
+<p><a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"> thriller </a></p>
+<p>发布了19 篇原创文章  ·  获赞 18  ·  访问量 5万+</p>
+<p><a href="https://im.csdn.net/im/main.html?userName=thriller" target="_blank" rel="noopener noreffer"> 私信 </a> 关注</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 0001-01-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/blog/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/blog/tags/linux/">linux</a>,&nbsp;<a href="/blog/tags/bash/">bash</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/blog/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/blog/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/" class="prev" rel="prev" title="ubuntu14.04 安装配置JDK"><i class="fas fa-angle-left fa-fw"></i>ubuntu14.04 安装配置JDK</a>
+            <a href="/blog/ubuntu-%E5%AE%89%E8%A3%85freebasic/" class="next" rel="next" title="ubuntu 安装freebasic">ubuntu 安装freebasic<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.67.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bihai.org" target="_blank">bihai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/blog/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/blog/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/blog/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/blog/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/blog/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script></body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>越狱之后如何远程连接（SSH）iOS设备？ - bihai.org</title><meta name="Description" content="关于 bhLoveIt 主题"><meta property="og:title" content="越狱之后如何远程连接（SSH）iOS设备？" />
+<meta property="og:description" content="使用linux-ios-toolchain 在bash on windows中安装iOS软件，需要越狱的IPHONE或者IPAD，怎么安装呢？大家都" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bihai.org/blog/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/" />
+<meta property="og:site_name" content="bihai.org" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="越狱之后如何远程连接（SSH）iOS设备？"/>
+<meta name="twitter:description" content="使用linux-ios-toolchain 在bash on windows中安装iOS软件，需要越狱的IPHONE或者IPAD，怎么安装呢？大家都"/>
+<meta name="application-name" content="bihai.org">
+<meta name="apple-mobile-web-app-title" content="bihai.org"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/blog/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/" /><link rel="prev" href="https://bihai.org/blog/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" /><link rel="next" href="https://bihai.org/blog/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/" /><link rel="stylesheet" href="/blog/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="stylesheet" href="/blog/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/blog/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "越狱之后如何远程连接（SSH）iOS设备？",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/bihai.org\/blog\/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87\/"
+        },"genre": "posts","wordcount":  712 ,
+        "url": "https:\/\/bihai.org\/blog\/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "bihai"},"author": {
+                "@type": "Person",
+                "name": "bihai"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/blog/" title="bihai.org">bihai.org</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/blog/blog/posts/"> 所有文章 </a><a class="menu-item" href="/blog/blog/tags/"> 标签 </a><a class="menu-item" href="/blog/blog/categories/"> 分类 </a><a class="menu-item" href="/blog/blog/categories/documentation/"> 文档 </a><a class="menu-item" href="/blog/blog/about/"> 关于 </a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/blog/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/" selected>简体中文</option></select>
+                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/blog/" title="bihai.org">bihai.org</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/blog/blog/posts/" title="">所有文章</a><a class="menu-item" href="/blog/blog/tags/" title="">标签</a><a class="menu-item" href="/blog/blog/categories/" title="">分类</a><a class="menu-item" href="/blog/blog/categories/documentation/" title="">文档</a><a class="menu-item" href="/blog/blog/about/" title="">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/blog/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">越狱之后如何远程连接（SSH）iOS设备？</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://bihai.org" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>bihai</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 712 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p>使用linux-ios-toolchain 在bash on windows中安装iOS软件，需要越狱的IPHONE或者IPAD，怎么安装呢？大家都知道，i
+OS系统是基于Unix的，算是Unix衍生出来的新系统，而要玩转Unix系统，无疑最根本的使用远程连接即SSH来用命令行直接控制你的iPhone,如果有人要
+问，远程连接（SSH）究竟有什么用呢？举个简单例子，前段时间号称一键清除、修复Cydia的越狱应用iLex RAT就是需要用远程连接的命令行才能使用的。</p>
+<p>在越狱之前，苹果对root权限控制得非常之严，根本没有可能允许用户直接访问iOS的文件系统，更别提远程连接了，幸运的是，越狱之后，用户真正当家作主了，今天我
+们就来看一下如何远程连接（SSH）iOS设备。</p>
+<p>1.在Cydia中搜索、安装OpenSSH软件。</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://img-blog.csdn.net/20160429113257187"
+        data-srcset="https://img-blog.csdn.net/20160429113257187, https://img-blog.csdn.net/20160429113257187 1.5x, https://img-blog.csdn.net/20160429113257187 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdn.net/20160429113257187"
+        title="openssh" /></p>
+<p>2.安装之后，打开设置 -&gt; WiFi。</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://img-blog.csdn.net/20160429113331091"
+        data-srcset="https://img-blog.csdn.net/20160429113331091, https://img-blog.csdn.net/20160429113331091 1.5x, https://img-blog.csdn.net/20160429113331091 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdn.net/20160429113331091"
+        title="这里写图片描述" /></p>
+<p>3.点击已经连接的WiFi的右边的小箭头查看详情，记下iPhone当前网络IP地址。</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://img-blog.csdn.net/20160429113404888"
+        data-srcset="https://img-blog.csdn.net/20160429113404888, https://img-blog.csdn.net/20160429113404888 1.5x, https://img-blog.csdn.net/20160429113404888 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdn.net/20160429113404888"
+        title="这里写图片描述" /></p>
+<p>4.在PC端打开SSH软件，如Putty、SecureCRT等，都差不多，下面以免费的Putty举例说明如何连接。</p>
+<p>5.下载Putty后，不需要安装，直接打开即可。</p>
+<p>6.打开之后输入第4步中记下的网络IP地址，当然你的电脑需要与PC保持在同一个网络下才行：</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://img-blog.csdn.net/20160429113429482"
+        data-srcset="https://img-blog.csdn.net/20160429113429482, https://img-blog.csdn.net/20160429113429482 1.5x, https://img-blog.csdn.net/20160429113429482 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdn.net/20160429113429482"
+        title="这里写图片描述" /></p>
+<p>7.点击Open开始进行远程连接，首先会弹出一个警告，点击Y.</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://img-blog.csdn.net/20160429113438767"
+        data-srcset="https://img-blog.csdn.net/20160429113438767, https://img-blog.csdn.net/20160429113438767 1.5x, https://img-blog.csdn.net/20160429113438767 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdn.net/20160429113438767"
+        title="这里写图片描述" /></p>
+<p>8.连接上之后需要校验用户名和密码，用户名使用root,密码默认为alpine.</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://img-blog.csdn.net/20160429113451751"
+        data-srcset="https://img-blog.csdn.net/20160429113451751, https://img-blog.csdn.net/20160429113451751 1.5x, https://img-blog.csdn.net/20160429113451751 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdn.net/20160429113451751"
+        title="这里写图片描述" /></p>
+<p>9.连接上之后就像操作一台普通unix系统一样，这里我们为了安全起见修改一下root密码，非常简单，但前提是需要有一点linux基础。</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://img-blog.csdn.net/20160429113500826"
+        data-srcset="https://img-blog.csdn.net/20160429113500826, https://img-blog.csdn.net/20160429113500826 1.5x, https://img-blog.csdn.net/20160429113500826 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdn.net/20160429113500826"
+        title="这里写图片描述" /></p>
+<ul>
+<li><a href="javascript:;" rel=""> 点赞  </a></li>
+<li><a href="javascript:;" rel=""> 收藏  </a></li>
+<li><a href="javascript:;" rel=""> 分享 </a></li>
+<li>
+<pre><code>* 文章举报 
+</code></pre>
+</li>
+</ul>
+<p> <img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://profile.csdnimg.cn/2/1/1/3_thriller"
+        data-srcset="https://profile.csdnimg.cn/2/1/1/3_thriller, https://profile.csdnimg.cn/2/1/1/3_thriller 1.5x, https://profile.csdnimg.cn/2/1/1/3_thriller 2x"
+        data-sizes="auto"
+        alt="https://profile.csdnimg.cn/2/1/1/3_thriller"
+        title="https://profile.csdnimg.cn/2/1/1/3_thriller" />
+<a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://g.csdnimg.cn/static/user-reg-year/1x/20.png"
+        data-srcset="https://g.csdnimg.cn/static/user-reg-year/1x/20.png, https://g.csdnimg.cn/static/user-reg-year/1x/20.png 1.5x, https://g.csdnimg.cn/static/user-reg-year/1x/20.png 2x"
+        data-sizes="auto"
+        alt="https://g.csdnimg.cn/static/user-reg-year/1x/20.png"
+        title="https://g.csdnimg.cn/static/user-reg-year/1x/20.png" />
+</a></p>
+<p><a href="https://blog.csdn.net/thriller" target="_blank" rel="noopener noreffer"> thriller </a></p>
+<p>发布了19 篇原创文章  ·  获赞 18  ·  访问量 5万+</p>
+<p><a href="https://im.csdn.net/im/main.html?userName=thriller" target="_blank" rel="noopener noreffer"> 私信 </a> 关注</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 0001-01-01</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/blog/%E8%B6%8A%E7%8B%B1%E4%B9%8B%E5%90%8E%E5%A6%82%E4%BD%95%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5sshios%E8%AE%BE%E5%A4%87/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/blog/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/blog/%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8hookapi%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3sqlite3%E5%8A%A0%E5%AF%86%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93/" class="prev" rel="prev" title="首次使用HOOKAPI暴力破解SQLITE3加密的数据库"><i class="fas fa-angle-left fa-fw"></i>首次使用HOOKAPI暴力破解SQLITE3加密的数据库</a>
+            <a href="/blog/%E7%A0%B4%E8%A7%A3%E4%BA%86xxtea%E5%8A%A0%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AF%8C%E7%BF%819%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6/" class="next" rel="next" title="破解了XXTEA加密的《大富翁9》资源文件">破解了XXTEA加密的《大富翁9》资源文件<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.67.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bihai.org" target="_blank">bihai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/blog/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/blog/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/blog/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/blog/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/blog/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/blog/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/blog/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script></body>
+</html>
