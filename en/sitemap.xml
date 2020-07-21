@@ -2,55 +2,55 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://bihai.org/blog/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://bihai.org/en/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bihai.org/blog/"
+                        href="https://bihai.org/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://bihai.org/blog/fr/"
+                        href="https://bihai.org/fr/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bihai.org/blog/en/"
+                    href="https://bihai.org/en/"
                     /></url><url>
-            <loc>https://bihai.org/blog/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bihai.org/blog/categories/"
+                        href="https://bihai.org/categories/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://bihai.org/blog/fr/categories/"
+                        href="https://bihai.org/fr/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bihai.org/blog/en/categories/"
+                    href="https://bihai.org/en/categories/"
                     /></url><url>
-            <loc>https://bihai.org/blog/en/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bihai.org/blog/categories/documentation/"
+                        href="https://bihai.org/categories/documentation/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://bihai.org/blog/fr/categories/documentation/"
+                        href="https://bihai.org/fr/categories/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bihai.org/blog/en/categories/documentation/"
+                    href="https://bihai.org/en/categories/documentation/"
                     /></url><url>
-            <loc>https://bihai.org/blog/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://bihai.org/en/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://bihai.org/blog/tags/"
+                        href="https://bihai.org/tags/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://bihai.org/blog/fr/tags/"
+                        href="https://bihai.org/fr/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://bihai.org/blog/en/tags/"
+                    href="https://bihai.org/en/tags/"
                     /></url></urlset>
