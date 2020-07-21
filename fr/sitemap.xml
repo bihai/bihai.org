@@ -132,6 +132,19 @@
                     hreflang="fr"
                     href="https://bihai.org/blog/fr/tags/installation/"
                     /></url><url>
+            <loc>https://bihai.org/blog/fr/</loc><lastmod>2020-03-06T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bihai.org/blog/en/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/blog/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="https://bihai.org/blog/fr/"
+                    /></url><url>
             <loc>https://bihai.org/blog/fr/posts/</loc><lastmod>2020-03-06T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -235,30 +248,4 @@
                     rel="alternate"
                     hreflang="fr"
                     href="https://bihai.org/blog/fr/tags/emoji/"
-                    /></url><url>
-            <loc>https://bihai.org/blog/fr/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bihai.org/blog/en/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/blog/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="https://bihai.org/blog/fr/"
-                    /></url><url>
-            <loc>https://bihai.org/blog/fr/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bihai.org/blog/en/about/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/blog/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="https://bihai.org/blog/fr/about/"
                     /></url></urlset>
