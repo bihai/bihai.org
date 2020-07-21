@@ -1,0 +1,8 @@
+title: Bihai.org
+description: bihai.org the blog
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-merlot
+
+gems:
+  - jekyll-mentions

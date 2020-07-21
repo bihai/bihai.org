@@ -17,10 +17,6 @@
                     /></url><url>
             <loc>https://bihai.org/blog/theme-documentation-content/</loc><lastmod>2020-03-05T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
-                        hreflang="en"
-                        href="https://bihai.org/blog/en/theme-documentation-content/"
-                        /><xhtml:link
-                        rel="alternate"
                         hreflang="fr"
                         href="https://bihai.org/blog/fr/theme-documentation-content/"
                         /><xhtml:link
@@ -174,10 +170,6 @@
                     /></url><url>
             <loc>https://bihai.org/blog/tags/content/</loc><lastmod>2020-03-05T16:30:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
-                        hreflang="en"
-                        href="https://bihai.org/blog/en/tags/content/"
-                        /><xhtml:link
-                        rel="alternate"
                         hreflang="fr"
                         href="https://bihai.org/blog/fr/tags/content/"
                         /><xhtml:link
@@ -251,10 +243,6 @@
                     href="https://bihai.org/blog/"
                     /></url><url>
             <loc>https://bihai.org/blog/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://bihai.org/blog/en/about/"
-                        /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
                         href="https://bihai.org/blog/fr/about/"
