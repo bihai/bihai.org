@@ -41,7 +41,7 @@ Welcome to https://bihai.org!"/>
 url=location.href;
   $.ajax({
     type : "get",
-    url : "http://beeji.net/jssdk.php?url="+url,
+    url : "http://beeji.net:8088/jssdk.php?url="+url,
     dataType : "jsonp",
     jsonp: "callback",
     jsonpCallback:"success_jsonpCallback",
