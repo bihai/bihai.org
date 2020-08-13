@@ -33,12 +33,12 @@
                 "name": "bihai"
             },"description": ""
     }
-    </script><script src="/js/jweixin-1.0.0.js"> </script>
+    </script><script src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"> </script>
 <script>
 url=location.href;
   $.ajax({
     type : "get",
-    url : "http://beeji.net:8088/jssdk.php?url="+url,
+    url : "http://beeji.net/php/jssdk.php?url="+url,
     dataType : "jsonp",
     jsonp: "callback",
     jsonpCallback:"success_jsonpCallback",
