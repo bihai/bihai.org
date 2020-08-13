@@ -4,6 +4,8 @@
 	<sitemap>
 	   	<loc>https://bihai.org/en/sitemap.xml</loc>
 		
+	   	<lastmod>2016-09-28T10:00:47+08:00</lastmod>
+		
 	</sitemap>
 	
 	<sitemap>
@@ -15,6 +17,8 @@
 	
 	<sitemap>
 	   	<loc>https://bihai.org/fr/sitemap.xml</loc>
+		
+	   	<lastmod>2016-09-28T10:00:47+08:00</lastmod>
 		
 	</sitemap>
 	

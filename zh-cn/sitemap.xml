@@ -2,7 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://bihai.org/about/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -29,10 +28,71 @@
                     hreflang="zh-cn"
                     href="https://bihai.org/categories/"
                     /></url><url>
-            <loc>https://bihai.org/posts/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://bihai.org/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bihai.org/posts/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bihai.org/en/posts/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://bihai.org/fr/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://bihai.org/posts/"
+                    /></url><url>
+            <loc>https://bihai.org/about/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bihai.org/en/about/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://bihai.org/fr/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://bihai.org/about/"
+                    /></url><url>
+            <loc>https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bihai.org/en/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://bihai.org/fr/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/"
+                    /></url><url>
+            <loc>https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bihai.org/en/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://bihai.org/fr/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/"
+                    /></url><url>
+            <loc>https://bihai.org/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</loc><lastmod>2016-09-28T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://bihai.org/en/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://bihai.org/fr/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://bihai.org/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/"
+                    /></url><url>
             <loc>https://bihai.org/tags/android/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/categories/android/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://bihai.org/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
