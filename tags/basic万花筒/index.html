@@ -16,7 +16,47 @@
 <meta name="application-name" content="bihai.org-Á¢ßÊµ∑ÁìØÈòÅ">
 <meta name="apple-mobile-web-app-title" content="bihai.org-Á¢ßÊµ∑ÁìØÈòÅ"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/tags/basic%E4%B8%87%E8%8A%B1%E7%AD%92/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"></head>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/tags/basic%E4%B8%87%E8%8A%B1%E7%AD%92/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script src="/js/jweixin-1.0.0.js"> </script>
+<script>
+url=location.href;
+  $.ajax({
+    type : "get",
+    url : "http://beeji.net/jssdk.php?url="+url,
+    dataType : "jsonp",
+    jsonp: "callback",
+    jsonpCallback:"success_jsonpCallback",
+    success : function(data){
+        wx.config({
+appId: data.appId,
+timestamp: data.timestamp,
+nonceStr: data.nonceStr,
+signature: data.signature,
+jsApiList: [
+       "onMenuShareTimeline", 
+       "onMenuShareAppMessage", 
+       "onMenuShareQQ",  
+       "onMenuShareWeibo" 
+]
+});
+},
+                error:function(data){
+                    alert("¡¨Ω” ß∞‹£°");
+                }
+});
+  wx.ready(function (){
+  var shareData = {
+  title: '±ÍÃ‚',
+  desc: 'ºÚΩÈ',
+  link: '¡¥Ω”',
+  imgUrl: 'Ã‚Õº'
+  };
+  wx.onMenuShareAppMessage(shareData);
+  wx.onMenuShareTimeline(shareData);
+  wx.onMenuShareQQ(shareData);
+  wx.onMenuShareWeibo(shareData);
+    });
+</script>
+    </head>
     <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
