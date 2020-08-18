@@ -41,7 +41,15 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/"
                     /></url><url>
-            <loc>https://bihai.org/en/solitaire/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://bihai.org/en/solitaire/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/solitaire/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/solitaire/"
+                    /></url><url>
             <loc>https://bihai.org/en/posts/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
