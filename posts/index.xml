@@ -3,7 +3,14 @@
         <title>所有文章 - bihai.org-碧海瓯阁</title>
         <link>https://bihai.org/posts/</link>
         <description>所有文章 | bihai.org-碧海瓯阁</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 13 Aug 2020 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>微软纸牌合集资源文件研究</title>
+    <link>https://bihai.org/solitaire/</link>
+    <pubDate>Thu, 13 Aug 2020 10:00:47 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://bihai.org/solitaire/</guid>
+    <description><![CDATA[Bihai.org Improves High Artificial Intelligence. ### 视频 %[电影](http://markdown.xiaoshujiang.com/media/movie.ogg) 音频 ~音乐 Welcome to]]></description>
+</item><item>
     <title>关于bihai.org</title>
     <link>https://bihai.org/about/</link>
     <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://bihai.org/shell-%E8%84%9A%E6%9C%AC%E4%B8%AD%E7%BB%8F%E5%B8%B8%E8%A6%81%E7%94%A8%E5%88%B0ssh%E6%80%8E%E4%B9%88%E8%83%BD%E4%B8%8D%E4%BA%A4%E4%BA%92%E7%9A%84%E8%BE%93%E5%AF%86%E7%A0%81%E5%91%A2/</guid>
     <description><![CDATA[1、登录A机器 2、 ssh-keygen -t [rsa|dsa] ，将会在~/.ssh下生成密钥文件和私钥文件 id_rsa,id_rsa.pub 或 id_dsa,id_dsa.pub 3、将 .pub 文件复制到B机器的 .ssh 目录， 并 cat id_dsa.pub &gt;&gt; ~/.ssh/authorized_keys 4、大功告成，从A机器]]></description>
-</item><item>
-    <title>Tyche.cc 上线！</title>
-    <link>https://bihai.org/tyche.cc-%E4%B8%8A%E7%BA%BF/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://bihai.org/tyche.cc-%E4%B8%8A%E7%BA%BF/</guid>
-    <description><![CDATA[tyche.cc = Torch your confidence, hope &amp; emotion. 点燃你的信心、希望和激情。 上次注册的tyche.cn因为忙忘了续费，被人抢注了，虽然烦了几天，但是因为.cn要求实名制，价格]]></description>
 </item></channel>
 </rss>
