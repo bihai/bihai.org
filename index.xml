@@ -6,34 +6,6 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 19 Aug 2020 10:00:47 &#43;0800</lastBuildDate>
             <atom:link href="https://bihai.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>主题文档 - 基本概念</title>
-    <link>https://bihai.org/theme-documentation-basics/</link>
-    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://bihai.org/theme-documentation-basics/</guid>
-    <description><![CDATA[<p>探索 Hugo - <strong>LoveIt</strong> 主题的全部内容和背后的核心概念.</p>]]></description>
-</item><item>
-    <title>主题文档 - 内容</title>
-    <link>https://bihai.org/theme-documentation-content/</link>
-    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://bihai.org/theme-documentation-content/</guid>
-    <description><![CDATA[<p>了解如何在 <strong>LoveIt</strong> 主题中快速, 直观地创建和组织内容.</p>]]></description>
-</item><item>
-    <title>主题文档 - 内置 Shortcodes</title>
-    <link>https://bihai.org/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://bihai.org/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<p><strong>Hugo</strong> 提供了多个内置的 Shortcodes, 以方便作者保持 Markdown 内容的整洁.</p>]]></description>
-</item><item>
-    <title>主题文档 - 扩展 Shortcodes</title>
-    <link>https://bihai.org/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Tue, 03 Mar 2020 16:29:59 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://bihai.org/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<p><strong>LoveIt</strong> 主题在 Hugo 内置的 shortcode 的基础上提供多个扩展的 shortcode.</p>]]></description>
-</item><item>
     <title>Markdown 基本语法</title>
     <link>https://bihai.org/basic-markdown-syntax/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
@@ -75,5 +47,33 @@
     <author>作者</author>
     <guid>https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
     <description><![CDATA[Win 10运行Geany for linux 1、打开bash 2、安装geany apt-get install geany* 3、安装Xming https://sourceforge.net/projects/xming/ 4、安装x11 apt-get install libX11-dev libXext-dev libXtst-dev libXrender-dev libxmu-dev libxmuu-dev msttcorefonts gtk2-engines-pixbuf``` 5、运行geany $ geany]]></description>
+</item><item>
+    <title>BASIC万花筒</title>
+    <link>https://bihai.org/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://bihai.org/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</guid>
+    <description><![CDATA[A{TEXT-DECORATION: none;} A:hover{COLOR: #CC0000;} A:link {color: #0000cc;} A:visited {color: #0000aa;} BODY { FONT-SIZE: 9pt; FONT-FAMILY:tahoma; } td { FONT-SIZE: 9pt; FONT-FAMILY:tahoma; } 点赞 收藏 分享 * 文章举报 thriller 发布了19 篇原创文章 · 获赞 18 · 访问量 5万+ 私信 关注]]></description>
+</item><item>
+    <title>iOS toolchain for bash on windows</title>
+    <link>https://bihai.org/ios-toolchain-for-bash-on-windows/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://bihai.org/ios-toolchain-for-bash-on-windows/</guid>
+    <description><![CDATA[** Bash on windows 可以生成iOS或者Mac应用，WOW! ** git clone --recursive https://github.com/waneck/linux-ios-toolchain.git cd linux-ios-toolchain sudo apt-get install gcc g++ clang libclang-dev uuid-dev libssl-dev libpng12-dev libicu-dev bison flex libsqlite3-dev libtool llvm-dev libxml2-dev automake pkg-config make sudo make install #下载toolchain4: git clone https://github.com/javacom/toolchain4.git]]></description>
+</item><item>
+    <title>J2ME中用LWUIT画简单的指针时钟</title>
+    <link>https://bihai.org/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://bihai.org/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</guid>
+    <description><![CDATA[J2ME中用LWUIT画简单的指针时钟by thriller at http://tyche.cnLWUIT(The Lightweight UI Toolkit)是一个轻量级JavaME 用户界面工具包。LWUIT类似Swing 的MVC]]></description>
+</item><item>
+    <title>J2ME版太奇论语</title>
+    <link>https://bihai.org/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://bihai.org/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</guid>
+    <description><![CDATA[J2ME版太奇论语终于初步完成啦 这是英语版，可以学英语简单对话。 [flash=340,340]http://player.youku.com/player.php/sid/XMTIzMjg0OTA0/v.swf[/fla sh] 20天做完，大多业余时间，效率不错，而且顺便自学了下J2ME和JAVA，]]></description>
 </item></channel>
 </rss>

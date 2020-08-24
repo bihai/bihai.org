@@ -11,58 +11,6 @@
                     hreflang="en"
                     href="https://bihai.org/en/solitaire/"
                     /></url><url>
-            <loc>https://bihai.org/en/theme-documentation-basics/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/theme-documentation-basics/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/theme-documentation-basics/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bihai.org/en/theme-documentation-basics/"
-                    /></url><url>
-            <loc>https://bihai.org/en/theme-documentation-content/</loc><lastmod>2020-03-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/theme-documentation-content/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/theme-documentation-content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bihai.org/en/theme-documentation-content/"
-                    /></url><url>
-            <loc>https://bihai.org/en/theme-documentation-built-in-shortcodes/</loc><lastmod>2020-03-04T16:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/theme-documentation-built-in-shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/theme-documentation-built-in-shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bihai.org/en/theme-documentation-built-in-shortcodes/"
-                    /></url><url>
-            <loc>https://bihai.org/en/theme-documentation-extended-shortcodes/</loc><lastmod>2020-03-03T16:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/theme-documentation-extended-shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/theme-documentation-extended-shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bihai.org/en/theme-documentation-extended-shortcodes/"
-                    /></url><url>
             <loc>https://bihai.org/en/basic-markdown-syntax/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -185,10 +133,6 @@
                         hreflang="zh-cn"
                         href="https://bihai.org/tags/configuration/"
                         /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/tags/configuration/"
-                        /><xhtml:link
                     rel="alternate"
                     hreflang="en"
                     href="https://bihai.org/en/tags/configuration/"
@@ -211,10 +155,6 @@
                         hreflang="zh-cn"
                         href="https://bihai.org/tags/installation/"
                         /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/tags/installation/"
-                        /><xhtml:link
                     rel="alternate"
                     hreflang="en"
                     href="https://bihai.org/en/tags/installation/"
@@ -232,45 +172,6 @@
                     hreflang="en"
                     href="https://bihai.org/en/tags/"
                     /></url><url>
-            <loc>https://bihai.org/en/tags/content/</loc><lastmod>2020-03-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/tags/content/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/tags/content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bihai.org/en/tags/content/"
-                    /></url><url>
-            <loc>https://bihai.org/en/tags/markdown/</loc><lastmod>2020-03-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/tags/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/tags/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bihai.org/en/tags/markdown/"
-                    /></url><url>
-            <loc>https://bihai.org/en/tags/shortcodes/</loc><lastmod>2020-03-04T16:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://bihai.org/tags/shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://bihai.org/fr/tags/shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://bihai.org/en/tags/shortcodes/"
-                    /></url><url>
             <loc>https://bihai.org/en/tags/html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -283,6 +184,19 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://bihai.org/en/tags/html/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/markdown/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="fr"
+                        href="https://bihai.org/fr/tags/markdown/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/markdown/"
                     /></url><url>
             <loc>https://bihai.org/en/categories/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
