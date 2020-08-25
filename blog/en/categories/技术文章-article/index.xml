@@ -1,15 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>技术文章-article - Category - bihai.org</title>
-        <link>https://bihai.org/blog/en/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</link>
-        <description>技术文章-article - Category - bihai.org</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 13 Aug 2020 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/blog/en/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/" rel="self" type="application/rss+xml" /><item>
-    <title>About bihai.org</title>
-    <link>https://bihai.org/blog/en/20/8/13/about-bihai.org/</link>
-    <pubDate>Thu, 13 Aug 2020 10:00:47 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://bihai.org/blog/en/20/8/13/about-bihai.org/</guid>
-    <description><![CDATA[Bihai.org Improves High Artificial Intelligence. ### 视频%[电影](http://markdown.xiaoshujiang.com/media/movie.ogg)音频 ~音乐
-Welcome to https://bihai.org!]]></description>
-</item></channel>
-</rss>
