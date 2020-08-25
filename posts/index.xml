@@ -5,73 +5,73 @@
         <description>所有文章 | bihai.org-碧海瓯阁</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 19 Aug 2020 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Markdown 基本语法</title>
-    <link>https://bihai.org/basic-markdown-syntax/</link>
+    <link>https://bihai.org/19/12/1/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/basic-markdown-syntax/</guid>
+    <guid>https://bihai.org/19/12/1/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</guid>
     <description><![CDATA[<p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.</p>]]></description>
 </item><item>
     <title>Emoji 支持</title>
-    <link>https://bihai.org/emoji-support/</link>
+    <link>https://bihai.org/19/10/1/emoji-%E6%94%AF%E6%8C%81/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/emoji-support/</guid>
+    <guid>https://bihai.org/19/10/1/emoji-%E6%94%AF%E6%8C%81/</guid>
     <description><![CDATA[<p>Emoji 可以通过多种方式在 Hugo 项目中启用.</p>]]></description>
 </item><item>
     <title>微软纸牌合集资源文件研究</title>
-    <link>https://bihai.org/solitaire/</link>
+    <link>https://bihai.org/20/8/19/%E5%BE%AE%E8%BD%AF%E7%BA%B8%E7%89%8C%E5%90%88%E9%9B%86%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E7%A0%94%E7%A9%B6/</link>
     <pubDate>Wed, 19 Aug 2020 10:00:47 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/solitaire/</guid>
+    <guid>https://bihai.org/20/8/19/%E5%BE%AE%E8%BD%AF%E7%BA%B8%E7%89%8C%E5%90%88%E9%9B%86%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E7%A0%94%E7%A9%B6/</guid>
     <description><![CDATA[成功反编译“微软纸牌集合”资源文件 1989年，微软推出了Windows 2.0图像操作系统，微软纸牌合集(Microsoft Solitaire Collecti]]></description>
 </item><item>
     <title>关于bihai.org</title>
-    <link>https://bihai.org/about/</link>
+    <link>https://bihai.org/16/9/28/%E5%85%B3%E4%BA%8Ebihai.org/</link>
     <pubDate>Wed, 28 Sep 2016 10:00:47 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/about/</guid>
+    <guid>https://bihai.org/16/9/28/%E5%85%B3%E4%BA%8Ebihai.org/</guid>
     <description><![CDATA[bihai.org 碧海瓯阁 欢迎大家访问&quot;碧海瓯阁&rdquo; http://bihai.org ！]]></description>
 </item><item>
     <title>android   J2ME 联网获得html</title>
-    <link>https://bihai.org/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</link>
+    <link>https://bihai.org/01/1/1/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</guid>
+    <guid>https://bihai.org/01/1/1/android-j2me-%E8%81%94%E7%BD%91%E8%8E%B7%E5%BE%97html/</guid>
     <description><![CDATA[JAVA CODE :android 代码： 1 2 3 4 5 6 7 8 9101112131415161718192021222324252627 28293031323334353637383940414243444546474849505152535455565758 点赞 收藏 分享 * 文章举报 thriller 发布了19 篇原创文章 · 获赞 18 · 访问量 5万+ 私信 关注]]></description>
 </item><item>
     <title>bash for windows 运行Geany</title>
-    <link>https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
+    <link>https://bihai.org/01/1/1/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
+    <guid>https://bihai.org/01/1/1/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/</guid>
     <description><![CDATA[Win 10运行Geany for linux 1、打开bash 2、安装geany apt-get install geany* 3、安装Xming https://sourceforge.net/projects/xming/ 4、安装x11 apt-get install libX11-dev libXext-dev libXtst-dev libXrender-dev libxmu-dev libxmuu-dev msttcorefonts gtk2-engines-pixbuf``` 5、运行geany $ geany]]></description>
 </item><item>
     <title>BASIC万花筒</title>
-    <link>https://bihai.org/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</link>
+    <link>https://bihai.org/01/1/1/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</guid>
+    <guid>https://bihai.org/01/1/1/basic%E4%B8%87%E8%8A%B1%E7%AD%92/</guid>
     <description><![CDATA[A{TEXT-DECORATION: none;} A:hover{COLOR: #CC0000;} A:link {color: #0000cc;} A:visited {color: #0000aa;} BODY { FONT-SIZE: 9pt; FONT-FAMILY:tahoma; } td { FONT-SIZE: 9pt; FONT-FAMILY:tahoma; } 点赞 收藏 分享 * 文章举报 thriller 发布了19 篇原创文章 · 获赞 18 · 访问量 5万+ 私信 关注]]></description>
 </item><item>
     <title>iOS toolchain for bash on windows</title>
-    <link>https://bihai.org/ios-toolchain-for-bash-on-windows/</link>
+    <link>https://bihai.org/01/1/1/ios-toolchain-for-bash-on-windows/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/ios-toolchain-for-bash-on-windows/</guid>
+    <guid>https://bihai.org/01/1/1/ios-toolchain-for-bash-on-windows/</guid>
     <description><![CDATA[** Bash on windows 可以生成iOS或者Mac应用，WOW! ** git clone --recursive https://github.com/waneck/linux-ios-toolchain.git cd linux-ios-toolchain sudo apt-get install gcc g++ clang libclang-dev uuid-dev libssl-dev libpng12-dev libicu-dev bison flex libsqlite3-dev libtool llvm-dev libxml2-dev automake pkg-config make sudo make install #下载toolchain4: git clone https://github.com/javacom/toolchain4.git]]></description>
 </item><item>
     <title>J2ME中用LWUIT画简单的指针时钟</title>
-    <link>https://bihai.org/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</link>
+    <link>https://bihai.org/01/1/1/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</guid>
+    <guid>https://bihai.org/01/1/1/j2me%E4%B8%AD%E7%94%A8lwuit%E7%94%BB%E7%AE%80%E5%8D%95%E7%9A%84%E6%8C%87%E9%92%88%E6%97%B6%E9%92%9F/</guid>
     <description><![CDATA[J2ME中用LWUIT画简单的指针时钟by thriller at http://tyche.cnLWUIT(The Lightweight UI Toolkit)是一个轻量级JavaME 用户界面工具包。LWUIT类似Swing 的MVC]]></description>
 </item><item>
     <title>J2ME版太奇论语</title>
-    <link>https://bihai.org/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</link>
+    <link>https://bihai.org/01/1/1/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://bihai.org/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</guid>
+    <guid>https://bihai.org/01/1/1/j2me%E7%89%88%E5%A4%AA%E5%A5%87%E8%AE%BA%E8%AF%AD/</guid>
     <description><![CDATA[J2ME版太奇论语终于初步完成啦 这是英语版，可以学英语简单对话。 [flash=340,340]http://player.youku.com/player.php/sid/XMTIzMjg0OTA0/v.swf[/fla sh] 20天做完，大多业余时间，效率不错，而且顺便自学了下J2ME和JAVA，]]></description>
 </item></channel>
 </rss>
