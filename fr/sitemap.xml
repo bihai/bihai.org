@@ -95,10 +95,6 @@
                     /></url><url>
             <loc>https://bihai.org/fr/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
-                        hreflang="en"
-                        href="https://bihai.org/en/tags/content/"
-                        /><xhtml:link
-                        rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/tags/content/"
                         /><xhtml:link
