@@ -128,17 +128,17 @@ function sliders () {
       stopOnHover: true,
       lazyLoad: true,
       addClassActive: true,
-      autoHeight: false,
-      items : 6,
+      autoHeight: true,
+      items : 9,
       itemsCustom : false,
-      itemsRetinaDesktop : [1499,10],
+      itemsRetinaDesktop : [1499,9],
       itemsDesktop : [1199, 8],
       itemsDesktopSmall : [979, 7],
       itemsTablet : [749, 5],
       itemsTabletSmall : false,
       itemsMobile : [479, 5],
       singleItem : false,
-      itemsScaleUp : true,
+      itemsScaleUp : false,
 
       afterInit: function () {
         // animationsSlider()
