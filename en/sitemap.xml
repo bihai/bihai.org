@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://bihai.org/en/microsoft-solitaire/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bihai.org/en/microsoft-solitaire/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/microsoft-solitaire/"
@@ -102,7 +102,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/"
                     /></url><url>
-            <loc>https://bihai.org/en/tags/content/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bihai.org/en/tags/content/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/tags/content/"
@@ -115,7 +115,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/tags/content/"
                     /></url><url>
-            <loc>https://bihai.org/en/categories/documentation/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/documentation/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/categories/documentation/"
@@ -128,8 +128,8 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/documentation/"
                     /></url><url>
-            <loc>https://bihai.org/en/tags/markdown/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://bihai.org/en/tags/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://bihai.org/en/tags/markdown/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://bihai.org/en/tags/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/tags/"
@@ -141,4 +141,274 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://bihai.org/en/tags/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/article/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/article/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/article/"
+                    /></url><url>
+            <loc>https://bihai.org/en/categories/article/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/categories/article/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/categories/article/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.10/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.10/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.10/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.11/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.11/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.11/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.1/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.1/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.1/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.2/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.2/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.2/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.3/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.3/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.3/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.4/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.4/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.4/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.5/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.5/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.5/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.6/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.6/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.6/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.7/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.7/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.7/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.8/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.8/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.8/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field.9/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field.9/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field.9/"
+                    /></url><url>
+            <loc>https://bihai.org/en/charming-evening-field/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/charming-evening-field/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/charming-evening-field/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/fashion/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/fashion/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/fashion/"
+                    /></url><url>
+            <loc>https://bihai.org/en/categories/fashion/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/categories/fashion/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/categories/fashion/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/finance/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/finance/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/finance/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/food/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/food/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/food/"
+                    /></url><url>
+            <loc>https://bihai.org/en/categories/food/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/categories/food/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/categories/food/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/nature/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/nature/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/nature/"
+                    /></url><url>
+            <loc>https://bihai.org/en/categories/nature/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/categories/nature/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/categories/nature/"
+                    /></url><url>
+            <loc>https://bihai.org/en/organize-your-life.1/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/organize-your-life.1/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/organize-your-life.1/"
+                    /></url><url>
+            <loc>https://bihai.org/en/organize-your-life.2/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/organize-your-life.2/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/organize-your-life.2/"
+                    /></url><url>
+            <loc>https://bihai.org/en/organize-your-life.3/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/organize-your-life.3/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/organize-your-life.3/"
+                    /></url><url>
+            <loc>https://bihai.org/en/organize-your-life.4/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/organize-your-life.4/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/organize-your-life.4/"
+                    /></url><url>
+            <loc>https://bihai.org/en/organize-your-life/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/organize-your-life/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/organize-your-life/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/philosophy/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/philosophy/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/philosophy/"
+                    /></url><url>
+            <loc>https://bihai.org/en/categories/philosophy/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/categories/philosophy/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/categories/philosophy/"
+                    /></url><url>
+            <loc>https://bihai.org/en/tags/photos/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/tags/photos/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/tags/photos/"
+                    /></url><url>
+            <loc>https://bihai.org/en/categories/valuable-idea/</loc><lastmod>2019-05-14T14:46:10&#43;06:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://bihai.org/categories/valuable-idea/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://bihai.org/en/categories/valuable-idea/"
                     /></url></urlset>

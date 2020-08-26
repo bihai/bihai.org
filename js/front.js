@@ -78,7 +78,6 @@ function demo () {
 
 /* slider homepage */
 function sliderHomepage () {
-	
   if ($('#slider').length) {
     // var owl = $('#slider')
 
@@ -94,16 +93,15 @@ function sliderHomepage () {
 
 /* sliders */
 function sliders () {
-	
   if ($('.owl-carousel').length) {
     $('.customers').owlCarousel({
-      items: 6,
-      itemsDesktopSmall: [990, 4],
-      itemsTablet: [768, 2],
-      itemsMobile: [480, 1]
+      items: 8,
+      itemsDesktopSmall: [990, 7],
+      itemsTablet: [768, 5],
+      itemsMobile: [480, 3]
     })
 
-    $('.testimonialsx').owlCarousel({
+    $('.testimonials').owlCarousel({
       items: 4,
       itemsDesktopSmall: [990, 3],
       itemsTablet: [768, 2],
@@ -120,11 +118,9 @@ function sliders () {
       singleItem: true,
       afterInit: '',
       lazyLoad: true
-      
     })
-    
-$('.featured').owlCarousel({
-      navigation: false, // Show next and prev buttons
+    $('.featured').owlCarousel({
+      navigation: true, // Show next and prev buttons
       navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
       slideSpeed: 2000,
       paginationSpeed: 1000,
@@ -132,17 +128,17 @@ $('.featured').owlCarousel({
       stopOnHover: true,
       lazyLoad: true,
       addClassActive: true,
-      autoHeight: true,
+      autoHeight: false,
       items : 6,
-        itemsCustom : false,
-        itemsRetinaDesktop : [1499,6],
-        itemsDesktop : [1199, 5],
-        itemsDesktopSmall : [979, 4],
-        itemsTablet : [749, 3],
-        itemsTabletSmall : false,
-        itemsMobile : [479, 2],
-        singleItem : false,
-        itemsScaleUp : true,
+      itemsCustom : false,
+      itemsRetinaDesktop : [1499,10],
+      itemsDesktop : [1199, 8],
+      itemsDesktopSmall : [979, 7],
+      itemsTablet : [749, 5],
+      itemsTabletSmall : false,
+      itemsMobile : [479, 5],
+      singleItem : false,
+      itemsScaleUp : true,
 
       afterInit: function () {
         // animationsSlider()
@@ -152,6 +148,7 @@ $('.featured').owlCarousel({
       }
     })
 
+
     $('.homepage').owlCarousel({
       navigation: true, // Show next and prev buttons
       navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
@@ -160,19 +157,8 @@ $('.featured').owlCarousel({
       autoPlay: true,
       stopOnHover: true,
       singleItem: true,
-      lazyLoad: true,
+      lazyLoad: false,
       addClassActive: true,
-      items : 1,
-        /*itemsCustom : false,
-        itemsRetinaDesktop : [1499, 3],
-        itemsDesktop : [1199, 3],
-        itemsDesktopSmall : [979, 2],
-        itemsTablet : [749, 2],
-        itemsTabletSmall : false,
-        itemsMobile : [479, 1],
-        singleItem : false,
-        itemsScaleUp : false,
-*/
       afterInit: function () {
         // animationsSlider()
       },
@@ -286,7 +272,7 @@ function fullScreenContainer () {
   })
 }
 
-function utils() {
+function utils () {
   /* tooltips */
   $('[data-toggle="tooltip"]').tooltip()
 
