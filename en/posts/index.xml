@@ -5,31 +5,17 @@
         <description>All Posts | bihai.org</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 13 Aug 2020 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/en/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Solitaire</title>
-    <link>https://bihai.org/en/20/8/5/solitaire/</link>
+    <link>https://bihai.org/en/microsoft-solitaire/</link>
     <pubDate>Wed, 05 Aug 2020 15:58:26 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://bihai.org/en/20/8/5/solitaire/</guid>
-    <description><![CDATA[<p>Discover what the Hugo - <strong>LoveIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
-</item><item>
-    <title>Basic Markdown Syntax</title>
-    <link>https://bihai.org/en/19/12/1/basic-markdown-syntax/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://bihai.org/en/19/12/1/basic-markdown-syntax/</guid>
-    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
-</item><item>
-    <title>Emoji Support</title>
-    <link>https://bihai.org/en/19/10/1/emoji-support/</link>
-    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://bihai.org/en/19/10/1/emoji-support/</guid>
-    <description><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
+    <guid>https://bihai.org/en/microsoft-solitaire/</guid>
+    <description><![CDATA[test]]></description>
 </item><item>
     <title>About bihai.org</title>
-    <link>https://bihai.org/en/20/8/13/about-bihai.org/</link>
+    <link>https://bihai.org/en/about/</link>
     <pubDate>Thu, 13 Aug 2020 10:00:47 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://bihai.org/en/20/8/13/about-bihai.org/</guid>
+    <guid>https://bihai.org/en/about/</guid>
     <description><![CDATA[Bihai.org Improves High Artificial Intelligence. ### 视频%[电影](http://markdown.xiaoshujiang.com/media/movie.ogg)音频 ~音乐
 Welcome to https://bihai.org!]]></description>
 </item></channel>
