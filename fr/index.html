@@ -101,7 +101,7 @@
     <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
 
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+        <div id="mask"></div><div class="wrapper" ><header class="desktop" id="header-desktop">
 	
     <div class="header-wrapper">
         <div class="header-title">
@@ -139,22 +139,41 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div>
-<div id="all">
+<main class="main">        
+                <div class="container1 m-0 p-0">
+
+<div class="page home"  posts></div>
 
 
-<section>
-    <div class="home-carousel">
+
+
+<section>    
+    <div class="home-carousel" style="top:auto;">
         <div class="dark-mask"></div>
-        <div class="container">
+        <div class="container1" >
             <div class="homepage owl-carousel">
+                <div class="col-lg-12 col-sm-12 mb-5">
+                    <article class="text-center">
+                      <div class="mb-5"><div class="home-profile"><div class="home-avatar"><a href="/fr/posts/" title="Postes"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/avatar.png"
+        data-srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x"
+        data-sizes="auto"
+        alt="/images/avatar.png"
+        title="/images/avatar.png" /></a></div><h5 class="home-subtitle"><div id="id-1" class="typeit"></div></h5><div class="links"><a href="https://github.com/bihai" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="mailto:bihaiorg@139.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a></div></div>
+</div>
+                    </article>
+                  </div>
+                  
                 
                 <div class="item">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-3 right">
-                            <h1>Multipurpose responsive theme</h1>
+                        <div class="col-lg-4 col-sm-4 right">
+                            <h5>Multipurpose responsive theme</h5>
                             
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-6">
                             <img class="img-responsive" src="/img/carousel/template-homepage.png" alt="">
                         </div>
                     </div>
@@ -162,11 +181,11 @@
                 
                 <div class="item">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-3 right">
-                            <h1>46 HTML pages full of features</h1>
+                        <div class="col-lg-4 col-sm-4 right">
+                            <h5>46 HTML pages full of features</h5>
                             
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-6">
                             <img class="img-responsive" src="/img/carousel/template-mac.png" alt="">
                         </div>
                     </div>
@@ -174,11 +193,11 @@
                 
                 <div class="item">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-3 right">
-                            <h1>Design</h1>
+                        <div class="col-lg-4 col-sm-4 right">
+                            <h5>Design</h5>
                             
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-6">
                             <img class="img-responsive" src="/img/carousel/template-easy-customize.png" alt="">
                         </div>
                     </div>
@@ -186,11 +205,11 @@
                 
                 <div class="item">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-3 right">
-                            <h1>Easy to customize</h1>
+                        <div class="col-lg-4 col-sm-4 right">
+                            <h5>Easy to customize</h5>
                             
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-6">
                             <img class="img-responsive" src="/img/carousel/template-easy-code.png" alt="">
                         </div>
                     </div>
@@ -204,30 +223,26 @@
 
 
 
-</div>
-            <main class="main">        
-                <div class="container">
-
-
-<div class="page home"  posts></div>
 
 
 
 
-<section>	
-	
-  <div class="featured-carousel">
-        <div class="dark-mask"></div>
-        <div class="container">
-        	
-            <div class="featured owl-carousel">
+<section class="no-mb"  style="width:100%;height:auto;margin:0;padding:0">
+  <div class="container1  m-0 p-0">
+      <div class="row">
+          <div class="">              
+              <ul class="owl-carousel featured">
+                
+                
+          
+              </ul>
               
-      
-      
-    </div></div>
+          </div>
+      </div>
   </div>
-  
 </section>
+            
+     
 
 
 
@@ -240,25 +255,26 @@
 
 
 
-<section class="section">
-
-  <div class="container" >
+<section class="section ml-2 p-1" style="width:100%">
+  
+  <div class="container1 m-1 p-2" style="width:99%"  >
     
     
     
-    <div class="row masonry-container" >
-    
+    <div class="row masonry-container " >
       
-      <div class="col-lg-3 col-sm-4 mb-0 p-2">
+      
+      <div class="col-lg-2 col-sm-4 m-0 p-2">
         <article class="text-center" style="box-shadow:0 0 2px 2px #bbbbbb">
-          <a href="https://bihai.org/fr/about/" class="btn btn-transparent">
-            <img class="img-fluid mb-1 p-0" src="https://bihai.org/" alt="post-thumb">
+          <a href="https://bihai.org/fr/about/" class="btn btn-transparent m-0 p-0">
+            <img class="img-fluid" style="width:100%;height:auto;" src="https://bihai.org/" alt="post-thumb">
           </a>
           
           
-          <h5 class="title-border1"><a class="text-dark1" href="https://bihai.org/fr/about/">About bihai.org</a></h5>
-        <br />
+          <h5 class="title-border1 m-0 p-1" ><a class="text-dark1" href="https://bihai.org/fr/about/">About bihai.org</a></h5>
+        
           
+        
           
         </article>
       </div>
@@ -641,22 +657,10 @@
 <!-- Main Stylesheet -->
   
   <link rel="stylesheet" href="https://bihai.org/css/styleFluid.min.css" media="screen">
+
   <script src="/js/front.js"></script>
 
-<script src="/js/owl.carousel.min.js"></script>
-<div class="col-lg-12 col-sm-12 mb-12">
-  <article class="text-center">
-    <div class="mb-12"><div class="home-profile"><div class="home-avatar"><a href="/fr/posts/" title="Postes"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/avatar.png"
-        data-srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x"
-        data-sizes="auto"
-        alt="/images/avatar.png"
-        title="/images/avatar.png" /></a></div><h5 class="home-subtitle"><div id="id-3" class="typeit"></div></h5><div class="links"><a href="https://github.com/bihai" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="mailto:bihaiorg@139.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a></div></div>
-</div>
-  </article>
-</div></div>
+<script src="/js/owl.carousel.min.js"></script></div>
             </main><footer class="footer">
         <div class="footer-container">
         	        <div class="footer-line">
@@ -672,7 +676,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"data":{"id-1":"Un thème Hugo simple, élégant et efficace","id-2":"Un thème Hugo simple, élégant et efficace","id-3":"Un thème Hugo simple, élégant et efficace"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"],"id-2":["id-2"],"id-3":["id-3"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"data":{"id-1":"Un thème Hugo simple, élégant et efficace","id-2":"Un thème Hugo simple, élégant et efficace"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
     <!-- Main Script -->
     
     <script src="https://bihai.org/js/scriptFluid.min.js"></script>

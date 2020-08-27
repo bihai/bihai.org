@@ -98,7 +98,7 @@ function sliders () {
       items: 8,
       itemsDesktopSmall: [990, 7],
       itemsTablet: [768, 5],
-      itemsMobile: [480, 3]
+      itemsMobile: [480, 1]
     })
 
     $('.testimonials').owlCarousel({
@@ -120,7 +120,7 @@ function sliders () {
       lazyLoad: true
     })
     $('.featured').owlCarousel({
-      navigation: true, // Show next and prev buttons
+      navigation: false, // Show next and prev buttons
       navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
       slideSpeed: 2000,
       paginationSpeed: 1000,
@@ -133,12 +133,12 @@ function sliders () {
       itemsCustom : false,
       itemsRetinaDesktop : [1499,9],
       itemsDesktop : [1199, 8],
-      itemsDesktopSmall : [979, 7],
-      itemsTablet : [749, 5],
+      itemsDesktopSmall : [979, 6],
+      itemsTablet : [749, 4],
       itemsTabletSmall : false,
-      itemsMobile : [479, 5],
+      itemsMobile : [479, 3],
       singleItem : false,
-      itemsScaleUp : false,
+      itemsScaleUp : true,
 
       afterInit: function () {
         // animationsSlider()
@@ -157,7 +157,7 @@ function sliders () {
       autoPlay: true,
       stopOnHover: true,
       singleItem: true,
-      lazyLoad: false,
+      lazyLoad: true,
       addClassActive: true,
       afterInit: function () {
         // animationsSlider()
