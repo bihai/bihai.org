@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - bihai.org-碧海瓯阁</title>
+        <title>所有文章 - bihai.org-碧海奥格</title>
         <link>https://bihai.org/posts/</link>
-        <description>所有文章 | bihai.org-碧海瓯阁</description>
+        <description>所有文章 | bihai.org-碧海奥格</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 19 Aug 2020 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>微软纸牌合集资源文件研究</title>
     <link>https://bihai.org/microsoft-solitaire/</link>
     <pubDate>Wed, 19 Aug 2020 10:00:47 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://bihai.org/microsoft-solitaire/</guid>
-    <description><![CDATA[成功反编译“微软纸牌集合”资源文件 1989年，微软推出了Windows 2.0图像操作系统，微软纸牌合集(Microsoft Solitaire Collecti]]></description>
+    <description><![CDATA[<h2 id="成功反编译微软纸牌集合资源文件">成功反编译“微软纸牌集合”资源文件</h2>]]></description>
 </item><item>
     <title>Charming Evening Field</title>
     <link>https://bihai.org/acharming-evening-field_10/</link>

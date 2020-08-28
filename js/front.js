@@ -123,22 +123,24 @@ function sliders () {
       navigation: false, // Show next and prev buttons
       navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
       slideSpeed: 2000,
-      paginationSpeed: 1000,
+      paginationSpeed: 500,
       autoPlay: true,
       stopOnHover: true,
       lazyLoad: true,
       addClassActive: true,
       autoHeight: true,
-      items : 9,
+      autoWidth: true,
+      items : 28,
       itemsCustom : false,
-      itemsRetinaDesktop : [1499,9],
-      itemsDesktop : [1199, 8],
-      itemsDesktopSmall : [979, 6],
-      itemsTablet : [749, 4],
+      itemsRetinaDesktop : [1499,28],
+      itemsDesktop : [1199, 20],
+      itemsDesktopSmall : [979, 16],
+      itemsTablet : [749, 16],
       itemsTabletSmall : false,
-      itemsMobile : [479, 3],
+      itemsMobile : [479, 6],
       singleItem : false,
       itemsScaleUp : true,
+      pagination:false,
 
       afterInit: function () {
         // animationsSlider()
@@ -159,6 +161,7 @@ function sliders () {
       singleItem: true,
       lazyLoad: true,
       addClassActive: true,
+      pagination:true,
       afterInit: function () {
         // animationsSlider()
       },
