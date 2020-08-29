@@ -130,14 +130,14 @@ function sliders () {
       addClassActive: true,
       autoHeight: true,
       autoWidth: true,
-      items : 28,
+      items : 9,
       itemsCustom : false,
-      itemsRetinaDesktop : [1499,28],
-      itemsDesktop : [1199, 20],
-      itemsDesktopSmall : [979, 16],
-      itemsTablet : [749, 16],
+      itemsRetinaDesktop : [1499,9],
+      itemsDesktop : [1199, 7],
+      itemsDesktopSmall : [979, 6],
+      itemsTablet : [749, 6],
       itemsTabletSmall : false,
-      itemsMobile : [479, 6],
+      itemsMobile : [479, 5],
       singleItem : false,
       itemsScaleUp : true,
       pagination:false,
@@ -153,6 +153,25 @@ function sliders () {
 
     $('.homepage').owlCarousel({
       navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+      slideSpeed: 2000,
+      paginationSpeed: 1000,
+      autoPlay: true,
+      stopOnHover: true,
+      singleItem: true,
+      lazyLoad: true,
+      addClassActive: true,
+      pagination:true,
+      afterInit: function () {
+        // animationsSlider()
+      },
+      afterMove: function () {
+        // animationsSlider()
+      }
+    })
+
+    $('.storefront-carousel').owlCarousel({
+      navigation: false, // Show next and prev buttons
       navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
       slideSpeed: 2000,
       paginationSpeed: 1000,

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - bihai.org-碧海奥格</title>
+        <title>所有文章 - bihai.org-碧海稻格</title>
         <link>https://bihai.org/posts/</link>
-        <description>所有文章 | bihai.org-碧海奥格</description>
+        <description>所有文章 | bihai.org-碧海稻格</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 19 Aug 2020 10:00:47 &#43;0800</lastBuildDate><atom:link href="https://bihai.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>微软纸牌合集资源文件研究</title>
     <link>https://bihai.org/microsoft-solitaire/</link>
