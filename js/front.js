@@ -22,6 +22,16 @@ $(function () {
   contactFormAjax()
 })
 
+
+  //Sort random function
+  function randomowl(owlSelector){
+    owlSelector.children().sort(function(){
+        return Math.round(Math.random()) - 0.5;
+    }).each(function(){
+      $(this).appendTo(owlSelector);
+    });
+  }
+
 // Ajax contact
 function contactFormAjax () {
   var form = $('.contact-form-ajax')
@@ -152,8 +162,12 @@ function sliders () {
 
 
     $('.homepage').owlCarousel({
-      navigation: true, // Show next and prev buttons
-      navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+      navigation: true,
+      navigationText: [
+        "<i class='fas fa-chevron-left fa-fw'></i>",
+        "<i class='fas fa-chevron-right fa-fw'></i>"
+        ],
+      //transitionStyle : "goDown",//fadeDown",
       slideSpeed: 2000,
       paginationSpeed: 1000,
       autoPlay: true,
@@ -168,6 +182,7 @@ function sliders () {
       afterMove: function () {
         // animationsSlider()
       }
+      
     })
 
     $('.storefront-carousel').owlCarousel({
