@@ -7,7 +7,10 @@ if ($.cookie('themeCSSpath')) {
 if ($.cookie('themeLayout')) {
   $('body').addClass($.cookie('themeLayout'))
 }
-
+/*document.body.addEventListener('touchmove', function (event) {
+  event.preventDefault();
+}, false);
+*/
 $(function () {
   sliderHomepage()
   sliders()
@@ -167,7 +170,7 @@ function sliders () {
         "<i class='fas fa-chevron-left fa-fw'></i>",
         "<i class='fas fa-chevron-right fa-fw'></i>"
         ],
-      //transitionStyle : "goDown",//fadeDown",
+      //transitionStyle :  "fade",//fadeUp",
       slideSpeed: 2000,
       paginationSpeed: 1000,
       autoPlay: true,

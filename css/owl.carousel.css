@@ -85,15 +85,15 @@
 }
 .owl-carousel .owl-controls .owl-buttons div,
 .owl-theme .owl-controls .owl-buttons div {
-  width: 26px;
-  height: 56px;
-  line-height: 56px;
-  margin: 0 5px 0 0;
-  font-size: 18px;
+  width: 1.5em;
+  height: 3.2em;
+  line-height: 3.2em;
+  margin: 0 0 0 0;
+  font-size: 1.5em;
   color: #fff;
   padding: 0;
   background: rgb(7, 5, 46);
-  border-radius: 5px;
+  border-radius: 0.2px;
   vertical-align: middle;
   text-align: center;
   opacity: 1;
@@ -226,22 +226,22 @@
 
 .home-carousel .owl-buttons .owl-next:hover,
 .home-carousel .owl-buttons .owl-prev:hover {
-    color: #91e4ff;
+    color: #9198ff;
     background-color: rgba(20, 20, 80, .8)
 }
 
 .home-carousel  .owl-controls .owl-buttons div,
 .owl-carousel .owl-controls .owl-buttons div,
 .owl-theme .owl-controls .owl-buttons div {
-  width: 26px;
-  height: 56px;
-  line-height: 56px;
-  margin: 0 5px 0 0;
-  font-size: 18px;
+  width: 1.5em;
+  height: 3.2em;
+  line-height: 3.2em;
+  margin: 0 0 0 0;
+  font-size: 1.5em;
   color: #fff;
   padding: 0;
   background: rgba(7, 5, 46,.5);
-  border-radius: 5px;
+  border-radius: .2em;
   vertical-align: middle;
   text-align: center;
   opacity: 1;
@@ -252,3 +252,14 @@
 	  text-align: center !important;
 	}
   }
+  .home-carousel .owl-wrapper {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+  .home-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    -webkit-transform-style: preserve-3d
+}
