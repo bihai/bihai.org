@@ -1,6 +1,6 @@
 # 微软纸牌合集资源文件研究
 
-## 成功反编译“微软纸牌集合”资源文件
+## 成功反编译"微软纸牌集合"资源文件
 <!--more-->
 1989年，微软推出了Windows 2.0图像操作系统，微软纸牌合集(Microsoft Solitaire Collection)开始随windows捆绑，成了大众休闲放松的利器。后来微软将它单独拿出来发扬光大，做出了跨平台的游戏，还是值得一玩，可惜限制比较多，于是乎最近花了一天时间，终于成功反编译了“微软纸牌集合（Microsoft Solitaire Collection）”的资源文件，以及图片集索引逆向转为跨平台json/atlas/texturePacker文件格式，可以直接用于跨平台软件制作，包括网页版，只是作为研究而已，没什么实际意义。至此，微软全平台游戏终于全部解包完毕，包括solitaire, minesweeper等等，还是很有借鉴意义。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200819181552183.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RocmlsbGVy,size_16,color_FFFFFF,t_70#pic_center)

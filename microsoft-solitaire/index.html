@@ -90,10 +90,10 @@
 <meta name="twitter:image" content="https://bihai.org/microsoft-solitaire/featured-image.jpg"/>
 <meta name="twitter:title" content="微软纸牌合集资源文件研究"/>
 <meta name="twitter:description" content="Discover what the Hugo - LoveIt theme is all about and the core-concepts behind it."/>
-<meta name="application-name" content="bihai.org-碧海奥格">
-<meta name="apple-mobile-web-app-title" content="bihai.org-碧海奥格"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/microsoft-solitaire/" /><link rel="prev" href="https://bihai.org/acharming-evening-field_10/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="css/style.scss"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/microsoft-solitaire/" /><link rel="prev" href="https://bihai.org/acharming-evening-field_10/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="css/style.scss"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -107,7 +107,7 @@
                             "url": "https:\/\/bihai.org\/microsoft-solitaire\/featured-image.jpg",
                             "width":  1600 ,
                             "height":  840 
-                        }],"genre": "featured","keywords": "installation, configuration","wordcount":  829 ,
+                        }],"genre": "featured","keywords": "installation, configuration","wordcount":  839 ,
         "url": "https:\/\/bihai.org\/microsoft-solitaire\/","datePublished": "2020-08-19T10:00:47+08:00","dateModified": "2020-08-19T10:00:47+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "bihai"},"author": {
@@ -129,7 +129,18 @@
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
                         <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/en/microsoft-solitaire/">English</option><option value="/microsoft-solitaire/" selected>简体中文</option></select>
-                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -150,7 +161,23 @@
             </a>
             
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
                     <select class="language-select" onchange="location = this.value;"><option value="/en/microsoft-solitaire/">English</option><option value="/microsoft-solitaire/" selected>简体中文</option></select>
                 </a></div>
     </div>
@@ -161,8 +188,8 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div>
-<main class="main">        
-                <div class="container1 m-0 p-0"><div class="page single special"><h1 class="single-title animated pulse faster">微软纸牌合集资源文件研究</h1><div class="content" id="content"><h2 id="成功反编译微软纸牌集合资源文件">成功反编译“微软纸牌集合”资源文件</h2>
+<main class="main" >        
+                <div class="container1 m-0 p-0"  style="z-index:9;;"><div class="page single special"><h1 class="single-title animated pulse faster">微软纸牌合集资源文件研究</h1><div class="content" id="content"><h2 id="成功反编译微软纸牌集合资源文件">成功反编译&quot;微软纸牌集合&quot;资源文件</h2>
 <p>1989年，微软推出了Windows 2.0图像操作系统，微软纸牌合集(Microsoft Solitaire Collection)开始随windows捆绑，成了大众休闲放松的利器。后来微软将它单独拿出来发扬光大，做出了跨平台的游戏，还是值得一玩，可惜限制比较多，于是乎最近花了一天时间，终于成功反编译了“微软纸牌集合（Microsoft Solitaire Collection）”的资源文件，以及图片集索引逆向转为跨平台json/atlas/texturePacker文件格式，可以直接用于跨平台软件制作，包括网页版，只是作为研究而已，没什么实际意义。至此，微软全平台游戏终于全部解包完毕，包括solitaire, minesweeper等等，还是很有借鉴意义。
 <img
         class="lazyload"
@@ -232,14 +259,15 @@ atlasIndex文件格式比较复杂，主要如下：</p>
                 </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">1999 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bihai.org" target="_blank">bihai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
                     <span class="icp">鲁ICP备18009123号</span></div>
         </div>
+        <div class="footer-line"><br /><br /><br /><br /><br /></div>
     </footer></div>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部" style=";">
                 <i class="fas fa-arrow-up fa-fw"></i>
             </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"utterances":{"blueTheme":"dark-blue","darkTheme":"photon-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"bihai/bihaiorg_hugoblogtalks"}}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"utterances":{"blueTheme":"dark-blue","darkTheme":"photon-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"bihai/bihaiorg_hugoblogtalks"}},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
     <!-- Main Script -->
     
     <script src="https://bihai.org/js/scriptFluid.min.js"></script>

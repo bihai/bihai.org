@@ -88,10 +88,10 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="bihai.org-碧海奥格"/>
 <meta name="twitter:description" content="关于 bhLoveIt 主题"/>
-<meta name="application-name" content="bihai.org-碧海奥格">
-<meta name="apple-mobile-web-app-title" content="bihai.org-碧海奥格"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="bihai.org-碧海奥格">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://bihai.org/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="bihai.org-碧海奥格">
     <link rel="feed" href="/index.xml" type="application/rss+xml" title="bihai.org-碧海奥格"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="css/style.scss"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -115,7 +115,18 @@
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/categories/documentation/"> 文档 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
                         <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/en/">English</option><option value="/" selected>简体中文</option><option value="/fr/">Français</option></select>
-                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -136,7 +147,23 @@
             </a>
             
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/categories/documentation/" title="">文档</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/bihai/bihai.org" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item" title="选择语言">简体中文<i class="fas fa-chevron-right fa-fw"></i>
                     <select class="language-select" onchange="location = this.value;"><option value="/en/">English</option><option value="/" selected>简体中文</option><option value="/fr/">Français</option></select>
                 </a></div>
     </div>
@@ -147,8 +174,8 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div>
-<main class="main">        
-                <div class="container1 m-0 p-0">
+<main class="main" >        
+                <div class="container1 m-0 p-0"  style="z-index:9;;">
 
 <div class="page home"  posts></div>
 
@@ -156,58 +183,66 @@
 
 
 
-<section class="no-mb">    
+<section class="no-mb">
     <div class="home-carousel" style="top:auto;">
         <div class="dark-mask"></div>
-        <div class="container1" >
-            <div class="homepage owl-carousel no-mb mb-0">                  
+        <div class="container1">
+            <div class="homepage owl-carousel no-mb mb-0">
                 
                 <div class="item">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-4 right">
-                            <h5>Multipurpose responsive theme</h5>
-                            
+                    <a href="/about/">
+
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 right">
+                             <span class="title h4" style="opacity:.11;">Multipurpose responsive theme</span>  
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-responsive" style="opacity:.11;"  src="/img/carousel/template-homepage.png" alt="">
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <img class="img-responsive" src="/img/carousel/template-homepage.png" alt="">
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 
                 <div class="item">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-4 right">
-                            <h5>46 HTML pages full of features</h5>
-                            
+                    <a href="/about/">
+
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 right">
+                             <span class="title h4" style="opacity:.11;">46 HTML pages full of features</span>  
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-responsive" style="opacity:.11;"  src="/img/carousel/template-mac.png" alt="">
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <img class="img-responsive" src="/img/carousel/template-mac.png" alt="">
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 
                 <div class="item">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-4 right">
-                            <h5>Design</h5>
-                            
+                    <a href="/about/">
+
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 right">
+                             <span class="title h4" style="opacity:.11;">Design</span>  
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-responsive" style="opacity:.11;"  src="/img/carousel/template-easy-customize.png" alt="">
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <img class="img-responsive" src="/img/carousel/template-easy-customize.png" alt="">
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 
                 <div class="item">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-4 right">
-                            <h5>Easy to customize</h5>
-                            
+                    <a href="/about/">
+
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-4 right">
+                             <span class="title h4" style="opacity:.11;">Easy to customize</span>  
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-responsive" style="opacity:.11;"  src="/img/carousel/template-easy-code.png" alt="">
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <img class="img-responsive" src="/img/carousel/template-easy-code.png" alt="">
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 
             </div>
@@ -216,99 +251,399 @@
     </div>
 </section>
 
-   
 
 
 
 
 
 
-<section class="no-mb" style="vertical-align: middle;">
-  <div class="container  mb-0 p-0" >
-      <div class="row" >
-          <div class="m-0 same-height-always">              
-              <div class="owl-carousel featured" >
+<style type="text/css">
+    #wrapperDockIcon {
+        position: relative;
+        ;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        top: auto;
+        z-index: 999;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    #wrapperDocksbackIcon {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        opacity: .8;
+        backdrop-filter: blur(16px);
+        background: rgba(150, 150, 220, 30);
+
+         
+
+        display: block;
+
+    }
+
+    .dockIcon {
+        opacity: .91;
+        filter: alpha(opacity=100);
+    }
+
+    .dockIcon :hover {
+        opacity: 1;
+        filter: alpha(opacity=50);
+    }
+</style>
+<div id="containerx" class="m-0 p-0" style="z-index:99;">
+    <div id="wrapperDockIcon" style="z-index:9;;text-align:center;" class="m-0 p-0">
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/1.png" width="72">
+            </a>
+        </div>
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/1.png" width="72">
+            </a>
+        </div>
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/4.png" width="72">
+            </a>
+        </div>
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/1.png" width="72">
+            </a>
+        </div>
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/2.png" width="72">
+            </a>
+        </div>
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/3.png" width="72">
+            </a>
+        </div>
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/3.png" width="72">
+            </a>
+        </div>
+        
+        <div  style="z-index:9;;text-align:center;width:64px; display:inline-block"  class="dockIcon ml-2 p-0" >
+            <a href="/about/">
+                <img class="imgIcon m-0 p-0" src="/img/carousel/2.png" width="72">
+            </a>
+        </div>
+        
+        <div id="btnHolderIcon"
+            style="text-align:right; cursor:pointer;top:auto;z-index:999;width:32px;height:32px;top:0;left:0px;position:absolute;">
+            <i id="btnUpIcon" class="fas fa-angle-up h4 " style="visibility: hidden;" onclick="switchDocks();"></i>
+            <i id="btnDownIcon" class="fas fa-angle-down h4 " style="visibility: hidden;" onclick="switchDocks();"></i>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function showDocksIcon() {
+        var aimg = document.getElementsByClassName('imgIcon');
+        
+        var wrapperDockIcon = document.getElementById('wrapperDockIcon');
+
+        
+        
+        
+        
+        var screen_width = $(window).width();
+        
+        
+        wrapperDockIcon.style.height = 1 * (Math.ceil(((aimg.length) * 72 + 72) / screen_width) * 78).toString() + "px";
+        
+
+    }
+    function logitIcon(s) {
+        
+        
+        console.log(s);
+    }
+    $(function () {
+        showDocksIcon();
+        window.onresize = function (ev) {
+            showDocksIcon();
+
+        };
+        $(".imgIcon").mouseenter(function () {
+            $(this).stop().animate({ "width": "88px", "height": "auto", "margin": "-3px 0 0 -3px" }, 200);
+
+        }).mouseleave(function () {
+            $(this).stop().animate({ "width": "72px", "height": "auto", "margin": "3px 0 0 3px" });
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #wrapperDocks {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        opacity: .8;
+        vertical-align: bottom;
+    }
+
+
+    #wrapperDocksback {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        opacity: .8;
+        backdrop-filter: blur(16px);
+        background: rgba(150, 150, 220, 30);
+         
+
+        display: block;
+       
+    }
+
+     #wrapperDocks :hover {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    .imgDocks {
+        opacity: .91;
+        filter: alpha(opacity=100);
+    }
+
+    .imgDocks :hover {
+        opacity: 1;
+        filter: alpha(opacity=50);
+    }
+</style>
+
+
+<div id="wrapperDocksback"  class="m-0 p-0" style="z-index:998;"></div>
+               
+<div id="wrapperDocks" style="z-index:999; margin:5px" class="m-0 p-0">
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/1.png" width="64">
+    </a>
+
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/4.png" width="64">
+    </a>
+
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/1.png" width="64">
+    </a>
+
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/1.png" width="64">
+    </a>
+
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/2.png" width="64">
+    </a>
+
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/3.png" width="64">
+    </a>
+
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/2.png" width="64">
+    </a>
+
+    
+
+    <a href="/about/">
+        <img class="imgDocks m-0 p-0" src="/img/carousel/3.png" width="64">
+    </a>
+
+    
+    <div id="btnHolder"
+        style="text-align:right; cursor:pointer;top:auto;z-index:999;width:32px;height:32px;top:0;left:0px;position:absolute;">
+        <i id="btnUp" class="fas fa-angle-up h4 " style="visibility: hidden;" onclick="switchDocks();"></i>
+        <i id="btnDown" class="fas fa-angle-down h4 " style="visibility: hidden;" onclick="switchDocks();"></i>
+    </div>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+    var docks = document.getElementsByClassName('cowl-docksout');
+    function switchDocks() {
+        var aimg = document.getElementsByClassName('imgDocks');
+        var wrapperDocksback = document.getElementById('wrapperDocksback');
+
+        var btnUp = document.getElementById('btnUp');
+        var btnDown = document.getElementById('btnDown');
+        var btnHolder = document.getElementById('btnHolder');
+        
+        if (btnUp.style.display != "none") {
+            btnUp.style.display = "none";
+            btnUp.style.visibility = "hidden";
+            btnDown.style.display = "inline";
+            btnDown.style.visibility = "visible";
+            for (var i = 2; i < aimg.length; i++) {
                 
-                <div>
-                  <a class="" href="https://bihai.org/microsoft-solitaire/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/masonary-post/post-5.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/acharming-evening-field_4/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/masonary-post/post-5.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/acharming-evening-field_5/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/masonary-post/post-6.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/aorganize-your-life_1/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/featured-post/post-2.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/aorganize-your-life_2/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/featured-post/post-3.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/aorganize-your-life_3/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/featured-post/post-4.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/aorganize-your-life_4/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/featured-post/post-5.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/aorganize-your-life_/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/featured-post/post-1.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/bash-for-windows-%E8%BF%90%E8%A1%8Cgeany/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/masonary-post/post-7.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                <div>
-                  <a class="" href="https://bihai.org/tyche.cc-%E4%B8%8A%E7%BA%BF/">
-                    <img style="overflow-y:hidden;padding:7px;border-radius:1.5em" class="card-img rounded-50 img-fluid w-100" src="https://bihai.org/images/featured-post/post-2.jpg" alt="post-thumb" >
-                  </a>
-               </div>
-                    
-                
-                
-          
-                  </div>
-              
-          </div>
-      </div>
-  </div>
-</section>
+                aimg[i].style.visibility = "visible";
+                aimg[i].style.display = "inline";
+
+            }
+            var screen_width =$(window).width();
+            var screen_height = $(window).height();
+
             
-     
+            wrapperDocksback.style.height = (Math.ceil(((aimg.length) * 64 + 168) / screen_width) * 64 + 6).toString() + "px";
+            
+        }
+        else {
+            btnDown.style.display = "none";
+            btnDown.style.visibility = "hidden";
+            btnUp.style.display = "inline";
+            btnUp.style.visibility = "visible";
+            wrapperDocksback.style.height = "186px";
+            showDocks();
+
+
+        }
+        btnHolder.style.top = ((-6)).toString() + "px";
+        
+        btnHolder.style.width = "100%";
+
+    }
+    function logit(s){
+        
+        
+        console.log(s);
+    }
+    function showDocks() {
+        var screen_width = $(window).width();
+        var screen_height = $(window).height();
+        var aimg = document.getElementsByClassName('imgDocks');
+        var btnUp = document.getElementById('btnUp');
+        var btnDown = document.getElementById('btnDown');
+        var btnHolder = document.getElementById('btnHolder');
+       
+        logit("resize: "+$(window).width());
+        
+        for (var i = 4; i < aimg.length; i++) {
+           
+        
+            if (aimg[i].width * (i +2 ) + 72 > screen_width) {    
+                aimg[i].style.visibility = "hidden";
+                aimg[i].style.display = "none";
+                btnUp.style.display = "inline";
+                btnUp.style.visibility = "visible";
+                btnDown.style.display = "none";
+                btnDown.style.visibility = "hidden";
+               
+                
+                
+            }
+            else {
+                
+                aimg[i].style.visibility = "visible";
+                aimg[i].style.display = "inline";
+                btnUp.style.display = "none";
+                btnUp.style.visibility = "hidden";
+                
+            }
+        }
+        
+        btnHolder.style.top = (-6).toString() + "px";
+        btnHolder.style.width = "100%";
+        wrapperDocksback.style.height = "68px";
+
+    };
+    window.onresize = function (ev) {
+        showDocks();
+
+    };
+
+    window.onload = function () {
+        showDocks();
+        document.onmousemove = function (ev) {
+            var aimg = document.getElementsByClassName('imgDocks');
+            var odiv = document.getElementById('wrapperDocks');
+            var screen_width =$(window).width();
+            var screen_height = $(window).height();
+            
+            
+            
+            if (screen_width < 500) {
+
+                return;
+            }
+
+            for (var i = 0; i < aimg.length; i++) {
+                var oevent = ev || event;
+
+                var x = aimg[i].offsetLeft + aimg[i].offsetWidth / 2;
+                var y = aimg[i].offsetTop + odiv.offsetTop + aimg[i].offsetHeight / 2;
+                var a = (x - oevent.clientX);
+                var b = (y - oevent.clientY);
+                var dis = parseInt(Math.sqrt(a * a + b * b));
+                var scale = 1 - dis / 256;
+                if (scale < 0.5) {
+                    scale = 0.5;
+                }
+                aimg[i].width = scale * 128;
+                
+
+              
+
+
+            }
+
+        }
+
+    }
+</script>
 
 
 
@@ -322,20 +657,18 @@
 
 
 
-
-
-<section class="section pt-3 p- m-0" >
+<section class="section pt-3 p-0 m-0" style="width:99%" >
   
-  <div class="containerx  p-0"  >
+  <div class="containerx p-0" style="width:98%"  >
   
       
     
     
     
-    <div class="row masonry-container m-0 p-0"    style="width:99%;">
+    <div class="row masonry-container m-2 p-0"   style="width:99%"  >
       
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/tyche.cc-%E4%B8%8A%E7%BA%BF/" class="btn btn-transparent m-0 p-0">
             
@@ -355,7 +688,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/ubuntu-on-windows-%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85-stardict-3.06/" class="btn btn-transparent m-0 p-0">
             
@@ -374,7 +707,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/ubuntu-%E5%AE%89%E8%A3%85freebasic/" class="btn btn-transparent m-0 p-0">
             
@@ -393,7 +726,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/ubuntu-%E5%AE%89%E8%A3%85%E9%BB%91%E5%AE%A2%E8%83%8C%E5%8D%95%E8%AF%8Dreciteword/" class="btn btn-transparent m-0 p-0">
             
@@ -412,7 +745,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/ubuntu14.04-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEjdk/" class="btn btn-transparent m-0 p-0">
             
@@ -431,7 +764,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/ubuntu%E4%B9%8Bapache%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86proxypass-proxypassreverse/" class="btn btn-transparent m-0 p-0">
             
@@ -450,7 +783,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/weiphp-4-%E6%AC%A2%E8%BF%8E%E8%AF%ADbug%E5%A6%82%E6%9E%9C%E6%98%AF%E5%A4%9A%E5%9B%BE%E6%96%87%E5%88%99%E6%89%80%E6%9C%89%E6%96%87%E7%AB%A0%E9%83%BD%E6%98%BE%E7%A4%BA%E7%AC%AC%E4%B8%80%E7%AF%87/" class="btn btn-transparent m-0 p-0">
             
@@ -469,7 +802,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/xamarin-ios-%E7%A4%BA%E4%BE%8B/" class="btn btn-transparent m-0 p-0">
             
@@ -488,7 +821,7 @@
         </article>
       </div>
       
-      <div class="col-lg-2 col-sm-4 m-0 p-2">
+      <div class="col-lg-2 col-sm-4 m-0 p-3" >
         <article class="text-center"  style="box-shadow:0 0 2px 2px #bbbbbb" >
           <a href="https://bihai.org/%E4%BD%BF%E7%94%A8-git-hook-%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%AB%99%E7%9A%84%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/" class="btn btn-transparent m-0 p-0">
             
@@ -646,14 +979,15 @@
                 </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">1999 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://bihai.org" target="_blank">bihai</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
                     <span class="icp">鲁ICP备18009123号</span></div>
         </div>
+        <div class="footer-line"><br /><br /><br /><br /><br /></div>
     </footer></div>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部" style=";">
                 <i class="fas fa-arrow-up fa-fw"></i>
             </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"data":{"id-1":"Bihai.org-碧海奥格-促进艺术智惠"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"data":{"id-1":"Bihai.org-碧海奥格-促进艺术智惠"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"id-1":["id-1"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
     <!-- Main Script -->
     
     <script src="https://bihai.org/js/scriptFluid.min.js"></script>
