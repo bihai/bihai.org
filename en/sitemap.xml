@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://bihai.org/en/microsoft-solitaire/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://bihai.org/en/microsoft-solitaire/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/microsoft-solitaire/"
@@ -11,7 +11,8 @@
                     hreflang="en"
                     href="https://bihai.org/en/microsoft-solitaire/"
                     /></url><url>
-            <loc>https://bihai.org/en/about/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://bihai.org/en/sangoexplorer/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bihai.org/en/about/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/about/"
@@ -24,7 +25,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/about/"
                     /></url><url>
-            <loc>https://bihai.org/en/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://bihai.org/en/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/"
@@ -37,7 +38,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/"
                     /></url><url>
-            <loc>https://bihai.org/en/categories/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/categories/"
@@ -50,7 +51,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/"
                     /></url><url>
-            <loc>https://bihai.org/en/posts/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://bihai.org/en/posts/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/posts/"
@@ -63,7 +64,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/posts/"
                     /></url><url>
-            <loc>https://bihai.org/en/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/"
@@ -76,7 +77,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/%E5%BF%83%E5%BE%97%E7%AC%94%E8%AE%B0-blog/"
                     /></url><url>
-            <loc>https://bihai.org/en/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/"
@@ -89,7 +90,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0-article/"
                     /></url><url>
-            <loc>https://bihai.org/en/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/</loc><lastmod>2020-08-13T10:00:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/"
@@ -102,7 +103,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/%E7%81%8C%E6%B0%B4%E4%B9%90%E4%B9%90-post/"
                     /></url><url>
-            <loc>https://bihai.org/en/tags/content/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://bihai.org/en/tags/content/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/tags/content/"
@@ -115,7 +116,7 @@
                     hreflang="en"
                     href="https://bihai.org/en/tags/content/"
                     /></url><url>
-            <loc>https://bihai.org/en/categories/documentation/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://bihai.org/en/categories/documentation/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/categories/documentation/"
@@ -128,8 +129,8 @@
                     hreflang="en"
                     href="https://bihai.org/en/categories/documentation/"
                     /></url><url>
-            <loc>https://bihai.org/en/tags/markdown/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://bihai.org/en/tags/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://bihai.org/en/tags/markdown/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://bihai.org/en/tags/</loc><lastmod>2020-08-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://bihai.org/tags/"
