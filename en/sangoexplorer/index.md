@@ -1,5 +1,0 @@
-# Solitaire
-
-
-
-test
